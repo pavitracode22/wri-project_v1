@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+section{
+    padding: 0 !important;
+}
+
+.container_singel_event_nav{
+    background-color: #DDE3DD;
+}
+.area_single_event_nav{
+    height: 100%;
+    display: flex;
+    gap: 1%;
+    width: 100%;
+    margin-left:12.5rem;
+    box-sizing: border-box;
+}
+.nav_single_event_row1{  
+    height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav_single_event_row1_icon{
+    height: 2rem;
+    background: transparent url('img/Icon awesome-arrow-circle-right.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.nav_single_event_row2{
+    height: 100%;
+    background: transparent;
+     padding:  -1rem 0rem -1rem 0px;
+    overflow: hidden;
+}
+.nav_single_event_row2>p{
+    font-family: "Acumin Pro Condensed Bold";
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #306C63;
+}
+
+
+
+
+
+/* <!-- **** Single Events  body start **** --> */
+
+.body_container .body_area{
+    margin: 3rem 11.3rem 1rem 12.5rem;
+    display: flex;
+    gap: 10%;
+
+}
+.body_row1{
+    width: 60%;
+}
+
+.body_headingbox{
+    text-align: left;
+    opacity: 1;
+}
+.body_heading{
+    color: #306C63;
+    font-family: "Acumin Pro Condensed";
+    opacity: 1;
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.single_event_body_para>p{
+    color: #2C2C2C;
+    font-family: "Acumin Pro";
+    text-align: justify;
+    font-size: 16px;
+}
+
+.single_event_unorder_list>li{
+    color: #2C2C2C;
+    font-family: "Acumin Pro";
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+
+
+
+.single_event_body_vedio_heading_top{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.single_event_body_vedio_heading{
+    display: block;
+    gap: 1.5%;
+}
+.single_event_body_vedio_heading>div{
+    display: block;
+    gap: 1.5%;
+    
+}
+.single_event_body_vedio_heading>div>p{
+    font-family: "Acumin Pro Condensed";
+    font-size: 14px !important;
+    font-weight: 900;
+    color: #2C2C2C ;
+}
+.single_event_body_vedio_heading>div>p>a{
+    font-family: "Acumin Pro Condensed";
+    font-size: 14px !important;
+    color: #2A79BC !important;
+
+}
+
+
+.single_event_body_vedio_heading_link{
+    display: flex;
+    gap: 1.5%;
+    margin-top: -10px;
+}
+.single_event_body_vedio_heading_link>div{
+    display: flex;
+    gap: 1.5%;
+    
+}
+.single_event_body_vedio_heading_link>div>p{
+    font-family: "Acumin Pro Condensed";
+    font-size: 14px !important;
+    font-weight: 900;
+    color: #2C2C2C;
+}
+/* shiv code start*/
+.single_event_body_related_link{
+    font-family: "Acumin Pro Condensed";
+    font-size: 14px !important;
+    font-weight: 900;
+    color: #2C2C2C;
+    text-decoration: none !important;
+}
+/* shiv code end */
+
+
+.single_event_body_vedio_heading_link>div>p>a{
+    font-family: "Acumin Pro Condensed";
+    font-size: 14px !important;
+    color: #2A79BC !important;
+
+}
+
+.single_event_body_vedio{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+/* ****** single_event_body_row2 ****** */
+
+
+
+.single_event_body_row2{
+width: 30%;
+}
+
+.single_event_body_row2>div{
+    display: flex;
+    gap: 6%;
+    margin-top: 10px;
+}
+.single_event_body_row2_icon{
+    width: 4%;
+}
+.single_event_body_row2_icon>img{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.single_event_body_row2_detail{
+color: #2C2C2C;
+font-family: "Acumin Pro";
+font-size: 15px;
+}
+.single_event_body_row2_detail>p{
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.single_event_download_agenda{
+    display: flex;
+    color:#FFFFFF;
+    width: 100%;
+    font-family: "Acumin Pro";
+    background-color: #122034;
+    border: 1px solid #707070;
+    justify-content: space-around;
+    font-size: 16px;
+}
+.single_event_download_agenda>div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.download_agenda{
+    display: flex;
+    width: 100%;
+    text-decoration: none !important;
+    font-family: "Acumin Pro";
+}
+.single_event_download_agenda>div>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.single_event_download_agenda>div>img{
+height: 1.5rem;
+}
+
+
+.horizontal_line{
+    margin-top: 1rem;
+    border: 1px solid #9F9F9F;
+}
+
+.single_event_body_row2_inquery>p{
+    color: #306C63;
+    font-size: 20px;
+    font-family: "Acumin Pro";
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.single_event_body_row2_mail_box{
+    display: block !important;
+    font-size: 13px;
+}
+
+.single_event_body_row2_mail_heading1{
+color: #2C2C2C;
+margin-top: 0px;
+margin-bottom: 0;
+font-weight: 600;
+font-family: "Acumin Pro";
+}
+.single_event_body_row2_mail{
+color: #2C2C2C;
+margin-top: 0px;
+margin-bottom: 0;
+font-family: "Acumin Pro";
+}

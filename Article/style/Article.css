@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+section{
+    padding: 0 !important;
+}
+.container_article_nav{
+    background-color: #DDE3DD;
+}
+.area_article_nav{
+    height: 100%;
+    display: flex;
+    gap: 1%;
+    width: 100%;
+    margin-left:12.5rem;
+    box-sizing: border-box;
+}
+.nav_article_row1{  
+    height: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav_article_row1_icon{
+    height: 2rem;
+    background: transparent url('img/Icon awesome-arrow-circle-right.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.nav_article_row2{
+    height: 100%;
+    background: transparent;
+    padding:  -1rem 0rem -1rem 0px;
+    overflow: hidden;
+}
+.nav_article_row2>p{
+    font-family: "Acumin Pro Condensed Bold";
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #306C63;
+}
+
+
+
+
+
+/* <!-- **** Single Events  body start **** --> */
+
+
+
+.body_container .body_area{
+    margin: 3rem 11.3rem 3rem 12.5rem;
+    display: flex;
+    gap: 10%;
+   
+
+}
+.body_row1{
+    width: 60%;
+   
+}
+
+.body_headingbox{
+    text-align: left;
+    opacity: 1;
+}
+.body_heading{
+    color: #306C63;
+    font-family: "Acumin Pro Condensed";
+    opacity: 1;
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.article_body_para>p{
+    color: #2C2C2C;
+    font-family: "Acumin Pro";
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 100;
+}
+.article_body_para>li{
+    color: #2C2C2C;
+    font-family: "Acumin Pro";
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 1px;
+}
+.article_body_para>li::marker{
+   content:"\25A0";
+   font-size: 2rem;
+   vertical-align: bottom;
+}
+.article_body_para>p>img{
+  float: left;
+  width: 50%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* shiv */
+.read_more{
+    font-family: "Acumin Pro";
+    text-align: left;
+    font-size: 16px;
+    text-align: justify;   
+    }
+
+#read-more-btn{
+    font-family: "Acumin Pro,Bold";
+    color: black;
+    font-weight: 600;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+a:link {
+        color: #2C2C2C;
+    }
+#articlelink{
+    color: #2A79BC;
+}
+
+
+
+
+
+
+
+
+/* ****** single_publication_body_row2 ****** */
+
+
+
+.article_body_row2{
+width: 30%;
+}
+
+.article_body_row2_para{
+font-size: 16px;
+font-family:"Acumin Pro" ;
+margin-bottom: 3rem;
+}
+.article_body_row2_para>h3{
+    font-weight: 600;
+    margin-top: 0;
+}
+.fw_bold>h3{
+    font-weight: 600;
+}
+.article_body_para>p>strong{
+    font-weight: 600;
+}
+

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Acumin Pro Condensed Bold';
+    src: local('AcuminProCond-Bold'),
+        url('AcuminProCond-Bold.woff2') format('woff2'),
+        url('AcuminProCond-Bold.woff') format('woff'),
+        url('AcuminProCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: local('Acumin Pro'), local('AcuminPro-Regular'),
+        url('AcuminPro-Regular.woff2') format('woff2'),
+        url('AcuminPro-Regular.woff') format('woff'),
+        url('AcuminPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro Condensed';
+    src: local('Acumin Pro Condensed'), local('AcuminProCond-Regular'),
+        url('AcuminProCond-Regular.woff2') format('woff2'),
+        url('AcuminProCond-Regular.woff') format('woff'),
+        url('AcuminProCond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro Condensed Light';
+    src: local('Acumin Pro Condensed Light'), local('AcuminProCond-Light'),
+        url('AcuminProCond-Light.woff2') format('woff2'),
+        url('AcuminProCond-Light.woff') format('woff'),
+        url('AcuminProCond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
