@@ -299,7 +299,7 @@ margin-top:11px;
  width:100% ;
 }
 .box-image1 img { 
-   height: 200px  !IMPORTANT;
+   height: 100%;
  width:100% ;
 }
 .box-content h1 {
@@ -329,13 +329,11 @@ margin-top:11px;
  
 }
 .box-right1 h3 {
-  margin-top:15px;
-  margin-bottom:15px;
+  margin-top:5px;
+  margin-bottom:2px;
  
 }
 .box-right1 h4 {
-  margin-top:15px;
-  margin-bottom:15px;
   color:#5A5A5A;
  
 }
@@ -353,7 +351,6 @@ margin-top:11px;
 }
 .box-right1 {
    border-bottom: 2px solid #dedede;
- padding-bottom:15px;
 }
 .boxbutton  {
   text-align:center;
@@ -4269,3 +4266,94 @@ a#loadMore  ,a#loadMore1   {
   animation: blur .7s ease-out ;
  
 }
+
+
+/*css added on 11th-july-23*/
+
+section.resourcetabs .row {
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+|section.resourcetabs .row {
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+section.resourcetabs .container {
+    margin-right: 0px;
+}
+
+/*.box-right1 h1 {*/
+/*    font-family: 'Acumin Pro Condensed';*/
+/*    font-size: 30px;*/
+/*    color: #306C63 ;*/
+/*    line-height:36px;*/
+/*}*/
+
+/*.box-right1 h4 {*/
+/*      font-family: 'Acumin Pro Condensed';*/
+/*    font-size: 18px;*/
+/*    color: #2C2C2C ;*/
+/*   line-height:30px;*/
+/*}*/
+
+.box-right1 h1 {
+    font-family: 'Acumin Pro';
+    font-weight: 900;
+    font-size: 1.5vw;
+    color: #306C63 ;
+    line-height:1.8vw;
+}
+
+
+
+
+.box-right1 h4 {
+      font-family: 'Acumin Pro';
+      font-weight: 900;
+    font-size: 0.93vw;
+    color: #2C2C2C ;
+   line-height:1.5vw;
+}
+
+.box-right1 p {
+      font-family: 'Acumin Pro';
+    font-size: 16px;
+    color: #2C2C2C ;
+   line-height:24px;
+}
+
+.box-righ1 p {
+      font-family: 'Acumin Pro';
+    font-size: 16px;
+    color: #2C2C2C ;
+   line-height:24px;
+}
+
+.box-right1 br {
+    display: none;
+}
+
+
+.boxrig1 p {
+  font-family: 'Acumin Pro, Regular';
+    font-size: 0.8vw;
+    color: #2C2C2C ;
+  line-height:1.25vw;
+}
+
+a.rdm {
+   
+ font-family: 'Acumin Pro';
+ font-weight: 700;
+ font-size: 0.8vw;
+  color: #2C2C2C ;
+  line-height:1.5vw;
+
+}
+
