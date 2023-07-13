@@ -96,3 +96,15 @@ document.getElementById("blog_page_1").addEventListener("click",()=>{
 
 
    })
+
+
+var word_length=document.getElementsByClassName("blogpara")
+// console.log(word_length[0])
+for(let i=0;i<word_length.length;i++){
+    let a=word_length[i].innerText.trim()
+    // if(a.length>=20){
+    //     word_length.innerText = content.slice(0, 20);
+    // }
+    console.log(a)
+}
+
