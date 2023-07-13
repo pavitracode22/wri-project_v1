@@ -3,13 +3,13 @@
 }
 
 .row {
-  padding: 0px 5%;
+  padding: 0px 1.5%;
 }
 
 .home-heading h2 {
   color: #335688 !important;
   font-weight: bold !important;
-  font-size: 55px;
+  font-size: 3.9vw;
   line-height: 55px !important;
   font-family: 'Acumin Pro Condensed';
 }
@@ -40,21 +40,22 @@
 
 
 .active {
-  background: orange;
- border-radius:11px;
- padding:5px 15px;
+  background:#E6E7E8;
+  border-radius:11px;
+ /* padding:5px 15px; */
    line-height: 5px !IMPORTANT;
-   margin-top: 9px;
+   /* padding-top: 9px; */
    color: #fff !IMPORTANT;
    text-decoration: none !IMPORTANT;
    border-bottom: 0px !IMPORTANT;
 }
 
+
 .active:before
 {
  display:none;
- 
 }
+
 .headcolor img {
    height: 25px;
    width: 25px;
@@ -208,6 +209,7 @@ margin-top:11px;
 }
 .col-lg-6.eventform {
    text-align: right;
+   margin-top: 12px;
 }
 .col-lg-6.resourceform  {
    text-align: right;
@@ -216,7 +218,7 @@ margin-top:11px;
 .eventform label {
    color: #306C63;
    font-weight: bold;
-   font-size: 21px;
+   font-size: 1.25vw;
   
 }
 .resourceform label {
@@ -234,6 +236,7 @@ margin-top:11px;
    margin-left: 20px;
    border: 0px;
    border-radius: 2px;
+   font-size: 0.93vw;
 }
 .resourceform select {
    width: 200px;
@@ -244,10 +247,10 @@ margin-top:11px;
 }
 .eventform input[type="submit"] {
 
- font-size:15px;
+ font-size:0.98vw;
  background-color:#122034;
  color:#fff;
- padding:10px 30px;
+ padding:5px 30px;
 }
 .resourceform input[type="submit"] {
  font-size:11px;
@@ -259,8 +262,8 @@ margin-top:11px;
 .headcolor1 {
     color: #306C63;
    font-weight: bold;
-   font-size: 51px;
- margin-left:38px;
+   font-size: 3.38vw;
+ margin-left:3px;
 }
 .headcolor2 {
     color: #306C63;
@@ -283,15 +286,21 @@ margin-top:11px;
 }
 .boxcolor {
    height: 200px;
-   width: 80%;
-   background: #306C63;
- border-radius:5px;
+   width: 75%;
+   background: #6EB180;
+   border-radius:10px;
+   box-shadow: 3px 3px 15px #00000029;
+   margin-left: -6rem;
 }
 .box-content {
 
    padding: 65px 40px;
    color: #FFF;
  text-align: center;
+}
+.box-image{
+  margin-left: -6rem;
+  width: 95%;
 }
 
 .box-image img { 
@@ -310,6 +319,21 @@ margin-top:11px;
 
    font-size :18px;
 }
+.box-right>a{
+  color: #306C63;
+  text-decoration: none;
+  font-family: "Acumin Pro Condensed Bold";
+  font-size: 21px;
+  }
+.box-right>a>h1{
+  font-size: 2.34vw;
+  }
+.box-right>a:hover{
+  color: #306C63;
+  text-decoration: none;
+  font-family: "Acumin Pro Condensed Bold";
+  }
+
 .box-right h2{
    color: #306C63;
    font-weight: bold;
@@ -317,15 +341,18 @@ margin-top:11px;
  
 }
 .box-right1 h2{
-  line-height: 1.8vw;
+    line-height: 1.8vw;
     color: #306C63;
     font-weight: bold;
     font-size: 1.5vw;
 }
 
 .box-right h3 {
-  margin-top:15px;
-  margin-bottom:15px;
+  margin-top:20px;
+  margin-bottom: -5px;
+font-weight: 700;
+font-size: 1.25vw;
+  font-family: "Acumin Pro";
  
 }
 .box-right1 h3 {
@@ -337,9 +364,14 @@ margin-top:11px;
   color:#5A5A5A;
  
 }
+.boxrig{
+  margin-left: -6rem;
+}
 .boxrig p {
  margin-top:11px;
- 
+ font-size: 0.83vw;
+ color: #2C2C2C;
+ width: 90%;
 }
 .boxrig1 p {
  margin-top:11px;
@@ -348,6 +380,7 @@ margin-top:11px;
 .box-right {
    border-bottom: 2px solid #dedede;
  padding-bottom:15px;
+/* padding-right: 10%; */
 }
 .box-right1 {
    border-bottom: 2px solid #dedede;
@@ -358,24 +391,20 @@ margin-top:11px;
 }
 .boxbutton1  {
   text-align:center;
- 
+ margin-bottom: 7rem;
 }
 .boxbutton  a{
   text-align:center;
-  margin-top:30px;
   font-size:17px;
-  font-weigt:bold;
+  font-weight:bold;
   color:#000;
   text-decoration:center;
 }
 .boxbutton1  a{
   text-align:center;
-  margin-top:30px;
   font-size:17px;
   font-weight: 700;
   color:#000;
-  text-decoration:center;
-  text-decoration: none;
 }
 .boxbutton1  a:hover{
   color: #000;
@@ -1435,7 +1464,7 @@ a.dropdown-item.dp-link {
   height: 4px;
   bottom: 0px;
   left: 0;
-  background-color: #FFD70F;
+  /* background-color: #FFD70F; */
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -2058,7 +2087,7 @@ li.tamil a {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #2C2C2C !important;
+  /* color: #2C2C2C !important; */
   font-size: 14px !important;
   text-decoration: none !important;
   font-family: 'Acumin Pro' !important;
@@ -2070,15 +2099,15 @@ li.tamil a {
   padding: 10px 15px;
 }
 
-ul.nav.navbar-nav li a:hover {
+/* ul.nav.navbar-nav li a:hover {
   font-weight: 900;
   color: #2C2C2C !important;
-}
+} */
 
-ul.nav.navbar-nav li a:active {
+/* ul.nav.navbar-nav li a:active {
   border-bottom: 2px solid yellow;
   color: #333 !important;
-}
+} */
 
 
 h2.pink {
@@ -2199,7 +2228,7 @@ p.event {
 }
 
 .navbar ul {
-
+margin-left: -7px;
   display: inline-block;
 }
 
@@ -2207,7 +2236,7 @@ p.event {
 
 .row.footertop h2 {
   color: #fff;
-  font-size: 18x;
+  font-size: 1.25vw;
   font-family: "Acumin Pro Condensed";
 
 }
@@ -2216,7 +2245,7 @@ p.event {
   color: #fff;
   line-height: 24px;
   font-family: "Acumin Pro";
-  font-size: 12px;
+  font-size: 0.83vw;
   margin-bottom: 18px;
 
 }
@@ -2234,7 +2263,7 @@ p.event {
 ul.list1 a {
   color: #fff;
   font-family: "Acumin Pro";
-  font-size: 12px;
+  font-size: 0.83vw;
   text-decoration: none;
   line-height: 30px;
 
@@ -2244,7 +2273,7 @@ ul.list1 a {
 ul.list2 a {
   color: #fff;
   font-family: "Acumin Pro";
-  font-size: 12px;
+  font-size: 0.83vw;
   text-decoration: none;
   line-height: 30px;
 }
@@ -2279,7 +2308,7 @@ ul.list4 a {
 }
 
 ul.list3 li a {
-  font-size: 12px;
+  font-size: 0.83vw;
   text-decoration: none;
   color: white;
   font-family: 'Acumin Pro';
@@ -2323,7 +2352,7 @@ ul.footer_social li a i {
 .copyright p {
   margin-left: 0;
   line-height: 30px;
-  font-size: 14px;
+  font-size: 0.93vw;
   padding-bottom: 0px;
   margin-bottom: 0px;
   font-family: "Acumin Pro";
@@ -2345,7 +2374,7 @@ ul.footer_social li a i {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 36px 0;
   overflow: hidden;
 }
 
@@ -2866,7 +2895,7 @@ section {
   font-weight: 500;
   color: #335688;
   font-family: 'Acumin Pro Condensed Light';
-  font-size: 18px;
+  font-size: 1.56vw !important;
   line-height: 26px;
 }
 
@@ -3514,7 +3543,7 @@ a.readnow {
   font-family: 'Acumin Pro';
   text-align: center;
   z-index: 0;
-  font-size: 14px;
+  font-size: 1.19vw;
   transform: translate3d(125px, 330px, 10px);
 }
 
@@ -3532,7 +3561,7 @@ a.readnow:hover {
 
 
 .content1 h2 {
-  font-size: 40px;
+  font-size: 4.16vw;
   line-height: 56px;
   text-align: left;
   font-family: 'Acumin Pro Condensed Light';
@@ -3541,7 +3570,7 @@ a.readnow:hover {
 }
 
 .content1 p {
-  font-size: 14px;
+  font-size: 1.25vw;
   line-height: 18px;
   color: white;
   text-align: left;
@@ -3579,7 +3608,7 @@ a.readnow:hover {
 
 
 .content2 h2 {
-  font-size: 40px;
+  font-size: 4.16vw;
   line-height: 56px;
   text-align: left;
   font-family: 'Acumin Pro Condensed Light';
@@ -3588,7 +3617,7 @@ a.readnow:hover {
 }
 
 .content2 p {
-  font-size: 14px;
+  font-size: 1.25vw;
   line-height: 18px;
   color: white;
   text-align: left;
@@ -3627,7 +3656,7 @@ a.readnow:hover {
 
 
 .content3 h2 {
-  font-size: 40px;
+  font-size: 4.16vw;
   line-height: 56px;
   text-align: left;
   font-family: 'Acumin Pro Condensed Light';
@@ -3636,7 +3665,7 @@ a.readnow:hover {
 }
 
 .content3 p {
-  font-size: 14px;
+  font-size: 1.25vw;
   line-height: 18px;
   color: white;
   text-align: left;
@@ -4218,7 +4247,7 @@ a.nav-link1 {
 /* Resources page header  */
 
 .toptext{
-  background-color: #DDE3DD;
+  background-color: #DDE3DD !important;
 }
 
 .content  ,.loadtab  {
@@ -4235,7 +4264,7 @@ a.nav-link1 {
     font-size: 17px;
     font-weight: 700;
     color: #000;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 a#loadMore  ,a#loadMore1   {
     color: #000;
@@ -4355,5 +4384,41 @@ a.rdm {
   color: #2C2C2C ;
   line-height:1.5vw;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+.allignment{
+  margin-left: 95pxpx !important;
+}
+
+.nav-link{
+  padding: 5px 15px 5px 15px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav-link:hover{
+color: #2C2C2C !important;
+}
+
+.nav-link-active{
+  background-color: #F0AB00;
+  border-radius: 50px;
+  font-weight: 700px !important;
+  color: #fff !important;
+}
+
+
+.eventpage1{
+  margin-top: 4rem;
+  margin-bottom: -5rem;
 }
 
