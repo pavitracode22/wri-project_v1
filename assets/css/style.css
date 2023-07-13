@@ -539,14 +539,14 @@ background: #dedede;
 }
 .podcastpara
 {
-    font-family: 'Acumin Pro';
+ font-family: 'Acumin Pro';
  font-size: 1.5vw;
  line-height: 2.3;
  color:#122034;
  margin-right: 11px;
 }
 .pocastbox {
-    margin-right: 20px;
+   margin-right: 20px; 
    background: transparent radial-gradient(closest-side at 100% 0%, #6EB180 0%, #6BA789 100%) 0% 0% no-repeat;
    padding: 5px;
    border-radius: 11px;
@@ -4510,3 +4510,11 @@ color: #2C2C2C !important;
   margin-top: 4rem;
   margin-bottom: -5rem;
 }
+
+
+/* podcast */
+
+a{
+  text-decoration: none !important;
+}
+
