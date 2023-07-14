@@ -13,12 +13,12 @@ section{
 .container_singel_event_nav{
     background-color: #DDE3DD;
 }
-.area_single_event_nav{
+.area_single_event_nav>a{
     height: 100%;
     display: flex;
     gap: 1%;
     width: 100%;
-    margin-left:12.5rem;
+    margin-left: 8rem;
     box-sizing: border-box;
 }
 .nav_single_event_row1{  
@@ -55,7 +55,7 @@ section{
 /* <!-- **** Single Events  body start **** --> */
 
 .body_container .body_area{
-    margin: 3rem 11.3rem 1rem 12.5rem;
+    margin: 3rem 8rem 1rem 8rem;
     display: flex;
     gap: 10%;
 
