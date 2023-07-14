@@ -101,10 +101,27 @@ document.getElementById("blog_page_1").addEventListener("click",()=>{
 var word_length=document.getElementsByClassName("blogpara")
 // console.log(word_length[0])
 for(let i=0;i<word_length.length;i++){
-    let a=word_length[i].innerText.trim()
-    // if(a.length>=20){
-    //     word_length.innerText = content.slice(0, 20);
-    // }
-    console.log(a)
+    let a=word_length[i].innerText.trim().split(" ")
+    let newarr=checkSpace(a)
+    let changetext=document.getElementsByClassName("blogpara")
+    if(newarr.join(" ").length>=1){
+        let b=newarr.slice(0, 16).join(" ");
+        changetext[i].innerHTML =b;
+        console.log(b)
+    }
+  
+}
+
+function checkSpace(a){
+    let arr=[]
+    for(let i=0;i<a.length;i++){
+        if(a[i]===""){
+        continue;
+        }
+        else{
+            arr.push(a[i])
+        }
+    }
+    return arr
 }
 
