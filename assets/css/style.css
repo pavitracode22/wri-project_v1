@@ -10,7 +10,7 @@
   color: #335688 !important;
   font-weight: bold !important;
   font-size: 3.9vw;
-  line-height: 2.86vw !important;
+  /* line-height: 2.86vw !important; */
   font-family: 'Acumin Pro Condensed';
 }
 
@@ -1945,7 +1945,7 @@ button#dropdownMenuButton {
   font-weight: 300;
   padding: 0px;
   margin: 0px;
-  line-height: 40px;
+  line-height: 55px;
 }
 
 .textop h2 span {
