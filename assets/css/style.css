@@ -4446,8 +4446,8 @@ display: none;
 .headingtop{
   display: flex;
   justify-content: space-between;
-  margin-left: 125px;
-  margin-right: 125px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .headingtext{
   width: 40%;
