@@ -13,12 +13,12 @@ section{
 .container_single_publication_nav{
     background-color: #DDE3DD;
 }
-.area_single_publication_nav{
+.area_single_publication_nav>a{
     height: 100%;
     display: flex;
     gap: 1%;
     width: 100%;
-    margin-left:12.5rem;
+    margin-left: 8rem;
     box-sizing: border-box;
 }
 .nav_single_publication_row1{  
@@ -57,7 +57,7 @@ section{
 
 
 .body_container .body_area{
-    margin: 3rem 11.3rem 3rem 12.5rem;
+    margin: 3rem 8rem 3rem 8rem;
     display: flex;
     gap: 10%;
    
