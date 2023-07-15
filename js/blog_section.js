@@ -125,3 +125,34 @@ function checkSpace(a){
     return arr
 }
 
+
+
+
+
+var word_length1=document.getElementsByClassName("boxrig1_blogpara")
+// console.log(word_length[0])
+for(let i=0;i<word_length1.length;i++){
+    let a=word_length1[i].innerText.trim().split(" ")
+    let newarr=checkSpace1(a)
+    let changetext=document.getElementsByClassName("boxrig1_blogpara")
+    if(newarr.join(" ").length>=45){
+        let b=newarr.slice(0, 45).join(" ");
+        changetext[i].innerHTML =b;
+        console.log(b)
+    }
+  
+}
+
+function checkSpace1(a){
+    let arr=[]
+    for(let i=0;i<a.length;i++){
+        if(a[i]===""){
+        continue;
+        }
+        else{
+            arr.push(a[i])
+        }
+    }
+    return arr
+}
+
