@@ -18,12 +18,13 @@ section{
 }
 .container_contact_details_nav>div{
     margin-left:12.5rem;
-    font-size: 40px;
+    font-size: 3.38vw;
     color: #306C63;
     font-weight: 700;
     font-family: "Acumin Pro Condensed";
-    margin-top: 10px;
+    margin-top: 56px;
     margin-bottom: 10px;
+    line-height: 3.90vw;
 }
 .container_contact_details_nav>div>p{
     margin-bottom: 0px !important;
