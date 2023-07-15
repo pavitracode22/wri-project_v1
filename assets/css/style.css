@@ -4453,17 +4453,17 @@ display: none;
   margin-right: 5.7%;
 }
 .headingtext{
-  width: 40%;
+  width: 30%;
   
 }
 .boxheadingtext{
-  width: 60%;
+  width: 69%;
 }
 
 .headingtext h1{
   font-size: 3.3vw;
   font-weight: 900;  
-  font-family: Acumin Pro;
+  font-family: "Acumin Pro Condensed";
   color: #306C63;
   line-height: 3.90vw;
 }
