@@ -214,9 +214,11 @@ margin-top:11px;
    font-family: 'Acumin Pro Condensed';
 }
 .eventform label {
+  font-family: Acumin Pro !important;
    color: #306C63;
    font-weight: bold;
    font-size: 1.25vw;
+   line-height: 1.56vw;
   
 }
 .resourceform label {
@@ -230,6 +232,7 @@ margin-top:11px;
 }
 
 .eventform select {
+  /* font-family: Acumin Pro; */
    width: 200px;
    height: 33px;
    margin-left: 20px;
@@ -244,7 +247,8 @@ margin-top:11px;
    border-radius: 2px;
 }
 .eventform input[type="submit"] {
-
+font-family: Acumin Pro;
+line-height: 1.56vw;
  font-size: 0.98vw;
  background-color:#122034;
  color:#fff;
@@ -264,6 +268,8 @@ margin-top:11px;
     color: #306C63;
    font-weight: bold;
    font-size: 3.38vw;
+   line-height: 3.90vw;
+   font-family: Acumin Pro Condensed;
  margin-left:3px;
 }
 .headcolor2 {
@@ -308,9 +314,12 @@ margin-top:11px;
    height: 200px  !IMPORTANT;
  width:100% ;
 }
+.box-image1{
+  height: 100%;
+}
 .box-image1 img { 
    height: 100%;
- width:100% ;
+  width:100% ;
 }
 .box-right>a{
   color: #306C63;
@@ -349,11 +358,11 @@ margin-top:11px;
 
 .box-right1 h3 {
     font-family: 'Acumin Pro';
-    font-size: 1.25vw;
-    /* line-height: 1.5vw; */
+    font-size: 1vw;
+    line-height: 1.5vw;
     font-weight: bold;
-  margin-top:10px;
-  margin-bottom:5px;
+  /* margin-top:10px; */
+  margin-bottom:15px;
   /* padding-bottom: 5px; */
  
 }
@@ -411,14 +420,14 @@ margin-top:11px;
   color: #000;
 }
 
-a.rdm {
+/* a.rdm {
    width: 100%;
    display: block;
    color: #000;
-   margin-top: 35px;
+   margin-top: 25px;
    font-weight: 700;
   
-}
+} */
 
 a.rdm:hover{
 color: #2C2C2C;
@@ -433,6 +442,7 @@ a.rdm span {
 a.rdm img {
    height: 15px;
    width: 15px;
+   margin-top: -5px;
 }
 
 /* Style the tab */
@@ -4304,15 +4314,16 @@ a.nav-link1 {
     text-align: center;
     margin-top: 30px;
     font-size: 17px;
-    font-weight: 700;
-    color: #000;
-    /* text-decoration: none; */
+    font-weight: bold;
+    color: #2C2C2C;
+    font-family: Acumin Pro;
+    text-decoration: underline !important;
 }
 a#loadMore  ,a#loadMore1   {
-    color: #000;
+    color: #2C2C2C;
 }
 #loadMore:hover  ,#loadMore1:hover {
-   color: #000;
+   color: #2C2C2C;
  background-color: transparent;
   text-decoration: none;
 }
@@ -4321,7 +4332,7 @@ a#loadMore  ,a#loadMore1   {
   pointer-events: none;
 }
 
-#loadMore  ,#loadMore1 {
+/* #loadMore  ,#loadMore1 {
   text-align: center;
   font-size: 1.5em;
   color: #fff;
@@ -4330,6 +4341,9 @@ a#loadMore  ,a#loadMore1   {
   text-transform: uppercase;
   animation: blur .75s ease-out ;
   text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+} */
+.content{
+  margin-bottom: 10rem;
 }
 .content ,.loadtab   {
 
@@ -4374,7 +4388,7 @@ section.resourcetabs .container {
 /*}*/
 
 .box-right1 h1 {
-    font-family: 'Acumin Pro';
+    font-family: 'Acumin Pro Condensed';
     font-weight: 900;
     font-size: 1.5vw;
     color: #306C63 ;
@@ -4389,6 +4403,7 @@ section.resourcetabs .container {
     font-size: 0.93vw;
     color: #2C2C2C ;
    line-height:1.5vw;
+   /* font-weight: bold; */
 }
 
 .box-right1 p {
@@ -4419,13 +4434,16 @@ section.resourcetabs .container {
 }
 
 a.rdm {
-   
+   width: 100%;
+   display: block;
+   margin-top: 25px;
  font-family: 'Acumin Pro';
  font-weight: bold;
- font-size: 0.8vw;
+ font-size: 0.93vw;
   color: #2C2C2C ;
   line-height:1.5vw;
-
+text-decoration: underline !important;
+text-decoration-color: #2C2C2C;
 }
 
 /*css added on 12th july 2023 */
