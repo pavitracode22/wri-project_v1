@@ -17,7 +17,7 @@ section{
     display: flex;
     gap: 1%;
     width: 100%;
-    margin-left:12.5rem;
+    margin-left: 6%;
     box-sizing: border-box;
 }
 .nav_article_row1{  
@@ -56,7 +56,7 @@ section{
 
 
 .body_container .body_area{
-    margin: 3rem 11.3rem 3rem 12.5rem;
+    margin: 3rem 5.8% 3rem 6%;
     display: flex;
     gap: 10%;
    
