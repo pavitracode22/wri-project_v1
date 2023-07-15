@@ -1943,10 +1943,12 @@ button#dropdownMenuButton {
 
 .top-bar h2 {
   color: #fff;
-  font-weight: 300;
+  font-weight: 700;
   padding: 0px;
   margin: 0px;
-  line-height: 55px;
+  font-size: 3.90vw;
+  line-height: 3.90VW;
+  font-family: Acumin Pro Condensed;
 }
 
 .textop h2 span {
@@ -2284,7 +2286,7 @@ p.event {
 
 .row.footertop p {
   color: #fff;
-  line-height: 24px;
+  line-height: 1.25vw;
   font-family: "Acumin Pro";
   font-size: 0.83vw;
   margin-bottom: 18px;
@@ -2392,7 +2394,7 @@ ul.footer_social li a i {
 
 .copyright p {
   margin-left: 0;
-  line-height: 30px;
+  line-height: 1.56vw;
   font-size: 0.93vw;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -2937,7 +2939,7 @@ section {
   color: #335688;
   font-family: 'Acumin Pro Condensed Light';
   font-size: 1.56vw !important;
-  line-height: 26px;
+  line-height: 2.18vw;
 }
 
 @media (min-width:310px) and (max-width:480px) {
@@ -3573,14 +3575,14 @@ ul.nav.navbar-nav1 a.nav-link1 {
 a.readnow {
   border-radius: 5px;
   text-decoration: none;
-  padding: 10px 5px;
-  line-height: 20px;
+  padding: 10px 20px;
+  line-height: 1.71vw;
   position: absolute;
   display: block;
-  width: 121px;
+  width: auto;
   background-color: black;
   color: white;
-  font-family: 'Acumin Pro';
+  font-family: 'Acumin Pro' !important;
   text-align: center;
   z-index: 0;
   font-size: 1.19vw;
@@ -3602,17 +3604,17 @@ a.readnow:hover {
 
 .content1 h2 {
   font-size: 4.16vw;
-  line-height: 56px;
+  line-height: 5.56VW;
   text-align: left;
   font-family: 'Acumin Pro Condensed Light';
-  color: white;
+  color: #FFFFFF;
   opacity: 1;
 }
 
 .content1 p {
   font-size: 1.25vw;
-  line-height: 18px;
-  color: white;
+  line-height: 1.56vw;
+  color: #FFFFFF;
   text-align: left;
   font-family: 'Acumin Pro';
   opacity: 1;
@@ -3649,17 +3651,17 @@ a.readnow:hover {
 
 .content2 h2 {
   font-size: 4.16vw;
-  line-height: 56px;
+  line-height: 5.56VW;
   text-align: left;
   font-family: 'Acumin Pro Condensed Light';
-  color: white;
+  color: #FFFFFF;
   opacity: 1;
 }
 
 .content2 p {
   font-size: 1.25vw;
-  line-height: 18px;
-  color: white;
+  line-height: 1.56vw;
+  color: #FFFFFF;
   text-align: left;
   font-family: 'Acumin Pro';
   opacity: 1;
@@ -3697,17 +3699,17 @@ a.readnow:hover {
 
 .content3 h2 {
   font-size: 4.16vw;
-  line-height: 56px;
+  line-height: 5.56VW;
   text-align: left;
   font-family: 'Acumin Pro Condensed Light';
-  color: white;
+  color: #FFFFFF;
   opacity: 1;
 }
 
 .content3 p {
   font-size: 1.25vw;
-  line-height: 18px;
-  color: white;
+  line-height: 1.56vw;
+  color: #FFFFFF;
   text-align: left;
   font-family: 'Acumin Pro';
   opacity: 1;
@@ -4490,12 +4492,14 @@ display: none;
   font-size: 1.25vw;
   font-family: Acumin Pro, Regular;
   color: #2C2C2C;
+  line-height: 1.87vw;
 }
 .col-images{
   display: flex;
   box-sizing: border-box;
   align-items: center;
-  height: 8rem;
+  /* height: 8rem; */
+  height: auto;
 }
 .col-images>div>img{
   width: 100%;
