@@ -292,7 +292,7 @@ line-height: 1.56vw;
  margin-left:38px;
 }
 .boxcolor {
-   height: 100%;
+   height: 200px;
    width: 75%;
    background: #6EB180;
  border-radius:10px;
@@ -311,7 +311,7 @@ line-height: 1.56vw;
 }
 
 .box-image img { 
-   /* height: 200px  !IMPORTANT; */
+   height: 200px  !IMPORTANT;
  width:100% ;
 }
 .box-image1{
@@ -4684,7 +4684,7 @@ h2.blogrighthead {
 }
 
 .blogsidebar h3 {
-  color: #000000;
+  color: #A0A0A0;
   font-size: 0.62vw;
   font-family: "Acumin Pro";
   font-weight: 700;
@@ -4731,3 +4731,5 @@ a.activelist {
 #blog_page4_card {
   display: none;
 }
+
+
