@@ -156,3 +156,36 @@ function checkSpace1(a){
     return arr
 }
 
+
+
+
+var word_length2=document.getElementsByClassName("wri")
+// console.log(word_length[0])
+for(let i=0;i<word_length2.length;i++){
+    let a=word_length2[i].innerText.trim().split(" ")
+    let newarr=checkSpace1(a)
+    let changetext=document.getElementsByClassName("wri")
+    if(newarr.join(" ").length>=25){
+        let b=newarr.slice(0, 25).join(" ");
+        changetext[i].innerHTML =b;
+        console.log(b)
+    }
+  
+}
+
+function checkSpace1(a){
+    let arr=[]
+    for(let i=0;i<a.length;i++){
+        if(a[i]===""){
+        continue;
+        }
+        else{
+            arr.push(a[i])
+        }
+    }
+    return arr
+}
+
+
+
+
