@@ -306,7 +306,7 @@ line-height: 1.56vw;
 }
 
 .box-image{
-  margin-left: -6rem;
+  margin-left: -1.5rem;
   width: 95%;
 }
 
@@ -325,10 +325,10 @@ line-height: 1.56vw;
   color: #306C63;
   text-decoration: none;
   font-family: "Acumin Pro Condensed Bold";
-  font-size: 21px;
   }
 .box-right>a>h1{
   font-size: 2.34vw;
+  line-height: 2.60vw;
   }
 .box-right>a:hover{
   color: #306C63;
@@ -336,12 +336,21 @@ line-height: 1.56vw;
   font-family: "Acumin Pro Condensed Bold";
   }
 .box-content h1 {
-
    font-size :35px;
 }
 .box-content span {
 
    font-size :18px;
+}
+.box-right>h3{
+  /* border: 1px solid red; */
+  font-size: 1vw !important;
+  line-height: 1.56vw !important;
+  font-family: Acumin Pro;
+  font-weight: bold;
+  color: #2C2C2C;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
 }
 .box-right h2{
    color: #306C63;
@@ -367,17 +376,18 @@ line-height: 1.56vw;
  
 }
 .boxrig{
-  margin-left: -6rem;
+  margin-left: -1.5rem;
 }
 .box-right1 h4 {
   color:#5A5A5A;
 }
 .boxrig p {
- margin-top:11px;
- font-size: 0.83vw;
+ margin-top:2rem;
  color: #2C2C2C;
  width: 90%;
- 
+ font-family:Acumin Pro ;
+ font-size: 0.83vw;
+line-height: 1.25;
 }
 .boxrig1 p {
  margin-top:11px;
@@ -385,7 +395,7 @@ line-height: 1.56vw;
 }
 .box-right {
    border-bottom: 2px solid #dedede;
- padding-bottom:15px;
+ /* padding-bottom:15px; */
 }
 .box-right1 {
    border-bottom: 2px solid #dedede;
@@ -4307,17 +4317,18 @@ a.nav-link1 {
 }
 
 
-#loadMore ,#loadMore   {
+#loadMore{
   display: block;
   transition: .3s;
    background-color: transparent;
     text-align: center;
-    margin-top: 30px;
-    font-size: 17px;
+    margin-top: 20px;
+    font-size:1.25vw;
     font-weight: bold;
     color: #2C2C2C;
     font-family: Acumin Pro;
     text-decoration: underline !important;
+    line-height: 1.56vw;
 }
 a#loadMore  ,a#loadMore1   {
     color: #2C2C2C;
@@ -4343,7 +4354,7 @@ a#loadMore  ,a#loadMore1   {
   text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
 } */
 .content{
-  margin-bottom: 10rem;
+  margin-bottom: 1rem;
 }
 .content ,.loadtab   {
 
