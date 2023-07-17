@@ -35,6 +35,8 @@ section{
 }
 
 .nav_single_publication_row2{
+    position: relative;
+    top: 4px;
     height: 100%;
     background: transparent;
      padding:  -1rem 0rem -1rem 0px;
@@ -42,7 +44,9 @@ section{
 }
 .nav_single_publication_row2>p{
     font-family: "Acumin Pro Condensed";
-    font-size: 23px;
+    font-weight: bold;
+    font-size: 2.08vw;
+    line-height: 3.90vw;
     margin-top: 5px;
     margin-bottom: 5px;
     color: #306C63;
@@ -74,10 +78,10 @@ section{
 .body_heading{
     color: #306C63;
     font-family: "Acumin Pro Condensed";
+    font-weight: bold;
     opacity: 1;
-    font-size: 35px;
-    /* margin-top: 10px; */
-    font-weight: 600;
+    font-size: 2.86vw;
+    line-height: 3.38vw;
     margin-bottom: 1rem;
 }
 
@@ -85,7 +89,8 @@ section{
     color: #2C2C2C;
     font-family: "Acumin Pro";
     text-align: justify;
-    font-size: 16px;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
 }
 
 .single_publication_body_para>p>a{
@@ -118,27 +123,34 @@ width: 30%;
 }
 
 .single_publication_body_row2_para{
-font-size: 16px;
-font-family:"Acumin Pro" ;
+font-size: 1.25vw;
+line-height: 1.875vw;
+font-family:"Acumin Pro";
 margin-bottom: 3rem;
 }
 .single_publication_body_row2_para>h3{
-    font-weight: 600;
+    font-family:"Acumin Pro";
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    font-weight: bold;
     margin-top: 0;
 }
 
 .single_publication_download_agenda{
     width: 100%;
     font-family: "Acumin Pro";
+    font-weight: 600;
     background-color: #122034;
     border: 1px solid #707070;
-    font-size: 16px;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
 }
 .single_publication_download_agenda>a{
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     text-decoration: none;
     color:#FFFFFF;
+    margin-right: 10%;
 }
 .single_publication_download_agenda>a:hover{
     color:#FFFFFF;
@@ -151,6 +163,7 @@ margin-bottom: 3rem;
 .single_publication_download_agenda>a>div{
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 10%;
 }
 .single_publication_download_agenda>a>div>p{
     margin-top: 10px;
@@ -158,5 +171,6 @@ margin-bottom: 3rem;
 }
 .single_publication_download_agenda>a>div>img{
 height: 1.5rem;
+font-weight: 600;
 }
 
