@@ -165,10 +165,14 @@ for(let i=0;i<word_length2.length;i++){
     let a=word_length2[i].innerText.trim().split(" ")
     let newarr=checkSpace1(a)
     let changetext=document.getElementsByClassName("wri")
-    if(newarr.join(" ").length>=25){
-        let b=newarr.slice(0, 25).join(" ");
+    if(newarr.join(" ").length>=21){
+        let actual=[]
+        for(let j=0;j<25;j++){
+            actual.push(newarr[j])
+        }
+
+        let b=actual.join(" ");
         changetext[i].innerHTML =b;
-        console.log(b)
     }
   
 }
