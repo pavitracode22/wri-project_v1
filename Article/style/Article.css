@@ -12,7 +12,7 @@ section{
 .container_article_nav{
     background-color: #DDE3DD;
 }
-.area_article_nav{
+.area_article_nav>a{
     height: 100%;
     display: flex;
     gap: 1%;
@@ -165,7 +165,6 @@ width: 30%;
 font-size: 1.25vw;
 line-height: 1.875vw;
 font-family:"Acumin Pro";
-font-weight: bold;
 margin-bottom: 3rem;
 color: #2C2C2C;
 }
