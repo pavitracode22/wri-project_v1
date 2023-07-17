@@ -300,7 +300,7 @@
                             <h3>Contact Person</h3>
                             <p>Researchers at the World Resources Institute, India’s energy programme</p>
                         </div>
-                        <div>
+                        <div class="address">
                             <p>
                                 <b>Kajol</b> <br>
                                 kajol@wri.org <br>
@@ -508,22 +508,21 @@
 
         <!-- shiv Onclick readmore button -->
 
-        <script>
-            function showContent(event) {
-                event.preventDefault(); // Prevent the default behavior of the anchor tag
-
-                var content = document.getElementById("hidden-content");
-                var button = document.getElementById("read-more-btn");
-
-                if (content.style.display === "none") {
-                    content.style.display = "block";
-                    button.innerHTML = "Read More";
-                } else {
-                    content.style.display = "none";
-                    button.innerHTML = "Read More";
-                }
-            }
-        </script>
+         <script>
+            document.getElementById("read-more-btn").addEventListener("click", function(event) {
+              event.preventDefault(); // Prevent the default button behavior
+          
+              var hiddenContent = document.getElementById("hidden-content");
+              var readMoreBtn = document.getElementById("read-more-btn");
+          
+              // Show the hidden content
+              hiddenContent.style.display = "block";
+          
+              // Hide the "Read More" button
+              readMoreBtn.style.display = "none";
+            });
+          </script>
+          
 
 
 
