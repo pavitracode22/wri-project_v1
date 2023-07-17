@@ -292,7 +292,7 @@ line-height: 1.56vw;
  margin-left:38px;
 }
 .boxcolor {
-   height: 200px;
+   height: 100%;
    width: 75%;
    background: #6EB180;
  border-radius:10px;
@@ -311,7 +311,7 @@ line-height: 1.56vw;
 }
 
 .box-image img { 
-   height: 200px  !IMPORTANT;
+   /* height: 200px  !IMPORTANT; */
  width:100% ;
 }
 .box-image1{
