@@ -4598,7 +4598,7 @@ a{
 .blog_page_area{
   display: grid;
   grid-template-columns: 45% 45%;
-  grid-template-columns: repeat(auto);
+  grid-template-rows: repeat(auto);
   grid-row-gap:3% ;
   justify-content: space-between;
   grid-column-gap:10% ;
@@ -4699,7 +4699,7 @@ h2.blogrighthead {
 
 .blogpagi ul {
   margin-top: 25px;
-  margin-left: 13px;
+  margin-left: 2.6%;
 }
 
 .col-lg-12.blogpagi li {
