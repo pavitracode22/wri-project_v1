@@ -504,7 +504,8 @@ a.rdm img {
    padding-left: 30px;
 }
 .new-top1 img {
-   height: 150px;
+   /* height: 150px; */
+   height: auto;
    width: 100%;
 
 }
@@ -553,11 +554,7 @@ a.rdm img {
    text-decoration: none;
    font-weight: normal;
 }
-.new-box1 
-{
-background: #dedede;
-   padding-bottom: 40px;	
-}
+
 .podcastpara
 {
  font-family: 'Acumin Pro';
@@ -4736,9 +4733,95 @@ a.activelist {
   display: none;
 }
 
-.con1 .row {
+/* .con1 .row {
   column-gap: 5%;
 }
 .con1 .row .col-lg-4 {
-  width: 28%;
+  width: 38%;
+} */
+
+
+
+
+
+
+/* .con1 .row .col-lg-4 {
+  width: 31%;
 }
+
+.con1 .row {
+  column-gap: 2%;
+}
+section.resourcetabs .row {
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0;
+  padding-left: 0;
+} */
+
+#article{
+  padding-left: 0;
+  width: 107%;
+}
+
+#article-area{
+  padding-left: 0rem;
+  padding-right: 0px;
+  padding-top: 0px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.con1{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.con2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.con3{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.con4{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.con5{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.con6{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.con7{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.con8{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.con9{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.new-box1 {
+background: #dedede;
+padding-bottom: 40px;	
+width: 30%;
+margin-bottom: 7rem;
+}
+
