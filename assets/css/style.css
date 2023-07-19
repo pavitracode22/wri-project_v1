@@ -233,7 +233,7 @@ margin-top:11px;
 
 .eventform select {
   /* font-family: Acumin Pro; */
-   width: 200px;
+   width: 221px;
    height: 33px;
    margin-left: 20px;
    border: 0px;
@@ -252,7 +252,11 @@ line-height: 1.56vw;
  font-size: 0.98vw;
  background-color:#122034;
  color:#fff;
- padding:5px 30px;
+ padding:5px 25px;
+ padding-bottom: 0px;
+height: 3.5rem;
+border-top-right-radius: 4%;
+border-bottom-right-radius: 4px;
 }
 .resourceform input[type="submit"] {
  font-size:0.98vw;
@@ -1960,7 +1964,7 @@ button#dropdownMenuButton {
 
 .top-bar h2 {
   color: #fff;
-  font-weight: 700;
+  font-weight: 100;
   padding: 0px;
   margin: 0px;
   font-size: 3.90vw;
@@ -1969,7 +1973,7 @@ button#dropdownMenuButton {
 }
 
 .textop h2 span {
-  font-size: 19px;
+  font-size: 1.45vw;
 }
 
 .textop {
@@ -4319,7 +4323,7 @@ a.nav-link1 {
   transition: .3s;
    background-color: transparent;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size:1.25vw;
     font-weight: bold;
     color: #2C2C2C;
@@ -4576,6 +4580,12 @@ color: #2C2C2C !important;
   font-weight: 700px !important;
   color: #fff !important;
 }
+.nav-link-active:hover{
+  background-color: #F0AB00 !important;
+  border-radius: 50px !important;
+  font-weight: 700px !important;
+  color: #333 !important;
+}
 
 .eventpage1{
   margin-top: 4rem;
@@ -4825,3 +4835,20 @@ width: 30%;
 margin-bottom: 7rem;
 }
 
+#event{
+  font-size: 0.93vw;
+  color: #2C2C2C;
+}
+
+#event>option{
+ font-size: 0.93vw;
+ font-family: Acumin Pro;
+ color: #2C2C2C;
+ line-height: 1.56vw;
+}
+#event:focus {
+  outline: none; 
+}
+.content{
+  margin-bottom: 8rem;
+}

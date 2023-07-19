@@ -61,7 +61,7 @@ section{
 
 
 .body_container .body_area{
-    margin: 3rem 8rem 3rem 8rem;
+    margin: 3rem 6% 8rem 6.5%;
     display: flex;
     gap: 10%;
    
@@ -88,9 +88,10 @@ section{
 .single_publication_body_para>p{
     color: #2C2C2C;
     font-family: "Acumin Pro";
-    text-align: justify;
+    text-align:left;
     font-size: 1.25vw;
     line-height: 1.875vw;
+    margin-bottom: 2rem;
 }
 
 .single_publication_body_para>p>a{
@@ -170,7 +171,7 @@ margin-bottom: 3rem;
     margin-bottom: 10px;
 }
 .single_publication_download_agenda>a>div>img{
-height: 1.5rem;
+height: 2rem;
 font-weight: 600;
 }
 
