@@ -99,7 +99,6 @@ document.getElementById("blog_page_1").addEventListener("click",()=>{
 
 
 var word_length=document.getElementsByClassName("blogpara")
-// console.log(word_length[0])
 for(let i=0;i<word_length.length;i++){
     let a=word_length[i].innerText.trim().split(" ")
     let newarr=checkSpace(a)
@@ -107,7 +106,6 @@ for(let i=0;i<word_length.length;i++){
     if(newarr.join(" ").length>=1){
         let b=newarr.slice(0, 16).join(" ");
         changetext[i].innerHTML =b;
-        console.log(b)
     }
   
 }
@@ -130,7 +128,6 @@ function checkSpace(a){
 
 
 var word_length1=document.getElementsByClassName("boxrig1_blogpara")
-// console.log(word_length[0])
 for(let i=0;i<word_length1.length;i++){
     let a=word_length1[i].innerText.trim().split(" ")
     let newarr=checkSpace1(a)
@@ -138,7 +135,6 @@ for(let i=0;i<word_length1.length;i++){
     if(newarr.join(" ").length>=45){
         let b=newarr.slice(0, 45).join(" ");
         changetext[i].innerHTML =b;
-        console.log(b)
     }
   
 }
@@ -160,7 +156,6 @@ function checkSpace1(a){
 
 
 var word_length2=document.getElementsByClassName("wri")
-// console.log(word_length[0])
 for(let i=0;i<word_length2.length;i++){
     let a=word_length2[i].innerText.trim().split(" ")
     let newarr=checkSpace1(a)
@@ -192,4 +187,35 @@ function checkSpace1(a){
 
 
 
+
+
+
+
+// document.querySelector(".con4").setAttribute("style","display:none")
+// document.querySelector(".con5").setAttribute("style","display:none")
+// document.querySelector(".con6").setAttribute("style","display:none")
+// document.querySelector(".con7").setAttribute("style","display:none")
+// document.querySelector(".con8").setAttribute("style","display:none")
+// document.querySelector(".con9").setAttribute("style","display:none")
+// document.querySelector("#loadMore22").setAttribute("style","display:none")
+
+
+
+// document.getElementById("loadMore1").addEventListener("click",()=>{
+// // document.querySelector(".con4").setAttribute("style","display:flex")
+// // document.querySelector(".con5").setAttribute("style","display:flex")
+// document.querySelector("#loadMore1").setAttribute("style","display:none")
+// document.querySelector("#loadMore22").setAttribute("style","display:block")
+// console.log("hi1")
+// })
+
+
+// console.log(document.getElementsById("loadMore22"))
+
+// // document.getElementsById("loadMore22").addEventListener("click",()=>{
+// // // document.querySelector(".con4").setAttribute("style","display:flex")
+// // // document.querySelector(".con5").setAttribute("style","display:flex")
+// // // document.querySelector(".con6").setAttribute("style","display:flex")
+// //    console.log("hi2")
+// // })
 
