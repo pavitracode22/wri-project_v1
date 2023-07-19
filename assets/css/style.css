@@ -508,8 +508,8 @@ a.rdm img {
    padding-left: 30px;
 }
 .new-top1 img {
-   /* height: 150px; */
-   height: auto;
+   height: 150px;
+   /* height: auto; */
    width: 100%;
 
 }
@@ -563,12 +563,12 @@ a.rdm img {
 {
  font-family: 'Acumin Pro';
  font-size: 1.5vw;
- line-height: 2.3;
+ line-height: 2.3vw;
  color:#122034;
  margin-right: 11px;
 }
 .pocastbox {
-   margin-right: 20px; 
+   /* margin-right: 20px;  */
    background: transparent radial-gradient(closest-side at 100% 0%, #6EB180 0%, #6BA789 100%) 0% 0% no-repeat;
    padding: 5px;
    border-radius: 11px;
@@ -609,7 +609,7 @@ li.first {
  
 }
 li.second {
-    letter-spacing: 1;
+    letter-spacing: 0.5px !important;
     font-family: Acumin Pro Condensed;
     font-size: 0.93vw;
     font-weight: bold;
@@ -637,7 +637,7 @@ div#article .news-bottom1 a.readmore1 {
 }
 div#article .news-bottom1 {
     position: relative;
-    height: 397px;
+    height: 317px;
 
 }
 div#article  p.wri {
@@ -648,19 +648,20 @@ div#article  p.wri {
 {
  margin : 15px  0px;
 }
-.pocastboxbottomcontent h1 {
+.pocastboxbottomcontent p {
+  margin-right: 1%;
     font-family: 'Acumin Pro';
  color: #2C2C2C;
  font-size: 1.25vw;
  line-height: 1.8vw;
- font-weight: bold;
-   color: #323232;
 }
-.pocastboxbottomcontent h1 span {
-   font-size: 14px;
-   color: #323232;
+.pocastboxbottomcontent p span {
+   font-size: 1.25vw;
+   color: #2C2C2C;
  font-weight:bold;
  margin-right:10px;
+ font-family: 'Acumin Pro';
+ line-height: 1.8vw;
 }
 
 .intro-box.about h2 {
@@ -4832,7 +4833,7 @@ section.resourcetabs .row {
 background: #dedede;
 padding-bottom: 40px;	
 width: 30%;
-margin-bottom: 7rem;
+margin-bottom: 5rem;
 }
 
 #event{
@@ -4856,4 +4857,15 @@ margin-bottom: 7rem;
 
 .new-box1{
   display: none;
+}
+
+
+.flexcol{
+  width: 30% !important;
+}
+
+.flexrow{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
 }
