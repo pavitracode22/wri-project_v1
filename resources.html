@@ -3078,12 +3078,12 @@
   </script>
   <script>
     $(document).ready(function () {
-      $(".new-box1").slice(0, 3).show();
+      $(".new-box1").slice(0, 9).show();
       $("#loadMore1").on("click", function (e) {
         e.preventDefault();
-        $(".new-box1:hidden").slice(0, 3).slideDown();
+        $(".new-box1:hidden").slice(0, 9).slideDown();
         if ($(".new-box1:hidden").length == 0) {
-          $("#loadMore1").text("Read More").addClass("noContent1");
+          $("#loadMore1").text("").addClass("noContent1");
         }
       });
     })
