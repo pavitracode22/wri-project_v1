@@ -4883,6 +4883,10 @@ a.dropbtn.nav-link.nav-link-active svg:hover{
   color: black;
   fill: rgb(0, 0, 0);
 }
+a.dropbtn svg:hover{
+  color: black;
+  fill: rgb(0, 0, 0);
+}
 a.dropbtn>svg{
   color: black;
   fill: rgb(0, 0, 0);
