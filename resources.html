@@ -103,7 +103,27 @@
               </li>
               <li><a class="nav-link" href="./aboutus.html">About Us</a></li>
               <li><a class="nav-link" href="#">Thematic Acess</a></li>
-              <li><a class="nav-link nav-link-active" href="./resources.html">Resources</a></li>
+              
+              <li class="dropdown">
+                <a class="dropbtn nav-link nav-link-active" href="./resources.html">Resources
+                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve" class="dropdow-icon">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                  </svg>
+                </a>
+
+                <div class="dropdown-content">
+                  <a onclick="openContent(event, 'publication')">Publications</a>
+                  <a onclick="openContent(event, 'article')">Articles</a>
+                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                  <a onclick="openContent(event, 'blog')">Blog</a>
+                </div>
+              </li>
+
+              <!-- </li> -->
               <li><a class="nav-link" href="./events.html">Events</a></li>
               <li><a class="nav-link" href="#">Data</a></li>
               <li><a class="nav-link" href="./contact-us.html">Contact Us</a></li>
@@ -113,6 +133,14 @@
       </div>
 
     </nav>
+
+
+    <style>
+      /* style="fill: black; stroke-width: 3; "  */
+    </style>
+
+
+
     <!--navbar -->
     <!--top-bar-->
     <div class="mobile">
@@ -3041,6 +3069,21 @@
     document.getElementById("defaultOpen").click();
   </script>
 
+  <script>
+    function openContent(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+    }
+  </script>
+
   <!-- Load JS here for greater good =============================-->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -3071,7 +3114,7 @@
         e.preventDefault();
         $(".content:hidden").slice(0, 5).slideDown();
         if ($(".content:hidden").length == 0) {
-          $("#loadMore").text("show more").addClass("noContent");
+          $("#loadMore").text("").addClass("noContent");
         }
       });
     })

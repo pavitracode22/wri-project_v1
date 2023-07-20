@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="../images/favicon.ico">
- <!-- CSS Files    -->
- <link rel="stylesheet" href="./style/singleevent.css">
+    <!-- CSS Files    -->
+    <link rel="stylesheet" href="./style/singleevent.css">
 
 
- <!-- CSS Files    -->
- <link href="../assets/css/animate.css" rel="stylesheet">
- <link href="../assets/css/style.css" rel="stylesheet">
- <link href="../assets/fonts/fonts.css" rel="stylesheet">
- <link href="../assets/css/bootstrap.css" rel="stylesheet">
- <!-- Vendor CSS Files -->
- <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
- <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
- <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
- <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
- <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- Google font Lato -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
-      rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- CSS Files    -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/fonts/fonts.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
 
 
- 
+
 </head>
+
 <body>
 
 
@@ -111,7 +113,24 @@
                             </li>
                             <li><a class="nav-link" href="../aboutus.html">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="../resources.html">Resources</a></li>
+                           <li class="dropdown">
+                <a class="dropbtn nav-link" href="./resources.html">Resources
+                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve" class="dropdow-icon">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                  </svg>
+                </a>
+
+                <div class="dropdown-content">
+                  <a onclick="openContent(event, 'publication')">Publications</a>
+                  <a onclick="openContent(event, 'article')">Articles</a>
+                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                  <a onclick="openContent(event, 'blog')">Blog</a>
+                </div>
+              </li>
                             <li><a class="nav-link nav-link-active" href="../events.html">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
@@ -177,7 +196,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                               
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a class="nav-link1" href="../index.html">Home</a></li>
                                     <li><a class="nav-link1" href="../aboutus.html">About Us</a></li>
@@ -187,7 +206,7 @@
                                     <li><a class="nav-link1" href="#">Data</a></li>
                                     <li><a class="nav-link1" href="../contact-us.html">Contact Us</a></li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -201,69 +220,95 @@
 
 
 
-  
-
-
-  <!-- **** Single Events Navbar Start  **** -->
-
-  <section class="container_singel_event_nav" >
-      <div class="area_single_event_nav" >
-        <a href="../events.html">
-            <div class="nav_single_event_row1">
-            
-                 <img class="nav_single_event_row1_icon"  src="./assete/circle-arrow-left-solid.svg" />
-                
-               </div>
-             <div class="nav_single_event_row2">
-                 <p>Events</p>
-             </div>
-        </a>
-      </div>
-  </section> 
-
-  <!-- **** Single Events Navbar Ends **** -->
 
 
 
- <!-- **** Single Events  body start **** -->
+    <!-- **** Single Events Navbar Start  **** -->
 
-      <section class="body_container" >
-        <div class="body_area" >
+    <section class="container_singel_event_nav">
+        <div class="area_single_event_nav">
+            <a href="../events.html">
+                <div class="nav_single_event_row1">
 
-          <section class="body_row1">
-            <div class="body_headingbox" >
-              <h1 class="body_heading">Rooftop Solar Opportunities for Residential Consumers: Tamil Nadu Solar Policy 2019</h1>
-            </div>
+                    <img class="nav_single_event_row1_icon" src="./assete/circle-arrow-left-solid.svg" />
 
-            <div class="single_event_body_para" >
-               <p>The Tamil Nadu Solar Policy 2012 had set an ambitious target of 3000MW solar generation by 2015 with 350MW to be generated by Rooftop Solar PV segment. Despite the supporting policy framework, actual achievement in this sector lagged at 148 MW as of September 2018 – three years beyond the policy’s time horizon. The new Solar Policy introduced in 2019 has set its sight even higher, aiming at 3600 MW (out of a total of 9000MW) to be generated by consumer categories - commercial, industrial, agriculture and residential.</p>
-     
-               <p>While the wheels have been set in motion, there are still several road-blocks in achieving this target as per its intended vision. Rooftop Solar PV is considered critical towards achieving this target, although its adoption has not met with much enthusiasm, especially among residential consumers. A 2017 survey conducted by WRI on the experience of installing and using residential rooftop solar in Chennai brought out interesting findings on the lack of awareness, challenges to financing or availing subsidy and delays in regulatory clearances among others. To orchestrate the rapid uptake of rooftop solar PV, these and other challenges need to be addressed at the earliest. </p>
-     
-               <p>Considering the recent policy and as a follow up on the earlier survey, WRI India is organizing a stakeholder dialogue to understand the implications of the Solar Policy 2019 especially on the residential consumers and their disposition towards rooftop solar PV. The half-day workshop will focus on framing the inherent challenges of adopting rooftop solar PV from the perspectives of various stakeholders; and on deliberating the solutions that all stakeholders have to offer.</p>
-      
-            </div>  
+                </div>
+                <div class="nav_single_event_row2">
+                    <p>Events</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
-          </section>
+    <!-- **** Single Events Navbar Ends **** -->
 
-          <section class="single_event_body_row2">
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./assete/calendar-days-regular.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>03-AUG-2019</p></div>
-            </div>
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./assete/clock-regular.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>09:30 am - 02:00 pm</p></div>
-            </div>
+    <!-- **** Single Events  body start **** -->
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./assete/location-dot-solid.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>Hotel Savera, Chennai, Tamil Nadu</p></div>
-            </div>
+    <section class="body_container">
+        <div class="body_area">
 
-            <!-- <div>
+            <section class="body_row1">
+                <div class="body_headingbox">
+                    <h1 class="body_heading">Rooftop Solar Opportunities for Residential Consumers: Tamil Nadu Solar
+                        Policy 2019</h1>
+                </div>
+
+                <div class="single_event_body_para">
+                    <p>The Tamil Nadu Solar Policy 2012 had set an ambitious target of 3000MW solar generation by 2015
+                        with 350MW to be generated by Rooftop Solar PV segment. Despite the supporting policy framework,
+                        actual achievement in this sector lagged at 148 MW as of September 2018 – three years beyond the
+                        policy’s time horizon. The new Solar Policy introduced in 2019 has set its sight even higher,
+                        aiming at 3600 MW (out of a total of 9000MW) to be generated by consumer categories -
+                        commercial, industrial, agriculture and residential.</p>
+
+                    <p>While the wheels have been set in motion, there are still several road-blocks in achieving this
+                        target as per its intended vision. Rooftop Solar PV is considered critical towards achieving
+                        this target, although its adoption has not met with much enthusiasm, especially among
+                        residential consumers. A 2017 survey conducted by WRI on the experience of installing and using
+                        residential rooftop solar in Chennai brought out interesting findings on the lack of awareness,
+                        challenges to financing or availing subsidy and delays in regulatory clearances among others. To
+                        orchestrate the rapid uptake of rooftop solar PV, these and other challenges need to be
+                        addressed at the earliest. </p>
+
+                    <p>Considering the recent policy and as a follow up on the earlier survey, WRI India is organizing a
+                        stakeholder dialogue to understand the implications of the Solar Policy 2019 especially on the
+                        residential consumers and their disposition towards rooftop solar PV. The half-day workshop will
+                        focus on framing the inherent challenges of adopting rooftop solar PV from the perspectives of
+                        various stakeholders; and on deliberating the solutions that all stakeholders have to offer.</p>
+
+                </div>
+
+            </section>
+
+            <section class="single_event_body_row2">
+
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/calendar-days-regular.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>03-AUG-2019</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/clock-regular.svg" alt="location" />
+                    </div>
+                    <div class="single_event_body_row2_detail">
+                        <p>09:30 am - 02:00 pm</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/location-dot-solid.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>Hotel Savera, Chennai, Tamil Nadu</p>
+                    </div>
+                </div>
+
+                <!-- <div>
                <a class="download_agenda" target="_blank" href="./doc/Solsavi training agenda.pdf">
                   <button class="single_event_download_agenda" >
                     <div><p> Download Agenda</p></div>
@@ -272,147 +317,148 @@
               </a>
             </div> -->
 
-            <hr class="horizontal_line" />
+                <hr class="horizontal_line" />
 
-            <div class="single_event_body_row2_inquery" >
-              <p>Inquiries</p>
-            </div>
+                <div class="single_event_body_row2_inquery">
+                    <p>Inquiries</p>
+                </div>
 
-            <div class="single_event_body_row2_mail_box" >
-              <p class="single_event_body_row2_mail_heading1">Deepak Krishnan (World Resources Institute India)</p>
-              <p class="single_event_body_row2_mail">Deepak.Krishnan@wri.org</p>
-              <p class="single_event_body_row2_mail">+91-9986011802</p>
-            </div>
+                <div class="single_event_body_row2_mail_box">
+                    <p class="single_event_body_row2_mail_heading1">Deepak Krishnan (World Resources Institute India)
+                    </p>
+                    <p class="single_event_body_row2_mail">Deepak.Krishnan@wri.org</p>
+                    <p class="single_event_body_row2_mail">+91-9986011802</p>
+                </div>
 
-          </section>
+            </section>
 
         </div>
-      </section>
-  
-<!-- **** Single Events body start **** -->
+    </section>
+
+    <!-- **** Single Events body start **** -->
 
 
 
 
 
 
-<!-- footer -->
-<div class="footer">
-    <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
-        <div class="container">
-            <div class="row footertop">
-  
-                <div class="col-lg-3">
-                    <h2>CONTACT INFO</h2>
-                    <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
-                    <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
-                </div>
-                <hr id="mfoothor" class="laphide" style="color: white;
+    <!-- footer -->
+    <div class="footer">
+        <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
+            <div class="container">
+                <div class="row footertop">
+
+                    <div class="col-lg-3">
+                        <h2>CONTACT INFO</h2>
+                        <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
+                        <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
+                    </div>
+                    <hr id="mfoothor" class="laphide" style="color: white;
                 max-width: 91%;
                 margin: 35px 6px;">
-  
-                <div class="col-lg-5 mobhide" id="footpart2">
-                    <h2> IMPORTANT LINKS</h2>
-                    <ul class="list1">
-                        <li> <a href="../index.html">Home</a></li>
-                        <li> <a href="../resources.html">Resources</a></li>
-                        <li> <a href="../events.html">Events</a></li>
-                    </ul>
-                    <ul class="list2">
-                        <li> <a href="#">Data</a></li>
-                        <li> <a href="../aboutus.html">About Us</a></li>
-                        <li> <a href="../contact-us.html">Contact Us</a></li>
-                    </ul>
-                    <ul class="list3">
-                        <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                        <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                        <li> <a href="../kerala.html">Kerala</a></li>
-                    </ul>
-                </div>
-  
-                <div class="col-lg-5 laphide tabhide" id="footlinks">
-                    <h2> IMPORTANT LINKS</h2>
-                    <ul class="list1">
-                        <li> <a href="../index.html">Home</a></li>
-                        <li> <a href="../resources.html">Resources</a></li>
-                        <li> <a href="../events.html">Events</a></li>
-                        <li> <a href="#">Data</a></li>
-                        <li> <a href="../aboutus.html">About Us</a></li>
-                        <li> <a href="../contact-us.html">Contact Us</a></li>
-                        <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                        <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                        <li> <a href="../kerala.html">Kerala</a></li>
-                    </ul>
-                </div>
-  
-                <hr id="mfoothor" class="laphide" style="color: white;
+
+                    <div class="col-lg-5 mobhide" id="footpart2">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <ul class="list3">
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-5 laphide tabhide" id="footlinks">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
+
+                    <hr id="mfoothor" class="laphide" style="color: white;
                 max-width: 91%;
                 margin: 35px 6px;">
-  
-                <div class="col-lg-3" id="footform">
-                    <h2> WRITE TO US </h2>
-                    <div class="formfooter">
-                        <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
+
+                    <div class="col-lg-3" id="footform">
+                        <h2> WRITE TO US </h2>
+                        <div class="formfooter">
+                            <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
+                        </div>
+
+                        <ul class="footer_social" style="display: flex; justify-content: space-between;">
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        </ul>
                     </div>
-  
-                    <ul class="footer_social" style="display: flex; justify-content: space-between;">
-                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
-                    </ul>
-                </div>
-  
-            </div>
-        </div>
-    </div>
-  
-    <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright" style="display: flex; flex-direction:row;">
-                        <p><img src="../assets/img/logo.png" alt=""></p>
-                        <p><img src="../assets/img/logo2.png" alt=""></p>
-                        <p><img src="../assets/img/logo3.png" alt=""></p>
-                        <p><img src="../assets/img/logo4.png" alt=""></p>
-                        <p><img src="../assets/img/logo5.png" alt=""></p>
-                    </div>
+
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright footlogo">
-                        <p><img src="../assets/img/logo.png" alt=""></p>
+
+        <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright" style="display: flex; flex-direction:row;">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                            <p><img src="../assets/img/logo2.png" alt=""></p>
+                            <p><img src="../assets/img/logo3.png" alt=""></p>
+                            <p><img src="../assets/img/logo4.png" alt=""></p>
+                            <p><img src="../assets/img/logo5.png" alt=""></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  
-  
-    <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright">
-                        <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+        <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright footlogo">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright">
+                            <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-  
-  
-  </div>
-  
-  
-  <!-- ***** Footer Ends ***** -->
-  
+
+
+    <!-- ***** Footer Ends ***** -->
+
 
 
 
@@ -475,11 +521,12 @@
 
 
 
-<script src="../js/slider.js"></script>
-  <script src="../js/main.js"></script>
-<!-- Main JS File -->
-  <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
-  <script src="../js/jquery-ui.min.js"> </script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="../js/jquery-ui.min.js"> </script>
 
 </body>
+
 </html>

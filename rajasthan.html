@@ -104,7 +104,24 @@
                             </li>
                             <li><a class="nav-link" href="./aboutus.html">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="./resources.html">Resources</a></li>
+                            <li class="dropdown">
+                                <a class="dropbtn nav-link" href="./resources.html">Resources
+                                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                                    xml:space="preserve" class="dropdow-icon">
+                                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                    c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                    s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                                  </svg>
+                                </a>
+                
+                                <div class="dropdown-content">
+                                  <a onclick="openContent(event, 'publication')">Publications</a>
+                                  <a onclick="openContent(event, 'article')">Articles</a>
+                                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                                  <a onclick="openContent(event, 'blog')">Blog</a>
+                                </div>
+                              </li>
                             <li><a class="nav-link" href="./events.html">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="./contact-us.html">Contact Us</a></li>
@@ -156,8 +173,7 @@
                         <div class="dropdown-menu full-w" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item dp-link" href="./index.html"><span class="all"> All
                                     States</span></a>
-                            <a class="dropdown-item dp-link" href="./kerala.html"><span
-                                    class="kerala">Kerala</span></a>
+                            <a class="dropdown-item dp-link" href="./kerala.html"><span class="kerala">Kerala</span></a>
                             <a class="dropdown-item dp-link" href="./tamilnadu.html"> <span class="tamil">Tamil
                                     Nadu</span></a>
                         </div>
@@ -171,7 +187,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                               
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a href="./index.html" class="nav-link1">Home</a></li>
                                     <li><a class="nav-link1" href="./aboutus.html">About Us</a></li>
@@ -181,7 +197,7 @@
                                     <li><a class="nav-link1" href="#">Data</a></li>
                                     <li><a class="nav-link1" href="./contact-us.html">Contact Us</a></li>
                                 </ul>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -205,7 +221,8 @@
                     <div class="col-lg-7">
                         <div class="intro-box">
                             <h2>A Carbon Free Electricity <br>Grid For Rajasthan </h2>
-                            <p class="paraeffect">Rajasthan is India’s leading renewable-rich state, accounting for 20% of the national RE
+                            <p class="paraeffect">Rajasthan is India’s leading renewable-rich state, accounting for 20%
+                                of the national RE
                                 potential. As per the Rajasthan Solar Energy Policy 2019, the target of solar power is
                                 30 GW by 2025.
                                 However, the state has the ambition to surpass this milestone.</p>
@@ -215,7 +232,8 @@
 
                     <div class="col-lg-5 mobhide"
                         style="background-image: url(assets/img/rajasthanmap.png); background-repeat:no-repeat; background-size:contain; background-position: 92%; height: 409px;">
-                        <img src="assets/img/commonmainicon.png" class="img-responsive transffect" style="position: relative;float: right;top:95px;">
+                        <img src="assets/img/commonmainicon.png" class="img-responsive transffect"
+                            style="position: relative;float: right;top:95px;">
                     </div>
                 </div>
             </div>
@@ -343,7 +361,8 @@
                     <div class="thematic-heading">
                         <h3>Thematic Areas
                             <a href="#"><button class="mobhide"
-                                    style="float:right; color:#2C2C2C; border: none; background: none; font-size: 14px; line-height: 20px; font-family: Acumin Pro; font-weight: bold; text-decoration: underline;">VIEW ALL</button></a>
+                                    style="float:right; color:#2C2C2C; border: none; background: none; font-size: 14px; line-height: 20px; font-family: Acumin Pro; font-weight: bold; text-decoration: underline;">VIEW
+                                    ALL</button></a>
                         </h3>
                     </div>
 
@@ -422,7 +441,8 @@
                         </div>
                     </div>
                     <a href="#"><button class="laphide tabhide"
-                            style="float:left; color:#2C2C2C; border: none; background: none; font-size: 14px; line-height: 20px; font-family: Acumin Pro; font-weight: bold; text-decoration: underline;">VIEW ALL</button></a>
+                            style="float:left; color:#2C2C2C; border: none; background: none; font-size: 14px; line-height: 20px; font-family: Acumin Pro; font-weight: bold; text-decoration: underline;">VIEW
+                            ALL</button></a>
 
                 </div>
             </div>
@@ -676,11 +696,11 @@
         }
     </script>
 
-<script src="./js/slider.js"></script>
-<script src="./js/main.js"></script>
-<!-- Main JS File -->
-<script src="js/jquery_3.2.1_jquery.min.js"> </script>
-<script src="js/jquery-ui.min.js"> </script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="js/jquery-ui.min.js"> </script>
 
 </body>
 

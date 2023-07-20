@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="shortcut icon" href="../images/favicon.ico">
-        <!-- CSS Files    -->
-        <link rel="stylesheet" href="./style/singleevent.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- CSS Files    -->
+    <link rel="stylesheet" href="./style/singleevent.css">
 
 
-        <!-- CSS Files    -->
-        <link href="../assets/css/animate.css" rel="stylesheet">
-        <link href="../assets/css/style.css" rel="stylesheet">
-        <link href="../assets/fonts/fonts.css" rel="stylesheet">
-        <link href="../assets/css/bootstrap.css" rel="stylesheet">
-        <!-- Vendor CSS Files -->
-        <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-        <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-        <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-        <!-- Google font Lato -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-
-
-
-
-    </head>
-    <body>
+    <!-- CSS Files    -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/fonts/fonts.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
 
 
 
-       <!-- ======= Header ======= -->
+</head>
+
+<body>
+
+
+
+
+
+    <!-- ======= Header ======= -->
     <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top">
             <!--top-bar-->
@@ -112,7 +113,24 @@
                             </li>
                             <li><a class="nav-link" href="../aboutus.html">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="../resources.html">Resources</a></li>
+                           <li class="dropdown">
+                <a class="dropbtn nav-link" href="./resources.html">Resources
+                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve" class="dropdow-icon">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                  </svg>
+                </a>
+
+                <div class="dropdown-content">
+                  <a onclick="openContent(event, 'publication')">Publications</a>
+                  <a onclick="openContent(event, 'article')">Articles</a>
+                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                  <a onclick="openContent(event, 'blog')">Blog</a>
+                </div>
+              </li>
                             <li><a class="nav-link nav-link-active" href="../events.html">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
@@ -178,7 +196,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                               
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a class="nav-link1" href="../index.html">Home</a></li>
                                     <li><a class="nav-link1" href="../aboutus.html">About Us</a></li>
@@ -188,7 +206,7 @@
                                     <li><a class="nav-link1" href="#">Data</a></li>
                                     <li><a class="nav-link1" href="../contact-us.html">Contact Us</a></li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -206,279 +224,283 @@
 
 
 
-        <!-- **** Single Events Navbar Start  **** -->
+    <!-- **** Single Events Navbar Start  **** -->
 
-        <section class="container_singel_event_nav" >
-      <div class="area_single_event_nav" >
-        <a href="../events.html">
-            <div class="nav_single_event_row1">
-            
-                 <img class="nav_single_event_row1_icon"  src="./assete/circle-arrow-left-solid.svg" />
-                
-               </div>
-             <div class="nav_single_event_row2">
-                 <p>Events</p>
-             </div>
-        </a>
-      </div>
-  </section> 
+    <section class="container_singel_event_nav">
+        <div class="area_single_event_nav">
+            <a href="../events.html">
+                <div class="nav_single_event_row1">
 
-        <!-- **** Single Events Navbar Ends **** -->
+                    <img class="nav_single_event_row1_icon" src="./assete/circle-arrow-left-solid.svg" />
 
-
-
-        <!-- **** Single Events  body start **** -->
-
-        <section class="body_container">
-            <div class="body_area">
-
-                <section class="body_row1">
-                    <div class="body_headingbox">
-                        <h1 class="body_heading">Wind Energy Technology in Tamil Nadu: What the Future Holds</h1>
-                    </div>
-
-                    <div class="single_event_body_para">
-                        <p>India’s transition to clean energy has largely been driven by the Renewable Energy (RE)
-                            sector. The total wind energy installed in India is close to 36.5 GW, fourth highest in
-                            world after China, US and Germany (March 2019).</p>
-
-                        <p>Globally, the offshore wind turbine installation as of 2019 stands at 29 GW. The Ministry of
-                            New and Renewable Energy (MNRE) plans to ramp up energy production from offshore wind
-                            turbines to 5 GW by 2022 and 30 GW by 2030. An assessment by National Institute of Wind
-                            Energy (NIWE) in 2017 pegged the total potential of offshore wind capacity in India at 302
-                            GW (at 100 meters above ground level), out of which nearly 35 GW is off the Tamil Nadu
-                            coast.</p>
-
-                        <p>There are other encouraging signs for the future of wind power, in the form of research and
-                            development in innovative material for wind turbines, wind flow visualization, grid
-                            enhancement, emerging indigenous efforts and improvements in the technology readiness level.
-                            NIWE is currently working on a testing facility in Dhanushkodi, Tamil Nadu for assessing
-                            prototypes before venturing out into the sea.</p>
-
-                        <p>The objective of this webinar is to enhance knowledge, gain valuable insights, disseminate
-                            new and innovative technologies and datasets within the wind energy community, and to
-                            strengthen co-development and collaboration across specializations to accelerate development
-                            in clean energy transaction in Tamil Nadu.</p>
-
-                        <p>TThe panel of industry and government stakeholders will discuss the latest trends and
-                            developments in wind technology, challenges and opportunities lies ahead for Tamil Nadu. The
-                            panel will address these questions:</p>
-
-                        <p>How is the industry positioned to support growing development with existing assets and
-                            technology? <br>
-                            What are the biggest challenges in pushing the wind energy sector forward, both in terms of policy and technology? <br>
-                            How can India streamline and strengthen its transmission network, tariff regime and secure
-                            supply chain?</p>
-
-                            <p><strong>SPEAKERS</strong></p>
-
-                            <p>Jennifer Fagan, First Secretary, Trade and Investment, Department for International Trade, British High Commission <br>
-                                Rajesh Katyal, Deputy Director General & Division Head, Wind Solar and Offshore Resource Measurements, National Institute of Wind Energy (NIWE) <br>
-                                Alastair Dutton, Chair, Global Offshore Wind Task Force GWEC and World Bank <br>
-                                Alok Kumar, Country Manager India, Advisory, DNV GL - Energy <br>
-                                Amar Variawa, Director, Public Affairs, Vestas India and SE Asia, Vestas Wind Technology India Private Limited <br>
-                                Liming Qiao, Asia Director, Global Wind Energy Council ASBL <br>
-                                Tristan Chapman, Senior Vice President, Clean Energy, Lloyd's Register <br>
-                                Moderated by Prabir Kumar Dash, Scientist-D, Ministry of New and Renewable Energy<p>
-                            
-                            <p><strong>Watch the full webinar here:</strong></p>
-
-                    </div>
-
-
-                    <div class="single_event_body_vedio">
-
-                        <iframe
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/uXEGpm4d538"
-                            style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border:none;overflow:hidden">
-                        </iframe>
-
-                    </div>
-                  
-                </section>
-
-
-
-
-
-                <section class="single_event_body_row2">
-
-                    <div>
-                        <div class="single_event_body_row2_icon"><img src="./assete/calendar-days-regular.svg"
-                                alt="location" /></div>
-                        <div class="single_event_body_row2_detail">
-                            <p>25-SEP-2020</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="single_event_body_row2_icon"><img src="./assete/clock-regular.svg" alt="location" />
-                        </div>
-                        <div class="single_event_body_row2_detail">
-                            <p>03:00 pm - 04:30 pm</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="single_event_body_row2_icon"><img src="./assete/location-dot-solid.svg"
-                                alt="location" /></div>
-                        <div class="single_event_body_row2_detail">
-                            <p>Online Webinar</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <a class="download_agenda" target="_blank" href="./doc/Agenda Offshore Wind in Tamil Nadu .pdf">
-                            <button class="single_event_download_agenda">
-                                <div>
-                                    <p> Download Agenda</p>
-                                </div>
-                                <div><img src="./assete/Icon feather-download.png" alt="Download_icon" /></div>
-                            </button>
-                        </a>
-                    </div>
-
-                    <hr class="horizontal_line" />
-
-                    <div class="single_event_body_row2_inquery">
-                        <p>Inquiries</p>
-                    </div>
-
-                    <div class="single_event_body_row2_mail_box">
-                        <p class="single_event_body_row2_mail_heading1">Kajol</p>
-                        <p class="single_event_body_row2_mail">Kajol@wri.org</p>
-                    </div>
-
-                </section>
-
-            </div>
-        </section>
-
-        <!-- **** Single Events body start **** -->
-
-
-
-
-
-
-<!-- footer -->
-<div class="footer">
-    <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
-        <div class="container">
-            <div class="row footertop">
-  
-                <div class="col-lg-3">
-                    <h2>CONTACT INFO</h2>
-                    <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
-                    <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
                 </div>
-                <hr id="mfoothor" class="laphide" style="color: white;
+                <div class="nav_single_event_row2">
+                    <p>Events</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- **** Single Events Navbar Ends **** -->
+
+
+
+    <!-- **** Single Events  body start **** -->
+
+    <section class="body_container">
+        <div class="body_area">
+
+            <section class="body_row1">
+                <div class="body_headingbox">
+                    <h1 class="body_heading">Wind Energy Technology in Tamil Nadu: What the Future Holds</h1>
+                </div>
+
+                <div class="single_event_body_para">
+                    <p>India’s transition to clean energy has largely been driven by the Renewable Energy (RE)
+                        sector. The total wind energy installed in India is close to 36.5 GW, fourth highest in
+                        world after China, US and Germany (March 2019).</p>
+
+                    <p>Globally, the offshore wind turbine installation as of 2019 stands at 29 GW. The Ministry of
+                        New and Renewable Energy (MNRE) plans to ramp up energy production from offshore wind
+                        turbines to 5 GW by 2022 and 30 GW by 2030. An assessment by National Institute of Wind
+                        Energy (NIWE) in 2017 pegged the total potential of offshore wind capacity in India at 302
+                        GW (at 100 meters above ground level), out of which nearly 35 GW is off the Tamil Nadu
+                        coast.</p>
+
+                    <p>There are other encouraging signs for the future of wind power, in the form of research and
+                        development in innovative material for wind turbines, wind flow visualization, grid
+                        enhancement, emerging indigenous efforts and improvements in the technology readiness level.
+                        NIWE is currently working on a testing facility in Dhanushkodi, Tamil Nadu for assessing
+                        prototypes before venturing out into the sea.</p>
+
+                    <p>The objective of this webinar is to enhance knowledge, gain valuable insights, disseminate
+                        new and innovative technologies and datasets within the wind energy community, and to
+                        strengthen co-development and collaboration across specializations to accelerate development
+                        in clean energy transaction in Tamil Nadu.</p>
+
+                    <p>TThe panel of industry and government stakeholders will discuss the latest trends and
+                        developments in wind technology, challenges and opportunities lies ahead for Tamil Nadu. The
+                        panel will address these questions:</p>
+
+                    <p>How is the industry positioned to support growing development with existing assets and
+                        technology? <br>
+                        What are the biggest challenges in pushing the wind energy sector forward, both in terms of
+                        policy and technology? <br>
+                        How can India streamline and strengthen its transmission network, tariff regime and secure
+                        supply chain?</p>
+
+                    <p><strong>SPEAKERS</strong></p>
+
+                    <p>Jennifer Fagan, First Secretary, Trade and Investment, Department for International Trade,
+                        British High Commission <br>
+                        Rajesh Katyal, Deputy Director General & Division Head, Wind Solar and Offshore Resource
+                        Measurements, National Institute of Wind Energy (NIWE) <br>
+                        Alastair Dutton, Chair, Global Offshore Wind Task Force GWEC and World Bank <br>
+                        Alok Kumar, Country Manager India, Advisory, DNV GL - Energy <br>
+                        Amar Variawa, Director, Public Affairs, Vestas India and SE Asia, Vestas Wind Technology India
+                        Private Limited <br>
+                        Liming Qiao, Asia Director, Global Wind Energy Council ASBL <br>
+                        Tristan Chapman, Senior Vice President, Clean Energy, Lloyd's Register <br>
+                        Moderated by Prabir Kumar Dash, Scientist-D, Ministry of New and Renewable Energy
+                    <p>
+
+                    <p><strong>Watch the full webinar here:</strong></p>
+
+                </div>
+
+
+                <div class="single_event_body_vedio">
+
+                    <iframe
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/uXEGpm4d538"
+                        style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border:none;overflow:hidden">
+                    </iframe>
+
+                </div>
+
+            </section>
+
+
+
+
+
+            <section class="single_event_body_row2">
+
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/calendar-days-regular.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>25-SEP-2020</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/clock-regular.svg" alt="location" />
+                    </div>
+                    <div class="single_event_body_row2_detail">
+                        <p>03:00 pm - 04:30 pm</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/location-dot-solid.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>Online Webinar</p>
+                    </div>
+                </div>
+
+                <div>
+                    <a class="download_agenda" target="_blank" href="./doc/Agenda Offshore Wind in Tamil Nadu .pdf">
+                        <button class="single_event_download_agenda">
+                            <div>
+                                <p> Download Agenda</p>
+                            </div>
+                            <div><img src="./assete/Icon feather-download.png" alt="Download_icon" /></div>
+                        </button>
+                    </a>
+                </div>
+
+                <hr class="horizontal_line" />
+
+                <div class="single_event_body_row2_inquery">
+                    <p>Inquiries</p>
+                </div>
+
+                <div class="single_event_body_row2_mail_box">
+                    <p class="single_event_body_row2_mail_heading1">Kajol</p>
+                    <p class="single_event_body_row2_mail">Kajol@wri.org</p>
+                </div>
+
+            </section>
+
+        </div>
+    </section>
+
+    <!-- **** Single Events body start **** -->
+
+
+
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
+            <div class="container">
+                <div class="row footertop">
+
+                    <div class="col-lg-3">
+                        <h2>CONTACT INFO</h2>
+                        <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
+                        <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
+                    </div>
+                    <hr id="mfoothor" class="laphide" style="color: white;
                 max-width: 91%;
                 margin: 35px 6px;">
-  
-                <div class="col-lg-5 mobhide" id="footpart2">
-                    <h2> IMPORTANT LINKS</h2>
-                    <ul class="list1">
-                        <li> <a href="../index.html">Home</a></li>
-                        <li> <a href="../resources.html">Resources</a></li>
-                        <li> <a href="../events.html">Events</a></li>
-                    </ul>
-                    <ul class="list2">
-                        <li> <a href="#">Data</a></li>
-                        <li> <a href="../aboutus.html">About Us</a></li>
-                        <li> <a href="../contact-us.html">Contact Us</a></li>
-                    </ul>
-                    <ul class="list3">
-                        <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                        <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                        <li> <a href="../kerala.html">Kerala</a></li>
-                    </ul>
-                </div>
-  
-                <div class="col-lg-5 laphide tabhide" id="footlinks">
-                    <h2> IMPORTANT LINKS</h2>
-                    <ul class="list1">
-                        <li> <a href="../index.html">Home</a></li>
-                        <li> <a href="../resources.html">Resources</a></li>
-                        <li> <a href="../events.html">Events</a></li>
-                        <li> <a href="#">Data</a></li>
-                        <li> <a href="../aboutus.html">About Us</a></li>
-                        <li> <a href="../contact-us.html">Contact Us</a></li>
-                        <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                        <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                        <li> <a href="../kerala.html">Kerala</a></li>
-                    </ul>
-                </div>
-  
-                <hr id="mfoothor" class="laphide" style="color: white;
+
+                    <div class="col-lg-5 mobhide" id="footpart2">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <ul class="list3">
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-5 laphide tabhide" id="footlinks">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
+
+                    <hr id="mfoothor" class="laphide" style="color: white;
                 max-width: 91%;
                 margin: 35px 6px;">
-  
-                <div class="col-lg-3" id="footform">
-                    <h2> WRITE TO US </h2>
-                    <div class="formfooter">
-                        <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
+
+                    <div class="col-lg-3" id="footform">
+                        <h2> WRITE TO US </h2>
+                        <div class="formfooter">
+                            <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
+                        </div>
+
+                        <ul class="footer_social" style="display: flex; justify-content: space-between;">
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        </ul>
                     </div>
-  
-                    <ul class="footer_social" style="display: flex; justify-content: space-between;">
-                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
-                    </ul>
-                </div>
-  
-            </div>
-        </div>
-    </div>
-  
-    <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright" style="display: flex; flex-direction:row;">
-                        <p><img src="../assets/img/logo.png" alt=""></p>
-                        <p><img src="../assets/img/logo2.png" alt=""></p>
-                        <p><img src="../assets/img/logo3.png" alt=""></p>
-                        <p><img src="../assets/img/logo4.png" alt=""></p>
-                        <p><img src="../assets/img/logo5.png" alt=""></p>
-                    </div>
+
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright footlogo">
-                        <p><img src="../assets/img/logo.png" alt=""></p>
+
+        <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright" style="display: flex; flex-direction:row;">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                            <p><img src="../assets/img/logo2.png" alt=""></p>
+                            <p><img src="../assets/img/logo3.png" alt=""></p>
+                            <p><img src="../assets/img/logo4.png" alt=""></p>
+                            <p><img src="../assets/img/logo5.png" alt=""></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  
-  
-    <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright">
-                        <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+        <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright footlogo">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright">
+                            <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-  
-  
-  </div>
-  
-  
-  <!-- ***** Footer Ends ***** -->
-  
+
+
+    <!-- ***** Footer Ends ***** -->
 
 
 
@@ -488,64 +510,66 @@
 
 
 
-        <!-- Load JS here for greater good =============================-->
-        <script src="../js/jquery-1.11.3.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/jquery.magnific-popup.min.js"></script>
-        <script src="../js/jquery.nav.js"></script>
-        <script src="../js/jquery.scrollTo-min.js"></script>
-        <script src="../js/SmoothScroll.js"></script>
-        <script src="../js/wow.js"></script>
-        <script src="../js/custom.js"></script>
-        <script src="../js/plugins.js"></script>
 
-        <!-- Vendor JS Files -->
-        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <!-- Load JS here for greater good =============================-->
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.nav.js"></script>
+    <script src="../js/jquery.scrollTo-min.js"></script>
+    <script src="../js/SmoothScroll.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/plugins.js"></script>
 
-        <!-- Main JS File -->
-        <script src="../assets/js/main.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
 
-        <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
 
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
 
-            // When the user clicks the button, open the modal 
-            btn.onclick = function () {
-                modal.style.display = "block";
-            }
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
 
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function () {
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
                 modal.style.display = "none";
             }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function (event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
+        }
+    </script>
 
 
 
 
-<script src="../js/slider.js"></script>
-  <script src="../js/main.js"></script>
-<!-- Main JS File -->
-  <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
-  <script src="../js/jquery-ui.min.js"> </script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="../js/jquery-ui.min.js"> </script>
 
 </body>
+
 </html>

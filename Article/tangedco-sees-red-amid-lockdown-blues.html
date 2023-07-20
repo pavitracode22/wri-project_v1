@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="shortcut icon" href="../images/favicon.ico">
-        <!-- CSS Files    -->
-        <link rel="stylesheet" href="./style/Article.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- CSS Files    -->
+    <link rel="stylesheet" href="./style/Article.css">
 
 
-        <!-- CSS Files    -->
-        <link href="../assets/css/animate.css" rel="stylesheet">
-        <link href="../assets/css/style.css" rel="stylesheet">
-        <link href="../assets/fonts/fonts.css" rel="stylesheet">
-        <link href="../assets/css/bootstrap.css" rel="stylesheet">
-        <!-- Vendor CSS Files -->
-        <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-        <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-        <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-        <!-- Google font Lato -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- CSS Files    -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/fonts/fonts.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
-    </head>
-    <body>
+</head>
+
+<body>
 
 
 
@@ -109,7 +110,24 @@
                             </li>
                             <li><a class="nav-link" href="../aboutus.html">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="../resources.html">Resources</a></li>
+                           <li class="dropdown">
+                <a class="dropbtn nav-link" href="./resources.html">Resources
+                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve" class="dropdow-icon">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                  </svg>
+                </a>
+
+                <div class="dropdown-content">
+                  <a onclick="openContent(event, 'publication')">Publications</a>
+                  <a onclick="openContent(event, 'article')">Articles</a>
+                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                  <a onclick="openContent(event, 'blog')">Blog</a>
+                </div>
+              </li>
                             <li><a class="nav-link nav-link-active" href="../events.html">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
@@ -175,7 +193,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                               
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a class="nav-link1" href="../index.html">Home</a></li>
                                     <li><a class="nav-link1" href="../aboutus.html">About Us</a></li>
@@ -185,7 +203,7 @@
                                     <li><a class="nav-link1" href="#">Data</a></li>
                                     <li><a class="nav-link1" href="../contact-us.html">Contact Us</a></li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -203,363 +221,364 @@
 
 
 
-        <!-- **** Single Publication Navbar Start  **** -->
+    <!-- **** Single Publication Navbar Start  **** -->
 
-         <section class="container_article_nav">
-            <div class="area_article_nav">
-               <a href="../resources.html">
+    <section class="container_article_nav">
+        <div class="area_article_nav">
+            <a href="../resources.html">
                 <div class="nav_article_row1">
                     <img class="nav_article_row1_icon" src="./assets/circle-arrow-left-solid.svg" />
-            </div>
-            <div class="nav_article_row2">
-                <p>Article</p>
-            </div>
-               </a>
-            </div>
-        </section>
-
-          
-
-        <!-- **** Single Publication Navbar Ends **** -->
+                </div>
+                <div class="nav_article_row2">
+                    <p>Article</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
 
 
-        <!-- **** Single Publication  body start **** -->
+    <!-- **** Single Publication Navbar Ends **** -->
 
-        <section class="body_container">
-            <div class="body_area">
 
-                <section class="body_row1">
-                    <div class="body_headingbox">
-                        <h1 class="body_heading">TANGEDCO Sees Red Amid Lockdown Blues</h1>
-                    </div>
 
-                    <!-- <div class="single_publication_body_img" >
+    <!-- **** Single Publication  body start **** -->
+
+    <section class="body_container">
+        <div class="body_area">
+
+            <section class="body_row1">
+                <div class="body_headingbox">
+                    <h1 class="body_heading">TANGEDCO Sees Red Amid Lockdown Blues</h1>
+                </div>
+
+                <!-- <div class="single_publication_body_img" >
                <img src="./assete/single_publication.png" alt="single_publication_img" />
             </div> -->
-                    <!-- class need to be change -->
+                <!-- class need to be change -->
 
-                    <div class="article_body_para">
+                <div class="article_body_para">
 
-                        <p>Amid the financial crisis that emerged during the months-long lockdown to limit the spread of
-                            Covid-19, Tamil Nadu Chief Minister Edappadi K. Palaniswami in a <a
-                                href="https://timesofindia.indiatimes.com/city/chennai/edappadi-k-palaniswami-writes-to-modi-seeks-aid-to-bail-out-tangedco/articleshow/75310222.cms"
-                                target="_blank">letter</a> to the Centre late April, sought a bail-out package for the
-                            Tamil Nadu Generation and Distribution Company (TANGEDCO). As of FY 2019, the <a
-                                href="../DocumentRepository/ckfinder/files/GoI_Initiatives/Annual_Integrated_Ratings_of_State_DISCOMs/7th_Rating_Booklet_Final_13-10-2019.pdf"
-                                target="_blank">total debt</a> of the electricity utility was over ₹1,01,294 crore. To
-                            put this in perspective, this was the state’s <a
-                                href="https://www.financialexpress.com/opinion/indias-5-trillion-gdp-journey-contribution-of-each-state-crucial/1886918/"
-                                target="_blank">entire debt</a> in 2011 and approximately 6% of its GDP in 2019.</p>
+                    <p>Amid the financial crisis that emerged during the months-long lockdown to limit the spread of
+                        Covid-19, Tamil Nadu Chief Minister Edappadi K. Palaniswami in a <a
+                            href="https://timesofindia.indiatimes.com/city/chennai/edappadi-k-palaniswami-writes-to-modi-seeks-aid-to-bail-out-tangedco/articleshow/75310222.cms"
+                            target="_blank">letter</a> to the Centre late April, sought a bail-out package for the
+                        Tamil Nadu Generation and Distribution Company (TANGEDCO). As of FY 2019, the <a
+                            href="../DocumentRepository/ckfinder/files/GoI_Initiatives/Annual_Integrated_Ratings_of_State_DISCOMs/7th_Rating_Booklet_Final_13-10-2019.pdf"
+                            target="_blank">total debt</a> of the electricity utility was over ₹1,01,294 crore. To
+                        put this in perspective, this was the state’s <a
+                            href="https://www.financialexpress.com/opinion/indias-5-trillion-gdp-journey-contribution-of-each-state-crucial/1886918/"
+                            target="_blank">entire debt</a> in 2011 and approximately 6% of its GDP in 2019.</p>
 
-                        <p>TN’s electricity tariffs have not been revised since 2017, but power purchase costs have
-                            steadily risen over the years. In 2018-19, the resultant <a
-                                href="https://www.dtnext.in/News/TopNews/2019/10/14022951/1191916/Tangedco-losses-mount-to-Rs-9256-cr-for-201819.vpf"
-                                target="_blank">gap had crossed</a> ₹2 per unit, resulting in a loss of ₹9,256 crore.
-                            TANGEDCO’s losses have been higher in the past. In 2014-15, its annual losses were over
-                            ₹12,750 crore before the Regulatory Commission intervened and revised tariffs. Annual losses
-                            were then reduced to ₹5,750 crore for 2015-16 and to ₹4,350 crore in 2016-17.</p>
+                    <p>TN’s electricity tariffs have not been revised since 2017, but power purchase costs have
+                        steadily risen over the years. In 2018-19, the resultant <a
+                            href="https://www.dtnext.in/News/TopNews/2019/10/14022951/1191916/Tangedco-losses-mount-to-Rs-9256-cr-for-201819.vpf"
+                            target="_blank">gap had crossed</a> ₹2 per unit, resulting in a loss of ₹9,256 crore.
+                        TANGEDCO’s losses have been higher in the past. In 2014-15, its annual losses were over
+                        ₹12,750 crore before the Regulatory Commission intervened and revised tariffs. Annual losses
+                        were then reduced to ₹5,750 crore for 2015-16 and to ₹4,350 crore in 2016-17.</p>
 
-                        <p>In January 2017, TANGEDCO signed a tripartite agreement with the Centre and state government
-                            to implement the Ujwal Discom Assurance Yojana (UDAY) scheme that sought to reduce utility
-                            debts. But, with rising costs and non-revision of tariffs thereafter, the implementation of
-                            UDAY proved largely ineffective with losses <a
-                                href="https://www.thehindu.com/news/cities/chennai/rising-cost-dip-in-revenue-leave-tangedco-with-soaring-losses/article28703076.ece"
-                                target="_blank">doubling</a> the next year and the debt <a
-                                href="https://www.thehindu.com/news/national/tamil-nadu/tangedcos-losses-rose-to-758256-cr-in-fy-2018-report/article26226898.ece"
-                                target="_blank">continuing to rise</a>.</p>
+                    <p>In January 2017, TANGEDCO signed a tripartite agreement with the Centre and state government
+                        to implement the Ujwal Discom Assurance Yojana (UDAY) scheme that sought to reduce utility
+                        debts. But, with rising costs and non-revision of tariffs thereafter, the implementation of
+                        UDAY proved largely ineffective with losses <a
+                            href="https://www.thehindu.com/news/cities/chennai/rising-cost-dip-in-revenue-leave-tangedco-with-soaring-losses/article28703076.ece"
+                            target="_blank">doubling</a> the next year and the debt <a
+                            href="https://www.thehindu.com/news/national/tamil-nadu/tangedcos-losses-rose-to-758256-cr-in-fy-2018-report/article26226898.ece"
+                            target="_blank">continuing to rise</a>.</p>
 
-                        <p>TANGEDCO’s growing debt has resulted in its credit rating being <a
-                                href="https://www.thehindubusinessline.com/news/national/why-india-ratings-downgrades-tangedcos-outlook-to-negative/article30256041.ece"
-                                target="_blank">downgraded</a>. With a credit rating of <a
-                                href="https://www.indiaratings.co.in/PressRelease?pressReleaseID=39394&amp;title=India-Ratings-Affirms-TANGEDCO%27s-Bonds-at-%E2%80%98IND-A%28CE%29%E2%80%99%3B-Downgrades-Term-Loans-to-%27IND-BBB%27%3B-Outlook-Negative"
-                                target="_blank">BBB</a> and a negative outlook, the utility will <a
-                                href="https://www.indiaratings.co.in/PressRelease?pressReleaseID=39394&amp;title=India-Ratings-Affirms-TANGEDCO%27s-Bonds-at-%E2%80%98IND-A%28CE%29%E2%80%99%3B-Downgrades-Term-Loans-to-%27IND-BBB%27%3B-Outlook-Negative"
-                                target="_blank">find it difficult</a> to raise additional funds needed to ensure
-                            uninterrupted power supply.</p>
+                    <p>TANGEDCO’s growing debt has resulted in its credit rating being <a
+                            href="https://www.thehindubusinessline.com/news/national/why-india-ratings-downgrades-tangedcos-outlook-to-negative/article30256041.ece"
+                            target="_blank">downgraded</a>. With a credit rating of <a
+                            href="https://www.indiaratings.co.in/PressRelease?pressReleaseID=39394&amp;title=India-Ratings-Affirms-TANGEDCO%27s-Bonds-at-%E2%80%98IND-A%28CE%29%E2%80%99%3B-Downgrades-Term-Loans-to-%27IND-BBB%27%3B-Outlook-Negative"
+                            target="_blank">BBB</a> and a negative outlook, the utility will <a
+                            href="https://www.indiaratings.co.in/PressRelease?pressReleaseID=39394&amp;title=India-Ratings-Affirms-TANGEDCO%27s-Bonds-at-%E2%80%98IND-A%28CE%29%E2%80%99%3B-Downgrades-Term-Loans-to-%27IND-BBB%27%3B-Outlook-Negative"
+                            target="_blank">find it difficult</a> to raise additional funds needed to ensure
+                        uninterrupted power supply.</p>
 
-                        <h3>The Electricity Subsidy Regime</h3>
+                    <h3>The Electricity Subsidy Regime</h3>
 
-                        <p>Electricity subsidies have been a feature in TN’s political and socio-economic movements
-                            since the 1980s, with both dominant political parties promising free power to farmers. Over
-                            the years, more consumer categories have actively lobbied for <a
-                                href="../wp-content/uploads/2017/08/rap-india-mappingpower-tamil-nadu-2017-august.pdf"
-                                target="_blank">electricity subsidies</a>.</p>
+                    <p>Electricity subsidies have been a feature in TN’s political and socio-economic movements
+                        since the 1980s, with both dominant political parties promising free power to farmers. Over
+                        the years, more consumer categories have actively lobbied for <a
+                            href="../wp-content/uploads/2017/08/rap-india-mappingpower-tamil-nadu-2017-august.pdf"
+                            target="_blank">electricity subsidies</a>.</p>
 
-                        <p>Today, TN’s high agricultural production could partly be attributed to the free supply of
-                            power. With rise in agricultural production, the sector’s electricity demand has also
-                            increased. <a href="https://www.tangedco.gov.in/linkpdf/Petition%20ARR.pdf"
-                                target="_blank">One in five units</a> of low-tension (LT) electricity supplied by
-                            TANGEDCO is said to be consumed by the agricultural sector today. While this has positive
-                            impacts for the sector and the state, it has come at <a
-                                href="https://www.thehindu.com/news/national/tamil-nadu/tangedco-bogged-down-by-free-power-supply-scheme/article24363018.ece"
-                                target="_blank">a significant cost</a> to TANGEDCO, and its ability to pay power
-                            generators and modernize its grid infrastructure.</p>
+                    <p>Today, TN’s high agricultural production could partly be attributed to the free supply of
+                        power. With rise in agricultural production, the sector’s electricity demand has also
+                        increased. <a href="https://www.tangedco.gov.in/linkpdf/Petition%20ARR.pdf" target="_blank">One
+                            in five units</a> of low-tension (LT) electricity supplied by
+                        TANGEDCO is said to be consumed by the agricultural sector today. While this has positive
+                        impacts for the sector and the state, it has come at <a
+                            href="https://www.thehindu.com/news/national/tamil-nadu/tangedco-bogged-down-by-free-power-supply-scheme/article24363018.ece"
+                            target="_blank">a significant cost</a> to TANGEDCO, and its ability to pay power
+                        generators and modernize its grid infrastructure.</p>
 
-                        <p>In 2016, TN decided to provide 100 units of electricity free-of-charge to <a
-                                href="https://www.dtnext.in/News/City/2016/05/25023410/Officials-clueless-on-100-units-free-power.vpf"
-                                target="_blank">every domestic customer</a>. As in the case of free power to
-                            agricultural consumers, such subsidies are to be paid by the state, by cash transfers to
-                            TANGEDCO. Although these <a
-                                href="http://www.tnerc.gov.in/orders/Tariff%20Order%202009/2017/TariffOrder/TANGEDCO-11-08-2017.pdf"
-                                target="_blank">transfers have been increasing</a>, it hasn’t been adequate to cover the
-                            loss in revenue suffered by the utility.</p>
+                    <p>In 2016, TN decided to provide 100 units of electricity free-of-charge to <a
+                            href="https://www.dtnext.in/News/City/2016/05/25023410/Officials-clueless-on-100-units-free-power.vpf"
+                            target="_blank">every domestic customer</a>. As in the case of free power to
+                        agricultural consumers, such subsidies are to be paid by the state, by cash transfers to
+                        TANGEDCO. Although these <a
+                            href="http://www.tnerc.gov.in/orders/Tariff%20Order%202009/2017/TariffOrder/TANGEDCO-11-08-2017.pdf"
+                            target="_blank">transfers have been increasing</a>, it hasn’t been adequate to cover the
+                        loss in revenue suffered by the utility.</p>
 
-                        <p>Subsidy provisions may have a strong political rationale, but if they don’t compensate the
-                            loss in revenue, the resultant impact on the financial sustainability of the utility can be
-                            severe. TANGEDCO is <a
-                                href="https://www.thehindu.com/news/cities/chennai/free-power-scheme-hits-tangedco-bottom-line/article26433399.ece"
-                                target="_blank">an example</a> of an electricity utility being hit by these
-                            calculations.</p>
+                    <p>Subsidy provisions may have a strong political rationale, but if they don’t compensate the
+                        loss in revenue, the resultant impact on the financial sustainability of the utility can be
+                        severe. TANGEDCO is <a
+                            href="https://www.thehindu.com/news/cities/chennai/free-power-scheme-hits-tangedco-bottom-line/article26433399.ece"
+                            target="_blank">an example</a> of an electricity utility being hit by these
+                        calculations.</p>
 
-                        <h3>COVID-19 Impacts</h3>
+                    <h3>COVID-19 Impacts</h3>
 
-                        <p>The lockdown since March 24, has affected close to 44,00,000 commercial and industrial
-                            (C&amp;I) establishments in TN, and by extension TANGEDCO’s operations and revenues. <a
-                                href="https://energy.economictimes.indiatimes.com/news/power/tamil-nadu-tangedco-suffers-1260-crore-loss-because-of-lockdown/74928394"
-                                target="_blank">Within a week</a>, the utility is estimated to have lost nearly ₹1,260
-                            crore. Further, its working capital has been strained, as industrial customers have sought a
-                            three-month moratorium to pay electricity bills. The absence of physical meter-reading has
-                            also resulted in domestic customers paying the same amount as the last <a
-                                href="https://www.thehindu.com/news/cities/chennai/pay-last-bill-amount-for-current-cycle-tangedco/article31186823.ece"
-                                target="_blank">billing cycle</a>.</p>
+                    <p>The lockdown since March 24, has affected close to 44,00,000 commercial and industrial
+                        (C&amp;I) establishments in TN, and by extension TANGEDCO’s operations and revenues. <a
+                            href="https://energy.economictimes.indiatimes.com/news/power/tamil-nadu-tangedco-suffers-1260-crore-loss-because-of-lockdown/74928394"
+                            target="_blank">Within a week</a>, the utility is estimated to have lost nearly ₹1,260
+                        crore. Further, its working capital has been strained, as industrial customers have sought a
+                        three-month moratorium to pay electricity bills. The absence of physical meter-reading has
+                        also resulted in domestic customers paying the same amount as the last <a
+                            href="https://www.thehindu.com/news/cities/chennai/pay-last-bill-amount-for-current-cycle-tangedco/article31186823.ece"
+                            target="_blank">billing cycle</a>.</p>
 
-                        <p>Even when C&amp;I activities increase, revenue recovery may not be as forthcoming,
-                            considering TANGEDCO was already facing gradual migration of its high-paying consumers to
-                            procure power from captive plants or Open Access (OA) contracts.</p>
+                    <p>Even when C&amp;I activities increase, revenue recovery may not be as forthcoming,
+                        considering TANGEDCO was already facing gradual migration of its high-paying consumers to
+                        procure power from captive plants or Open Access (OA) contracts.</p>
 
-                        <h3>Turning TANGEDCO Around</h3>
+                    <h3>Turning TANGEDCO Around</h3>
 
-                        <p>The Centre has promised some relief to electricity utilities in its economic stimulus
-                            package, but this is primarily focused on helping clear their dues to power transmission and
-                            generation companies. While TANGEDCO awaits payment of promised subsidies and other dues,
-                            its dependence on external loans has been increasing. To reduce this dependence and initiate
-                            a financial turnaround, the utility should bring its current tariff in line with the
-                            National Tariff Policy.</p>
-
-
-                        <div class="read_more">
-                            <a href="#" id="read-more-btn" onclick="showContent(event)">Read More</a>
-
-                            <div id="hidden-content" style="display: none;">
-
-                                <p>Additionally, without raising tariffs (which may be difficult given the upcoming
-                                    state elections), several measures could alleviate TANGEDCO’s stress.</p>
-
-                                <li>Reducing power purchase costs by non-curtailment of cheaper Renewable Energy (RE):
-                                    With most of the electricity demand during the lockdown coming from households,
-                                    solar photovoltaic (PV) can reduce power purchase cost, if it is not curtailed.
-                                    While the <a
-                                        href="http://www.tnerc.gov.in/orders/Tariff%20Order%202009/2019/Pooledcost-MO-4-8of%202019.pdf"
-                                        target="_blank">pooled cost of power purchase</a> for 2019 approved for TANGEDCO
-                                    stands at ₹4.07/unit, the <a
-                                        href="http://www.tnerc.gov.in/orders/Tariff%20Order%202009/2019/Solar-5-29-03-2019.pdf"
-                                        target="_blank">solar power tariff</a> approved by TN Electricity Regulatory
-                                    Commission is ₹3.04/unit.
-                                </li>
-                                <li>Implementing the Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) Scheme to
-                                        reduce the financial impact of supplying free power to agricultural customers:
-                                        As part of the <a href="../img/documents/uploads/file_s-1584533316381.pdf"
-                                            target="_blank">first phase</a> of the scheme, the state was sanctioned to
-                                        install 17,500 stand-alone and 20,000 grid-connected solar pump sets. The KUSUM
-                                        scheme is expected to benefit TANGEDCO by reducing the quantity and cost of
-                                        subsidized power supplied to the agricultural sector, potentially lowering the
-                                        average <a
-                                            href="http://www.tnerc.gov.in/orders/Tariff%20Order%202009/2017/TariffOrder/TANGEDCO-11-08-2017.pdf"
-                                            target="_blank">cost of supply (ACOS) of ₹5.85</a>; and benefit the state by
-                                        reducing its contribution towards tariff subsidy which was over ₹8,000 crores in
-                                        its latest budget.
-                                </li>
-                                <li>Adopting the DISCOM Stimulus Scheme: The scheme promises to provide loans, backed
-                                        by state guarantees, to <a
-                                            href="https://energy.economictimes.indiatimes.com/news/power/bailout-package-of-rs-90000-crore-much-needed-oxygen-for-discoms-paves-way-for-reforms-industry/75722429"
-                                            target="_blank">help repay dues</a> to transmission and generation firms. It
-                                        also directs the central generating stations to give rebates to DISCOMs, which
-                                        is to be passed on to consumers. TANGEDCO should use these rebates to reduce the
-                                        gap between ACOS and revenue from electricity sales.
-                                </li>
-                                <li>Implementing Integrated Resource Planning (IRP): For the medium-to-long term,
-                                        TANGEDCO should undertake a transparent IRP exercise to help utilizing energy
-                                        resources (preferably clean) more efficiently and guide the state on impending
-                                        or avoidable capital investment.
-                                </li>
-
-                                <p>It may seem daunting, but TANGEDCO could leverage the right strategy that improves financials, while simultaneously helping TN transition to a sustainable energy pathway.</p>
+                    <p>The Centre has promised some relief to electricity utilities in its economic stimulus
+                        package, but this is primarily focused on helping clear their dues to power transmission and
+                        generation companies. While TANGEDCO awaits payment of promised subsidies and other dues,
+                        its dependence on external loans has been increasing. To reduce this dependence and initiate
+                        a financial turnaround, the utility should bring its current tariff in line with the
+                        National Tariff Policy.</p>
 
 
-                            </div>
-                        </div>
-                    </div>
+                    <div class="read_more">
+                        <a href="#" id="read-more-btn" onclick="showContent(event)">Read More</a>
 
+                        <div id="hidden-content" style="display: none;">
 
-                </section>
+                            <p>Additionally, without raising tariffs (which may be difficult given the upcoming
+                                state elections), several measures could alleviate TANGEDCO’s stress.</p>
 
+                            <li>Reducing power purchase costs by non-curtailment of cheaper Renewable Energy (RE):
+                                With most of the electricity demand during the lockdown coming from households,
+                                solar photovoltaic (PV) can reduce power purchase cost, if it is not curtailed.
+                                While the <a
+                                    href="http://www.tnerc.gov.in/orders/Tariff%20Order%202009/2019/Pooledcost-MO-4-8of%202019.pdf"
+                                    target="_blank">pooled cost of power purchase</a> for 2019 approved for TANGEDCO
+                                stands at ₹4.07/unit, the <a
+                                    href="http://www.tnerc.gov.in/orders/Tariff%20Order%202009/2019/Solar-5-29-03-2019.pdf"
+                                    target="_blank">solar power tariff</a> approved by TN Electricity Regulatory
+                                Commission is ₹3.04/unit.
+                            </li>
+                            <li>Implementing the Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) Scheme to
+                                reduce the financial impact of supplying free power to agricultural customers:
+                                As part of the <a href="../img/documents/uploads/file_s-1584533316381.pdf"
+                                    target="_blank">first phase</a> of the scheme, the state was sanctioned to
+                                install 17,500 stand-alone and 20,000 grid-connected solar pump sets. The KUSUM
+                                scheme is expected to benefit TANGEDCO by reducing the quantity and cost of
+                                subsidized power supplied to the agricultural sector, potentially lowering the
+                                average <a
+                                    href="http://www.tnerc.gov.in/orders/Tariff%20Order%202009/2017/TariffOrder/TANGEDCO-11-08-2017.pdf"
+                                    target="_blank">cost of supply (ACOS) of ₹5.85</a>; and benefit the state by
+                                reducing its contribution towards tariff subsidy which was over ₹8,000 crores in
+                                its latest budget.
+                            </li>
+                            <li>Adopting the DISCOM Stimulus Scheme: The scheme promises to provide loans, backed
+                                by state guarantees, to <a
+                                    href="https://energy.economictimes.indiatimes.com/news/power/bailout-package-of-rs-90000-crore-much-needed-oxygen-for-discoms-paves-way-for-reforms-industry/75722429"
+                                    target="_blank">help repay dues</a> to transmission and generation firms. It
+                                also directs the central generating stations to give rebates to DISCOMs, which
+                                is to be passed on to consumers. TANGEDCO should use these rebates to reduce the
+                                gap between ACOS and revenue from electricity sales.
+                            </li>
+                            <li>Implementing Integrated Resource Planning (IRP): For the medium-to-long term,
+                                TANGEDCO should undertake a transparent IRP exercise to help utilizing energy
+                                resources (preferably clean) more efficiently and guide the state on impending
+                                or avoidable capital investment.
+                            </li>
 
-
-
-
-                <section class="article_body_row2">
-
-                    <div class="article_body_row2_para">
-                        <div>
-                            <p>To know more, please click the link below:</p>
-                        </div>
-                        <div>
-                            <a id="articlelink"
-                                href="https://wri-india.org/blog/tangedco-sees-red-amid-lockdown-blues"
-                                target="_blank">https://wri-india.org/blog/tangedco-sees-red-amid-lockdown-blues
-                            </a>
-                        </div>
-                        <div>
-                            <hr>
-                        </div>
-                        <div class="fw_bold">
-                            <h3>Contact Person</h3>
-                            <p>Researchers at the World Resources Institute, India’s energy programme</p>
-                        </div>
-                        <div class="address">
-                            <p>
-                                <b>Naren Pasupalati</b> <br>
-                                <b>Harsha Meenawat</b>
+                            <p>It may seem daunting, but TANGEDCO could leverage the right strategy that improves
+                                financials, while simultaneously helping TN transition to a sustainable energy pathway.
                             </p>
+
+
                         </div>
                     </div>
+                </div>
 
-                    <!-- <div>
+
+            </section>
+
+
+
+
+
+            <section class="article_body_row2">
+
+                <div class="article_body_row2_para">
+                    <div>
+                        <p>To know more, please click the link below:</p>
+                    </div>
+                    <div>
+                        <a id="articlelink" href="https://wri-india.org/blog/tangedco-sees-red-amid-lockdown-blues"
+                            target="_blank">https://wri-india.org/blog/tangedco-sees-red-amid-lockdown-blues
+                        </a>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="fw_bold">
+                        <h3>Contact Person</h3>
+                        <p>Researchers at the World Resources Institute, India’s energy programme</p>
+                    </div>
+                    <div class="address">
+                        <p>
+                            <b>Naren Pasupalati</b> <br>
+                            <b>Harsha Meenawat</b>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- <div>
               <button class="single_publication_download_agenda" >
                 <div><p>Download Agenda</p></div>
                 <div><img src="./assete/Icon feather-download.png"  alt="Download_icon" /></div>
               </button>
             </div> -->
 
-                </section>
+            </section>
 
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- **** Single Publication body end **** -->
-
-
+    <!-- **** Single Publication body end **** -->
 
 
 
 
-         <!-- footer -->
-         <div class="footer">
-            <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
-                <div class="container">
-                    <div class="row footertop">
 
-                        <div class="col-lg-3">
-                            <h2>CONTACT INFO</h2>
-                            <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
-                            <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
-                        </div>
-                        <hr id="mfoothor" class="laphide" style="color: white;
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
+            <div class="container">
+                <div class="row footertop">
+
+                    <div class="col-lg-3">
+                        <h2>CONTACT INFO</h2>
+                        <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
+                        <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
+                    </div>
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-                        <div class="col-lg-5 mobhide" id="footpart2">
-                            <h2> IMPORTANT LINKS</h2>
-                            <ul class="list1">
-                                <li> <a href="../index.html">Home</a></li>
-                                <li> <a href="../resources.html">Resources</a></li>
-                                <li> <a href="../events.html">Events</a></li>
-                            </ul>
-                            <ul class="list2">
-                                <li> <a href="#">Data</a></li>
-                                <li> <a href="../aboutus.html">About Us</a></li>
-                                <li> <a href="../contact-us.html">Contact Us</a></li>
-                            </ul>
-                            <ul class="list3">
-                                <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                                <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                                <li> <a href="../kerala.html">Kerala</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-5 mobhide" id="footpart2">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <ul class="list3">
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-                        <div class="col-lg-5 laphide tabhide" id="footlinks">
-                            <h2> IMPORTANT LINKS</h2>
-                            <ul class="list1">
-                                <li> <a href="../index.html">Home</a></li>
-                                <li> <a href="../resources.html">Resources</a></li>
-                                <li> <a href="../events.html">Events</a></li>
-                                <li> <a href="#">Data</a></li>
-                                <li> <a href="../aboutus.html">About Us</a></li>
-                                <li> <a href="../contact-us.html">Contact Us</a></li>
-                                <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                                <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                                <li> <a href="../kerala.html">Kerala</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-5 laphide tabhide" id="footlinks">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-                        <hr id="mfoothor" class="laphide" style="color: white;
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-                        <div class="col-lg-3" id="footform">
-                            <h2> WRITE TO US </h2>
-                            <div class="formfooter">
-                                <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
-                            </div>
-
-                            <ul class="footer_social" style="display: flex; justify-content: space-between;">
-                                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
-                            </ul>
+                    <div class="col-lg-3" id="footform">
+                        <h2> WRITE TO US </h2>
+                        <div class="formfooter">
+                            <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
                         </div>
 
+                        <ul class="footer_social" style="display: flex; justify-content: space-between;">
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright" style="display: flex; flex-direction:row;">
-                                <p><img src="../assets/img/logo.png" alt=""></p>
-                                <p><img src="../assets/img/logo2.png" alt=""></p>
-                                <p><img src="../assets/img/logo3.png" alt=""></p>
-                                <p><img src="../assets/img/logo4.png" alt=""></p>
-                                <p><img src="../assets/img/logo5.png" alt=""></p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright footlogo">
-                                <p><img src="../assets/img/logo.png" alt=""></p>
-                            </div>
+        </div>
+
+        <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright" style="display: flex; flex-direction:row;">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                            <p><img src="../assets/img/logo2.png" alt=""></p>
+                            <p><img src="../assets/img/logo3.png" alt=""></p>
+                            <p><img src="../assets/img/logo4.png" alt=""></p>
+                            <p><img src="../assets/img/logo5.png" alt=""></p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-            <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright">
-                                <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
-                            </div>
+        </div>
+        <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright footlogo">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
 
 
-        <!-- ***** Footer Ends ***** -->
+        <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright">
+                            <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- ***** Footer Ends ***** -->
 
 
 
@@ -568,82 +587,83 @@
 
 
 
-        <!-- Load JS here for greater good =============================-->
-        <script src="../js/jquery-1.11.3.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/jquery.magnific-popup.min.js"></script>
-        <script src="../js/jquery.nav.js"></script>
-        <script src="../js/jquery.scrollTo-min.js"></script>
-        <script src="../js/SmoothScroll.js"></script>
-        <script src="../js/wow.js"></script>
-        <script src="../js/custom.js"></script>
-        <script src="../js/plugins.js"></script>
+    <!-- Load JS here for greater good =============================-->
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.nav.js"></script>
+    <script src="../js/jquery.scrollTo-min.js"></script>
+    <script src="../js/SmoothScroll.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/plugins.js"></script>
 
-        <!-- Vendor JS Files -->
-        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
 
-        <!-- Main JS File -->
-        <script src="../assets/js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
 
-        <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
 
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
 
-            // When the user clicks the button, open the modal 
-            btn.onclick = function () {
-                modal.style.display = "block";
-            }
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
 
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function () {
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
                 modal.style.display = "none";
             }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function (event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
+        }
+    </script>
 
 
-        <!-- shiv Onclick readmore button -->
+    <!-- shiv Onclick readmore button -->
 
-         <script>
-            document.getElementById("read-more-btn").addEventListener("click", function(event) {
-              event.preventDefault(); // Prevent the default button behavior
-          
-              var hiddenContent = document.getElementById("hidden-content");
-              var readMoreBtn = document.getElementById("read-more-btn");
-          
-              // Show the hidden content
-              hiddenContent.style.display = "block";
-          
-              // Hide the "Read More" button
-              readMoreBtn.style.display = "none";
-            });
-          </script>
-          
+    <script>
+        document.getElementById("read-more-btn").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default button behavior
+
+            var hiddenContent = document.getElementById("hidden-content");
+            var readMoreBtn = document.getElementById("read-more-btn");
+
+            // Show the hidden content
+            hiddenContent.style.display = "block";
+
+            // Hide the "Read More" button
+            readMoreBtn.style.display = "none";
+        });
+    </script>
 
 
 
-<script src="../js/slider.js"></script>
-<script src="../js/main.js"></script>
-<!-- Main JS File -->
-<script src="../js/jquery_3.2.1_jquery.min.js"> </script>
-<script src="../js/jquery-ui.min.js"> </script>
+
+    <script src="../js/slider.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="../js/jquery-ui.min.js"> </script>
 
 </body>
+
 </html>

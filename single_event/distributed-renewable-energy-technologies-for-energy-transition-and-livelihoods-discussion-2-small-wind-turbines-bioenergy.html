@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="../images/favicon.ico">
- <!-- CSS Files    -->
- <link rel="stylesheet" href="./style/singleevent.css">
+    <!-- CSS Files    -->
+    <link rel="stylesheet" href="./style/singleevent.css">
 
 
- <!-- CSS Files    -->
- <link href="../assets/css/animate.css" rel="stylesheet">
- <link href="../assets/css/style.css" rel="stylesheet">
- <link href="../assets/fonts/fonts.css" rel="stylesheet">
- <link href="../assets/css/bootstrap.css" rel="stylesheet">
- <!-- Vendor CSS Files -->
- <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
- <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
- <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
- <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
- <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- Google font Lato -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
-      rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- CSS Files    -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/fonts/fonts.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
 
 
- 
+
 </head>
+
 <body>
 
 
 
 
 
-       <!-- ======= Header ======= -->
+    <!-- ======= Header ======= -->
     <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top">
             <!--top-bar-->
@@ -111,7 +113,24 @@
                             </li>
                             <li><a class="nav-link" href="../aboutus.html">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="../resources.html">Resources</a></li>
+                           <li class="dropdown">
+                <a class="dropbtn nav-link" href="./resources.html">Resources
+                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve" class="dropdow-icon">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                  </svg>
+                </a>
+
+                <div class="dropdown-content">
+                  <a onclick="openContent(event, 'publication')">Publications</a>
+                  <a onclick="openContent(event, 'article')">Articles</a>
+                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                  <a onclick="openContent(event, 'blog')">Blog</a>
+                </div>
+              </li>
                             <li><a class="nav-link nav-link-active" href="../events.html">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
@@ -177,7 +196,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                               
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a class="nav-link1" href="../index.html">Home</a></li>
                                     <li><a class="nav-link1" href="../aboutus.html">About Us</a></li>
@@ -187,7 +206,7 @@
                                     <li><a class="nav-link1" href="#">Data</a></li>
                                     <li><a class="nav-link1" href="../contact-us.html">Contact Us</a></li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -201,128 +220,166 @@
 
 
 
-  
-
-
-  <!-- **** Single Events Navbar Start  **** -->
-
-  <section class="container_singel_event_nav" >
-      <div class="area_single_event_nav" >
-        <a href="../events.html">
-            <div class="nav_single_event_row1">
-            
-                 <img class="nav_single_event_row1_icon"  src="./assete/circle-arrow-left-solid.svg" />
-                
-               </div>
-             <div class="nav_single_event_row2">
-                 <p>Events</p>
-             </div>
-        </a>
-      </div>
-  </section> 
-
-  <!-- **** Single Events Navbar Ends **** -->
 
 
 
- <!-- **** Single Events  body start **** -->
+    <!-- **** Single Events Navbar Start  **** -->
 
-      <section class="body_container" >
-        <div class="body_area" >
+    <section class="container_singel_event_nav">
+        <div class="area_single_event_nav">
+            <a href="../events.html">
+                <div class="nav_single_event_row1">
 
-          <section class="body_row1">
-            <div class="body_headingbox" >
-              <h1 class="body_heading">Distributed Renewable Energy Technologies for Energy Transition and Livelihoods Discussion 2: Small Wind Turbines, Bioenergy</h1>
-            </div>
+                    <img class="nav_single_event_row1_icon" src="./assete/circle-arrow-left-solid.svg" />
 
-            <div class="single_event_body_para" >
-               <p>This session forms the second part of the DREG series with a focus on small wind, solar wind hybrid and bioenergy systems. Current energy generation and management model in India is centralized, marked by the unidirectional flow of electricity from large power plants to the consumer. Drawbacks of this system are inherent transmission losses and consumers’ dependence on the central grid.</p>
-     
-               <p>DREG system can provide reliable electricity supply to consumers in remote locations, sustainable energy solutions and they overall provide greater energy security. So far, the technologies are mostly demonstrated in pilots, and scaling up is limited. In this webinar, we will learn how utilities, grid operators, upstream energy companies, and technology providers can leverage DRE applications, to improve renewable adoption, and create new market opportunities.</p>
-     
-               <p>The panel of stakeholders from industry and thinktank will discuss the suitable technologies, latest developments, challenges, and opportunities for the states of Tamil Nadu, Jharkhand, and Assam.</p>
-      
-               <p>What are the DREG technologies pertaining to small wind and bioenergy available in the market, and their suitability for deployment?<br>
-                What are the challenges pertaining to its scaling and wide adoption? How to ensure community participation? <br>
-                How do we ensure DREG and Centralised Grid can complement each other?</p>
+                </div>
+                <div class="nav_single_event_row2">
+                    <p>Events</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
-               <!-- <ul class="single_event_unorder_list" >
+    <!-- **** Single Events Navbar Ends **** -->
+
+
+
+    <!-- **** Single Events  body start **** -->
+
+    <section class="body_container">
+        <div class="body_area">
+
+            <section class="body_row1">
+                <div class="body_headingbox">
+                    <h1 class="body_heading">Distributed Renewable Energy Technologies for Energy Transition and
+                        Livelihoods Discussion 2: Small Wind Turbines, Bioenergy</h1>
+                </div>
+
+                <div class="single_event_body_para">
+                    <p>This session forms the second part of the DREG series with a focus on small wind, solar wind
+                        hybrid and bioenergy systems. Current energy generation and management model in India is
+                        centralized, marked by the unidirectional flow of electricity from large power plants to the
+                        consumer. Drawbacks of this system are inherent transmission losses and consumers’ dependence on
+                        the central grid.</p>
+
+                    <p>DREG system can provide reliable electricity supply to consumers in remote locations, sustainable
+                        energy solutions and they overall provide greater energy security. So far, the technologies are
+                        mostly demonstrated in pilots, and scaling up is limited. In this webinar, we will learn how
+                        utilities, grid operators, upstream energy companies, and technology providers can leverage DRE
+                        applications, to improve renewable adoption, and create new market opportunities.</p>
+
+                    <p>The panel of stakeholders from industry and thinktank will discuss the suitable technologies,
+                        latest developments, challenges, and opportunities for the states of Tamil Nadu, Jharkhand, and
+                        Assam.</p>
+
+                    <p>What are the DREG technologies pertaining to small wind and bioenergy available in the market,
+                        and their suitability for deployment?<br>
+                        What are the challenges pertaining to its scaling and wide adoption? How to ensure community
+                        participation? <br>
+                        How do we ensure DREG and Centralised Grid can complement each other?</p>
+
+                    <!-- <ul class="single_event_unorder_list" >
                 <li>Undertake a DT/Feeder/Substation level power flow analysis.</li>
                 <li>Evaluate the network benefits and social benefits for distributed solar and energy storage.</li>
                 <li>Identify system sizes and dispatch strategies to optimize the value of distributed solar and energy storage.</li>
                </ul> -->
-          
-               <p>This webinar is part of our series on DREG Technology and policy challenges organized under Innovative and New Clean Energy Technology Forum (INCETF). The objective of the forum is to enhance the knowledge, gain valuable insights, and accelerate clean energy transition with panel discussions from industry leaders and government stakeholders on all the latest trends and developments in renewable technology, challenges and opportunities, and case studies.</p>
 
-               <p>
-                <strong>SPEAKERS</strong>
-               </p>
-            
-               <p>Dr. P. Subramanian, Tamil Nadu Agricultural University <br>
-                Ravindranath, Unitron <br>
-                Jorge Ayarza, Minvayu <br>
-                Jean-Daniel Pitteloud, World Wind Energy Association <br>
-                Dr. Sachin Kumar, CUJ <br>
-                Rekha, WEFT Research* <br>
-                Dr. Vanita Prasad, REVY Environment <br>
-                Masfick Hazarika, Program Manager, Energy, WRI India <br>
-                Vaisakh Suresh Kumar, Project Associate, Energy Program, WRI India <br>
-                Uttara Narayan, Manager, Energy Program, WRI India (Moderator)</p>
+                    <p>This webinar is part of our series on DREG Technology and policy challenges organized under
+                        Innovative and New Clean Energy Technology Forum (INCETF). The objective of the forum is to
+                        enhance the knowledge, gain valuable insights, and accelerate clean energy transition with panel
+                        discussions from industry leaders and government stakeholders on all the latest trends and
+                        developments in renewable technology, challenges and opportunities, and case studies.</p>
 
-            </div>
+                    <p>
+                        <strong>SPEAKERS</strong>
+                    </p>
 
-            <div class="single_event_body_vedio_heading_top">
+                    <p>Dr. P. Subramanian, Tamil Nadu Agricultural University <br>
+                        Ravindranath, Unitron <br>
+                        Jorge Ayarza, Minvayu <br>
+                        Jean-Daniel Pitteloud, World Wind Energy Association <br>
+                        Dr. Sachin Kumar, CUJ <br>
+                        Rekha, WEFT Research* <br>
+                        Dr. Vanita Prasad, REVY Environment <br>
+                        Masfick Hazarika, Program Manager, Energy, WRI India <br>
+                        Vaisakh Suresh Kumar, Project Associate, Energy Program, WRI India <br>
+                        Uttara Narayan, Manager, Energy Program, WRI India (Moderator)</p>
 
-            <div class="single_event_body_vedio_heading" >
-               <div><p>Related Blog:</p></div>
-               <div><p><a href="https://www.linkedin.com/pulse/role-small-wind-turbines-bioenergy-energy-transition-livelihoods-/" target="_blank">https://www.linkedin.com/pulse/role-small-wind-turbines-bioenergy-energy-transition-livelihoods-/</a></p></div>
-            </div>
+                </div>
 
-            <!-- <div class="single_event_body_vedio_heading_link" >
+                <div class="single_event_body_vedio_heading_top">
+
+                    <div class="single_event_body_vedio_heading">
+                        <div>
+                            <p>Related Blog:</p>
+                        </div>
+                        <div>
+                            <p><a href="https://www.linkedin.com/pulse/role-small-wind-turbines-bioenergy-energy-transition-livelihoods-/"
+                                    target="_blank">https://www.linkedin.com/pulse/role-small-wind-turbines-bioenergy-energy-transition-livelihoods-/</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="single_event_body_vedio_heading_link" >
                <div><p>Vedio:</p></div>
                <div><p><a>https://youtu.be/pwTfKPhH7Yo</a></p></div>
             </div> -->
 
-          </div>
+                </div>
 
-            <div class="single_event_body_vedio" >
-                
-             <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/EE1Ktj6gy8s" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border:none;overflow:hidden">
-             </iframe>
+                <div class="single_event_body_vedio">
 
-            </div>
-            <div class="single_event_body_vedio" >
+                    <iframe
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/EE1Ktj6gy8s"
+                        style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border:none;overflow:hidden">
+                    </iframe>
 
-                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/biO8Aachei0" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border:none;overflow:hidden">
-                </iframe>
-   
-               </div>
-   
+                </div>
+                <div class="single_event_body_vedio">
 
-          </section>
+                    <iframe
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/biO8Aachei0"
+                        style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border:none;overflow:hidden">
+                    </iframe>
+
+                </div>
+
+
+            </section>
 
 
 
 
 
-          <section class="single_event_body_row2">
+            <section class="single_event_body_row2">
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./assete/calendar-days-regular.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>27-JAN-2022</p></div>
-            </div>
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/calendar-days-regular.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>27-JAN-2022</p>
+                    </div>
+                </div>
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./assete/clock-regular.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>03:00 pm - 04:30 pm</p></div>
-            </div>
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/clock-regular.svg" alt="location" />
+                    </div>
+                    <div class="single_event_body_row2_detail">
+                        <p>03:00 pm - 04:30 pm</p>
+                    </div>
+                </div>
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./assete/location-dot-solid.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>Online Webinar</p></div>
-            </div>
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./assete/location-dot-solid.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>Online Webinar</p>
+                    </div>
+                </div>
 
-            <!-- <div>
+                <!-- <div>
                <a class="download_agenda" target="_blank" href="./doc/Solsavi training agenda.pdf">
                   <button class="single_event_download_agenda" >
                     <div><p> Download Agenda</p></div>
@@ -331,146 +388,146 @@
               </a>
             </div> -->
 
-            <hr class="horizontal_line" />
+                <hr class="horizontal_line" />
 
-            <div class="single_event_body_row2_inquery" >
-              <p>Inquiries</p>
-            </div>
+                <div class="single_event_body_row2_inquery">
+                    <p>Inquiries</p>
+                </div>
 
-            <!-- <div class="single_event_body_row2_mail_box" >
+                <!-- <div class="single_event_body_row2_mail_box" >
               <p class="single_event_body_row2_mail_heading1">Martin Scherfler</p>
               <p class="single_event_body_row2_mail">martin@aurovilleconsulting.com</p>
             </div> -->
 
-          </section>
+            </section>
 
         </div>
-      </section>
-  
-<!-- **** Single Events body start **** -->
+    </section>
+
+    <!-- **** Single Events body start **** -->
 
 
 
 
 
 
-<!-- footer -->
-<div class="footer">
-    <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
-        <div class="container">
-            <div class="row footertop">
-  
-                <div class="col-lg-3">
-                    <h2>CONTACT INFO</h2>
-                    <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
-                    <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
-                </div>
-                <hr id="mfoothor" class="laphide" style="color: white;
+    <!-- footer -->
+    <div class="footer">
+        <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
+            <div class="container">
+                <div class="row footertop">
+
+                    <div class="col-lg-3">
+                        <h2>CONTACT INFO</h2>
+                        <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
+                        <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
+                    </div>
+                    <hr id="mfoothor" class="laphide" style="color: white;
                 max-width: 91%;
                 margin: 35px 6px;">
-  
-                <div class="col-lg-5 mobhide" id="footpart2">
-                    <h2> IMPORTANT LINKS</h2>
-                    <ul class="list1">
-                        <li> <a href="../index.html">Home</a></li>
-                        <li> <a href="../resources.html">Resources</a></li>
-                        <li> <a href="../events.html">Events</a></li>
-                    </ul>
-                    <ul class="list2">
-                        <li> <a href="#">Data</a></li>
-                        <li> <a href="../aboutus.html">About Us</a></li>
-                        <li> <a href="../contact-us.html">Contact Us</a></li>
-                    </ul>
-                    <ul class="list3">
-                        <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                        <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                        <li> <a href="../kerala.html">Kerala</a></li>
-                    </ul>
-                </div>
-  
-                <div class="col-lg-5 laphide tabhide" id="footlinks">
-                    <h2> IMPORTANT LINKS</h2>
-                    <ul class="list1">
-                        <li> <a href="../index.html">Home</a></li>
-                        <li> <a href="../resources.html">Resources</a></li>
-                        <li> <a href="../events.html">Events</a></li>
-                        <li> <a href="#">Data</a></li>
-                        <li> <a href="../aboutus.html">About Us</a></li>
-                        <li> <a href="../contact-us.html">Contact Us</a></li>
-                        <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                        <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                        <li> <a href="../kerala.html">Kerala</a></li>
-                    </ul>
-                </div>
-  
-                <hr id="mfoothor" class="laphide" style="color: white;
+
+                    <div class="col-lg-5 mobhide" id="footpart2">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <ul class="list3">
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-5 laphide tabhide" id="footlinks">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
+
+                    <hr id="mfoothor" class="laphide" style="color: white;
                 max-width: 91%;
                 margin: 35px 6px;">
-  
-                <div class="col-lg-3" id="footform">
-                    <h2> WRITE TO US </h2>
-                    <div class="formfooter">
-                        <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
+
+                    <div class="col-lg-3" id="footform">
+                        <h2> WRITE TO US </h2>
+                        <div class="formfooter">
+                            <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
+                        </div>
+
+                        <ul class="footer_social" style="display: flex; justify-content: space-between;">
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        </ul>
                     </div>
-  
-                    <ul class="footer_social" style="display: flex; justify-content: space-between;">
-                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
-                    </ul>
-                </div>
-  
-            </div>
-        </div>
-    </div>
-  
-    <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright" style="display: flex; flex-direction:row;">
-                        <p><img src="../assets/img/logo.png" alt=""></p>
-                        <p><img src="../assets/img/logo2.png" alt=""></p>
-                        <p><img src="../assets/img/logo3.png" alt=""></p>
-                        <p><img src="../assets/img/logo4.png" alt=""></p>
-                        <p><img src="../assets/img/logo5.png" alt=""></p>
-                    </div>
+
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright footlogo">
-                        <p><img src="../assets/img/logo.png" alt=""></p>
+
+        <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright" style="display: flex; flex-direction:row;">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                            <p><img src="../assets/img/logo2.png" alt=""></p>
+                            <p><img src="../assets/img/logo3.png" alt=""></p>
+                            <p><img src="../assets/img/logo4.png" alt=""></p>
+                            <p><img src="../assets/img/logo5.png" alt=""></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  
-  
-    <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="copyright">
-                        <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+        <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright footlogo">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright">
+                            <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-  
-  
-  </div>
-  
-  
-  <!-- ***** Footer Ends ***** -->
-  
+
+
+    <!-- ***** Footer Ends ***** -->
+
 
 
 
@@ -533,11 +590,12 @@
 
 
 
-<script src="../js/slider.js"></script>
-  <script src="../js/main.js"></script>
-<!-- Main JS File -->
-  <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
-  <script src="../js/jquery-ui.min.js"> </script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="../js/jquery-ui.min.js"> </script>
 
 </body>
+
 </html>

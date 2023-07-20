@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="shortcut icon" href="../images/favicon.ico">
-        <!-- CSS Files    -->
-        <link rel="stylesheet" href="./style/Article.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- CSS Files    -->
+    <link rel="stylesheet" href="./style/Article.css">
 
 
-        <!-- CSS Files    -->
-        <link href="../assets/css/animate.css" rel="stylesheet">
-        <link href="../assets/css/style.css" rel="stylesheet">
-        <link href="../assets/fonts/fonts.css" rel="stylesheet">
-        <link href="../assets/css/bootstrap.css" rel="stylesheet">
-        <!-- Vendor CSS Files -->
-        <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-        <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-        <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-        <!-- Google font Lato -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- CSS Files    -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/fonts/fonts.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
-    </head>
-    <body>
+</head>
+
+<body>
 
 
 
@@ -109,7 +110,24 @@
                             </li>
                             <li><a class="nav-link" href="../aboutus.html">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="../resources.html">Resources</a></li>
+                           <li class="dropdown">
+                <a class="dropbtn nav-link" href="./resources.html">Resources
+                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve" class="dropdow-icon">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                  </svg>
+                </a>
+
+                <div class="dropdown-content">
+                  <a onclick="openContent(event, 'publication')">Publications</a>
+                  <a onclick="openContent(event, 'article')">Articles</a>
+                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                  <a onclick="openContent(event, 'blog')">Blog</a>
+                </div>
+              </li>
                             <li><a class="nav-link nav-link-active" href="../events.html">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
@@ -175,7 +193,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                               
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a class="nav-link1" href="../index.html">Home</a></li>
                                     <li><a class="nav-link1" href="../aboutus.html">About Us</a></li>
@@ -185,7 +203,7 @@
                                     <li><a class="nav-link1" href="#">Data</a></li>
                                     <li><a class="nav-link1" href="../contact-us.html">Contact Us</a></li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -203,100 +221,158 @@
 
 
 
-        <!-- **** Single Publication Navbar Start  **** -->
+    <!-- **** Single Publication Navbar Start  **** -->
 
-         <section class="container_article_nav">
-            <div class="area_article_nav">
-               <a href="../resources.html">
+    <section class="container_article_nav">
+        <div class="area_article_nav">
+            <a href="../resources.html">
                 <div class="nav_article_row1">
                     <img class="nav_article_row1_icon" src="./assets/circle-arrow-left-solid.svg" />
-            </div>
-            <div class="nav_article_row2">
-                <p>Article</p>
-            </div>
-               </a>
-            </div>
-        </section>
-
-          
-
-        <!-- **** Single Publication Navbar Ends **** -->
+                </div>
+                <div class="nav_article_row2">
+                    <p>Article</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
 
 
-        <!-- **** Single Publication  body start **** -->
+    <!-- **** Single Publication Navbar Ends **** -->
 
-        <section class="body_container">
-            <div class="body_area">
 
-                <section class="body_row1">
-                    <div class="body_headingbox">
-                        <h1 class="body_heading">Sustainable Solutions To Energy Subsidies</h1>
-                    </div>
 
-                    <!-- <div class="single_publication_body_img" >
+    <!-- **** Single Publication  body start **** -->
+
+    <section class="body_container">
+        <div class="body_area">
+
+            <section class="body_row1">
+                <div class="body_headingbox">
+                    <h1 class="body_heading">Sustainable Solutions To Energy Subsidies</h1>
+                </div>
+
+                <!-- <div class="single_publication_body_img" >
                <img src="./assete/single_publication.png" alt="single_publication_img" />
             </div> -->
-                    <!-- class need to be change -->
+                <!-- class need to be change -->
 
-                    <div class="article_body_para">
-                        
-                        <p><strong>Introduction:</strong></p>
+                <div class="article_body_para">
 
-                        <p>It has been estimated that the agriculture sector in India consumes anywhere between 18-20 percent of all electricity generated at highly subsidised rates. Power subsidies are growing IN many states, including Tamil Nadu. Power tariffs in Tamil Nadu have not been revised since 2014. The losses of power distribution companies or DISCOMS have reached unmanageable levels, leading to questions on their viability. In addition, industry, through high tariffs for power, has been cross-subsidizing agriculture and domestic consumers, resulting in lower profits. Some estimates state that India uses more than 4 billion litres of diesel and 85 tonnes of coal to power water pumps for irrigation. There is a pressing need to look at sustainable alternatives.</p>
+                    <p><strong>Introduction:</strong></p>
 
-                        <p>DISCOMS are on the verge of closing due to huge financial losses. Solutions to reducing subsidies for farmers needs to look at integrated models which provide water and electricity to farmers without them having to pay huge amounts and, at the same time, avoid subsidies. At the same time, there are a large number of domestic consumers in cities and towns who can afford to pay for electricity but are currently being subsidised at the cost of the survival of the DISCOMS. This note looks at an integrated solution that eliminates the subsidies, provides power, helps farmers to earn an income and brings about the efficient use of water and energy.</p>
+                    <p>It has been estimated that the agriculture sector in India consumes anywhere between 18-20
+                        percent of all electricity generated at highly subsidised rates. Power subsidies are growing IN
+                        many states, including Tamil Nadu. Power tariffs in Tamil Nadu have not been revised since 2014.
+                        The losses of power distribution companies or DISCOMS have reached unmanageable levels, leading
+                        to questions on their viability. In addition, industry, through high tariffs for power, has been
+                        cross-subsidizing agriculture and domestic consumers, resulting in lower profits. Some estimates
+                        state that India uses more than 4 billion litres of diesel and 85 tonnes of coal to power water
+                        pumps for irrigation. There is a pressing need to look at sustainable alternatives.</p>
 
-                        <p><strong>Options for Tamil Nadu:</strong></p>
+                    <p>DISCOMS are on the verge of closing due to huge financial losses. Solutions to reducing subsidies
+                        for farmers needs to look at integrated models which provide water and electricity to farmers
+                        without them having to pay huge amounts and, at the same time, avoid subsidies. At the same
+                        time, there are a large number of domestic consumers in cities and towns who can afford to pay
+                        for electricity but are currently being subsidised at the cost of the survival of the DISCOMS.
+                        This note looks at an integrated solution that eliminates the subsidies, provides power, helps
+                        farmers to earn an income and brings about the efficient use of water and energy.</p>
 
-                        <p><strong>KUSUM</strong></p> <br>
+                    <p><strong>Options for Tamil Nadu:</strong></p>
 
-                        <p>Ministry of New and Renewable Energy (MNRE), Government of India has launched a new programme during 2019-20 viz., Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyaan (PM-KUSUM) scheme for the promotion of solar energy. Sanction has been obtained from MNRE to the State during October 2019 for installation of 17,500 off-grid standalone solar powered pumping systems from 5 hp to 10 hp capacity with a validity of one-year period. The scheme has three components:</p>
+                    <p><strong>KUSUM</strong></p> <br>
 
-                        <p>Component A involves setting up of 10,000 MW of Decentralized Ground / Stilt Mounted Grid Connected Solar or other Renewable Energy based Power Plant. Component B involves installation of 17.50 lakh stand-alone Solar Agriculture Pumps. Component C involves solarisation of 10 Lakh Grid Connected Agriculture Pumps.</p>
+                    <p>Ministry of New and Renewable Energy (MNRE), Government of India has launched a new programme
+                        during 2019-20 viz., Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyaan (PM-KUSUM)
+                        scheme for the promotion of solar energy. Sanction has been obtained from MNRE to the State
+                        during October 2019 for installation of 17,500 off-grid standalone solar powered pumping systems
+                        from 5 hp to 10 hp capacity with a validity of one-year period. The scheme has three components:
+                    </p>
 
-                        <p>Component A and Component C of KUSUM have the potential of being organised through farmers cooperatives. If, when planning implementation of KUSUM across the Tamil Nadu, the Government can look at studying how these schemes can be carried out through cooperatives, it could bring in a fresh perspective. The idea is to integrate farming, electricity and irrigation to get maximum efficiency in water and energy usage, reduce subsidies and bring in renewable energy, mainly solar, to have maximum gains in terms of sustainable practises. Huge efficiencies can be achieved through forming energy cooperatives. The Government must emphasize to the farmers that free power is unviable and they should accept solar power as the alternative. Tamil Nadu should also examine the feasibility of extending KUSUM to the plantation sector and the contract farming sector so that the entire agriculture/horticulture sector starts using solar energy and benefits from the advantages of becoming sustainable.</p>
+                    <p>Component A involves setting up of 10,000 MW of Decentralized Ground / Stilt Mounted Grid
+                        Connected Solar or other Renewable Energy based Power Plant. Component B involves installation
+                        of 17.50 lakh stand-alone Solar Agriculture Pumps. Component C involves solarisation of 10 Lakh
+                        Grid Connected Agriculture Pumps.</p>
 
-                        <p>Electricity supply in Tamil Nadu is free of cost to the farmers and agriculture alone consumes 20% of power generated. Though the subsidy burden for free electricity to agricultural consumers is partially shouldered by the state Government, the primary subsidy burden rests with the state-owned electricity utility, Tamil Nadu Generation and Distribution Corporation (TANGEDCO). The implementation of KUSUM, a Central Government sponsored scheme in Tamil Nadu could achieve many of the objectives in reducing electricity subsidies, reduce wastage of water and power and introduce renewable energy to farming.</p>
+                    <p>Component A and Component C of KUSUM have the potential of being organised through farmers
+                        cooperatives. If, when planning implementation of KUSUM across the Tamil Nadu, the Government
+                        can look at studying how these schemes can be carried out through cooperatives, it could bring
+                        in a fresh perspective. The idea is to integrate farming, electricity and irrigation to get
+                        maximum efficiency in water and energy usage, reduce subsidies and bring in renewable energy,
+                        mainly solar, to have maximum gains in terms of sustainable practises. Huge efficiencies can be
+                        achieved through forming energy cooperatives. The Government must emphasize to the farmers that
+                        free power is unviable and they should accept solar power as the alternative. Tamil Nadu should
+                        also examine the feasibility of extending KUSUM to the plantation sector and the contract
+                        farming sector so that the entire agriculture/horticulture sector starts using solar energy and
+                        benefits from the advantages of becoming sustainable.</p>
 
-                        <p><strong>Subsidies to Domestic Consumers:</strong></p>
+                    <p>Electricity supply in Tamil Nadu is free of cost to the farmers and agriculture alone consumes
+                        20% of power generated. Though the subsidy burden for free electricity to agricultural consumers
+                        is partially shouldered by the state Government, the primary subsidy burden rests with the
+                        state-owned electricity utility, Tamil Nadu Generation and Distribution Corporation (TANGEDCO).
+                        The implementation of KUSUM, a Central Government sponsored scheme in Tamil Nadu could achieve
+                        many of the objectives in reducing electricity subsidies, reduce wastage of water and power and
+                        introduce renewable energy to farming.</p>
 
-                        <p>TANGEDCO also loses heavily through supply of power to domestic consumers. Domestic electricity connections account for around 30 per cent of the State’s energy consumption, and contribute towards a bulk of average aggregate technical and commercial (AT&C) losses of 13.54 per cent. It is time the State Government looked at domestic consumers through a lens and provide power subsidies only to those that cannot afford electricity. Rather than look at incomes for affordability, the Government can make a selection by examining the ration card holders. In Tamil Nadu, there are many types of ration card holders. The ones mentioned below are for those with the lowest income or the poorest categories.</p>
+                    <p><strong>Subsidies to Domestic Consumers:</strong></p>
 
-                        <p>These two categories of poor persons in the State of Tamil Nadu constitute around 18 million people. The State should look at restricting electricity subsidies to only these domestic consumers and charge normal rates to all other domestic consumers.</p>
-                          
-                           
-                    
-                        <div class="read_more">
-                            <a href="#" id="read-more-btn" onclick="showContent(event)">Read More</a>
+                    <p>TANGEDCO also loses heavily through supply of power to domestic consumers. Domestic electricity
+                        connections account for around 30 per cent of the State’s energy consumption, and contribute
+                        towards a bulk of average aggregate technical and commercial (AT&C) losses of 13.54 per cent. It
+                        is time the State Government looked at domestic consumers through a lens and provide power
+                        subsidies only to those that cannot afford electricity. Rather than look at incomes for
+                        affordability, the Government can make a selection by examining the ration card holders. In
+                        Tamil Nadu, there are many types of ration card holders. The ones mentioned below are for those
+                        with the lowest income or the poorest categories.</p>
 
-                            <div id="hidden-content" style="display: none;">
+                    <p>These two categories of poor persons in the State of Tamil Nadu constitute around 18 million
+                        people. The State should look at restricting electricity subsidies to only these domestic
+                        consumers and charge normal rates to all other domestic consumers.</p>
 
-                                <p>1. <strong>PHH (Priority House Hold) Rice Card:</strong> This card is for the most underprivileged. They can avail of all commodities such as rice wheat, sugar, dals, palm olein, kerosene, etc. <br>
 
-                                2. <strong>PHHA - AAY Card:</strong> 35 kg. rice plus commodities such as wheat, sugar, kerosene, dals & palm olein.</p>
 
-                            <p>These two categories of poor persons in the State of Tamil Nadu constitute around 18 million people. The State should look at restricting electricity subsidies to only these domestic consumers and charge normal rates to all other domestic consumers.</p>
+                    <div class="read_more">
+                        <a href="#" id="read-more-btn" onclick="showContent(event)">Read More</a>
+
+                        <div id="hidden-content" style="display: none;">
+
+                            <p>1. <strong>PHH (Priority House Hold) Rice Card:</strong> This card is for the most
+                                underprivileged. They can avail of all commodities such as rice wheat, sugar, dals, palm
+                                olein, kerosene, etc. <br>
+
+                                2. <strong>PHHA - AAY Card:</strong> 35 kg. rice plus commodities such as wheat, sugar,
+                                kerosene, dals & palm olein.</p>
+
+                            <p>These two categories of poor persons in the State of Tamil Nadu constitute around 18
+                                million people. The State should look at restricting electricity subsidies to only these
+                                domestic consumers and charge normal rates to all other domestic consumers.</p>
 
                             <p><strong>Summary:</strong></p>
 
-                            <p>As everyone is aware, subsidies are not feasible in the long run and have to be eventually done away with. It is vital that before doing that, the authorities have to come up with alternatives that are feasible and acceptable to all the affected parties. These require political will and a long-term vision. It also requires education and creating awareness. The alternatives mentioned above are economically viable with initial help from the government. It is clear that there can be a win-win situation if governments are willing to look at innovative and integrated ways to reduce subsidises.</p>
-                           
-                            </div>
+                            <p>As everyone is aware, subsidies are not feasible in the long run and have to be
+                                eventually done away with. It is vital that before doing that, the authorities have to
+                                come up with alternatives that are feasible and acceptable to all the affected parties.
+                                These require political will and a long-term vision. It also requires education and
+                                creating awareness. The alternatives mentioned above are economically viable with
+                                initial help from the government. It is clear that there can be a win-win situation if
+                                governments are willing to look at innovative and integrated ways to reduce subsidises.
+                            </p>
+
                         </div>
                     </div>
+                </div>
 
 
-                </section>
+            </section>
 
 
 
 
 
-                <section class="article_body_row2">
+            <section class="article_body_row2">
 
-                    <div class="article_body_row2_para">
-                        <!-- <div>
+                <div class="article_body_row2_para">
+                    <!-- <div>
                             <p>To know more, please click the link below:</p>
                         </div>
                         <div>
@@ -308,152 +384,152 @@
                         <div>
                             <hr>
                         </div> -->
-                        <div class="fw_bold">
-                            <h3>Contact Person</h3>
-                            <p>Researchers at the World Resources Institute, India’s energy programme</p>
-                        </div>
-                        <div class="address">
-                            <p>
-                                <b>Vijay Kumar Vaddadi</b>                                
-                            </p>
-                        </div>
+                    <div class="fw_bold">
+                        <h3>Contact Person</h3>
+                        <p>Researchers at the World Resources Institute, India’s energy programme</p>
                     </div>
+                    <div class="address">
+                        <p>
+                            <b>Vijay Kumar Vaddadi</b>
+                        </p>
+                    </div>
+                </div>
 
-                    <!-- <div>
+                <!-- <div>
               <button class="single_publication_download_agenda" >
                 <div><p>Download Agenda</p></div>
                 <div><img src="./assete/Icon feather-download.png"  alt="Download_icon" /></div>
               </button>
             </div> -->
 
-                </section>
+            </section>
 
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- **** Single Publication body end **** -->
-
-
+    <!-- **** Single Publication body end **** -->
 
 
 
 
-         <!-- footer -->
-         <div class="footer">
-            <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
-                <div class="container">
-                    <div class="row footertop">
 
-                        <div class="col-lg-3">
-                            <h2>CONTACT INFO</h2>
-                            <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
-                            <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
-                        </div>
-                        <hr id="mfoothor" class="laphide" style="color: white;
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
+            <div class="container">
+                <div class="row footertop">
+
+                    <div class="col-lg-3">
+                        <h2>CONTACT INFO</h2>
+                        <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
+                        <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
+                    </div>
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-                        <div class="col-lg-5 mobhide" id="footpart2">
-                            <h2> IMPORTANT LINKS</h2>
-                            <ul class="list1">
-                                <li> <a href="../index.html">Home</a></li>
-                                <li> <a href="../resources.html">Resources</a></li>
-                                <li> <a href="../events.html">Events</a></li>
-                            </ul>
-                            <ul class="list2">
-                                <li> <a href="#">Data</a></li>
-                                <li> <a href="../aboutus.html">About Us</a></li>
-                                <li> <a href="../contact-us.html">Contact Us</a></li>
-                            </ul>
-                            <ul class="list3">
-                                <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                                <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                                <li> <a href="../kerala.html">Kerala</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-5 mobhide" id="footpart2">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <ul class="list3">
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-                        <div class="col-lg-5 laphide tabhide" id="footlinks">
-                            <h2> IMPORTANT LINKS</h2>
-                            <ul class="list1">
-                                <li> <a href="../index.html">Home</a></li>
-                                <li> <a href="../resources.html">Resources</a></li>
-                                <li> <a href="../events.html">Events</a></li>
-                                <li> <a href="#">Data</a></li>
-                                <li> <a href="../aboutus.html">About Us</a></li>
-                                <li> <a href="../contact-us.html">Contact Us</a></li>
-                                <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                                <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                                <li> <a href="../kerala.html">Kerala</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-5 laphide tabhide" id="footlinks">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-                        <hr id="mfoothor" class="laphide" style="color: white;
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-                        <div class="col-lg-3" id="footform">
-                            <h2> WRITE TO US </h2>
-                            <div class="formfooter">
-                                <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
-                            </div>
-
-                            <ul class="footer_social" style="display: flex; justify-content: space-between;">
-                                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
-                            </ul>
+                    <div class="col-lg-3" id="footform">
+                        <h2> WRITE TO US </h2>
+                        <div class="formfooter">
+                            <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
                         </div>
 
+                        <ul class="footer_social" style="display: flex; justify-content: space-between;">
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright" style="display: flex; flex-direction:row;">
-                                <p><img src="../assets/img/logo.png" alt=""></p>
-                                <p><img src="../assets/img/logo2.png" alt=""></p>
-                                <p><img src="../assets/img/logo3.png" alt=""></p>
-                                <p><img src="../assets/img/logo4.png" alt=""></p>
-                                <p><img src="../assets/img/logo5.png" alt=""></p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright footlogo">
-                                <p><img src="../assets/img/logo.png" alt=""></p>
-                            </div>
+        </div>
+
+        <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright" style="display: flex; flex-direction:row;">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                            <p><img src="../assets/img/logo2.png" alt=""></p>
+                            <p><img src="../assets/img/logo3.png" alt=""></p>
+                            <p><img src="../assets/img/logo4.png" alt=""></p>
+                            <p><img src="../assets/img/logo5.png" alt=""></p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-            <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright">
-                                <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
-                            </div>
+        </div>
+        <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright footlogo">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
 
 
-        <!-- ***** Footer Ends ***** -->
+        <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright">
+                            <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- ***** Footer Ends ***** -->
 
 
 
@@ -463,83 +539,84 @@
 
 
 
-        <!-- Load JS here for greater good =============================-->
-        <script src="../js/jquery-1.11.3.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/jquery.magnific-popup.min.js"></script>
-        <script src="../js/jquery.nav.js"></script>
-        <script src="../js/jquery.scrollTo-min.js"></script>
-        <script src="../js/SmoothScroll.js"></script>
-        <script src="../js/wow.js"></script>
-        <script src="../js/custom.js"></script>
-        <script src="../js/plugins.js"></script>
+    <!-- Load JS here for greater good =============================-->
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.nav.js"></script>
+    <script src="../js/jquery.scrollTo-min.js"></script>
+    <script src="../js/SmoothScroll.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/plugins.js"></script>
 
-        <!-- Vendor JS Files -->
-        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
 
-        <!-- Main JS File -->
-        <script src="../assets/js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
 
-        <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
 
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
 
-            // When the user clicks the button, open the modal 
-            btn.onclick = function () {
-                modal.style.display = "block";
-            }
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
 
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function () {
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
                 modal.style.display = "none";
             }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function (event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
+        }
+    </script>
 
 
-        <!-- shiv Onclick readmore button -->
+    <!-- shiv Onclick readmore button -->
 
-         <script>
-            document.getElementById("read-more-btn").addEventListener("click", function(event) {
-              event.preventDefault(); // Prevent the default button behavior
-          
-              var hiddenContent = document.getElementById("hidden-content");
-              var readMoreBtn = document.getElementById("read-more-btn");
-          
-              // Show the hidden content
-              hiddenContent.style.display = "block";
-          
-              // Hide the "Read More" button
-              readMoreBtn.style.display = "none";
-            });
-          </script>
-          
+    <script>
+        document.getElementById("read-more-btn").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default button behavior
+
+            var hiddenContent = document.getElementById("hidden-content");
+            var readMoreBtn = document.getElementById("read-more-btn");
+
+            // Show the hidden content
+            hiddenContent.style.display = "block";
+
+            // Hide the "Read More" button
+            readMoreBtn.style.display = "none";
+        });
+    </script>
 
 
 
 
-<script src="../js/slider.js"></script>
-<script src="../js/main.js"></script>
-<!-- Main JS File -->
-<script src="../js/jquery_3.2.1_jquery.min.js"> </script>
-<script src="../js/jquery-ui.min.js"> </script>
+
+    <script src="../js/slider.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="../js/jquery-ui.min.js"> </script>
 
 </body>
+
 </html>

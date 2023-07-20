@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="images/favicon.ico">
- <!-- CSS Files    -->
- <link rel="stylesheet" href="./single_event/style/singleevent.css">
- <link href="assets/fonts/fonts.css" rel="stylesheet">
+    <!-- CSS Files    -->
+    <link rel="stylesheet" href="./single_event/style/singleevent.css">
+    <link href="assets/fonts/fonts.css" rel="stylesheet">
 
 
- <!-- CSS Files    -->
- <link href="assets/css/animate.css" rel="stylesheet">
- <link href="assets/css/style.css" rel="stylesheet">
- <link href="assets/fonts/fonts.css" rel="stylesheet">
- <link href="assets/css/bootstrap.css" rel="stylesheet">
- <!-- Vendor CSS Files -->
- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
- <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- Google font Lato -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
-      rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- CSS Files    -->
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/fonts/fonts.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
 
 
- 
+
 </head>
+
 <body>
 
 
 
 
 
-      <!-- ======= Header ======= -->
-      <header class="header">
+    <!-- ======= Header ======= -->
+    <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top">
             <!--top-bar-->
             <div class="container-fluid top-bar-sec">
@@ -115,7 +117,24 @@
                             </li>
                             <li><a class="nav-link" href="#">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="#">Resources</a></li>
+                            <li class="dropdown">
+                                <a class="dropbtn nav-link" href="./resources.html">Resources
+                                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                                    xml:space="preserve" class="dropdow-icon">
+                                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                    c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                    s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                                  </svg>
+                                </a>
+                
+                                <div class="dropdown-content">
+                                  <a onclick="openContent(event, 'publication')">Publications</a>
+                                  <a onclick="openContent(event, 'article')">Articles</a>
+                                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                                  <a onclick="openContent(event, 'blog')">Blog</a>
+                                </div>
+                              </li>
                             <li><a class="nav-link" href="#">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="#">Contact Us</a></li>
@@ -167,8 +186,7 @@
                         <div class="dropdown-menu full-w" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item dp-link" href="./index.html"><span class="all"> All
                                     States</span></a>
-                            <a class="dropdown-item dp-link" href="./kerala.html"><span
-                                    class="kerala">Kerala</span></a>
+                            <a class="dropdown-item dp-link" href="./kerala.html"><span class="kerala">Kerala</span></a>
                             <a class="dropdown-item dp-link" href="./rajasthan.html"><span class="rajasthan">
                                     Rajasthan</span></a>
                             <a class="dropdown-item dp-link" href="./tamilnadu.html"> <span class="tamil">Tamil
@@ -184,7 +202,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                                
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a class="nav-link1">Home</a></li>
                                     <li><a class="nav-link1" href="#">About Us</a></li>
@@ -208,242 +226,278 @@
 
 
 
-  
 
 
-  <!-- **** Single Events Navbar Start  **** -->
 
-  <section class="container_singel_event_nav" >
-      <div class="area_single_event_nav" >
-         <div class="nav_single_event_row1">
-           <a>
-            <img class="nav_single_event_row1_icon"  src="./single_event/assete/circle-arrow-left-solid.svg" />
-           </a>
-          </div>
-        <div class="nav_single_event_row2">
-            <p>Events</p>
+    <!-- **** Single Events Navbar Start  **** -->
+
+    <section class="container_singel_event_nav">
+        <div class="area_single_event_nav">
+            <div class="nav_single_event_row1">
+                <a>
+                    <img class="nav_single_event_row1_icon" src="./single_event/assete/circle-arrow-left-solid.svg" />
+                </a>
+            </div>
+            <div class="nav_single_event_row2">
+                <p>Events</p>
+            </div>
         </div>
-      </div>
-  </section> 
+    </section>
 
-  <!-- **** Single Events Navbar Ends **** -->
-
-
-
- <!-- **** Single Events  body start **** -->
-
-      <section class="body_container" >
-        <div class="body_area" >
-
-          <section class="body_row1">
-            <div class="body_headingbox" >
-              <h1 class="body_heading">Evaluating the value of distributed generation</h1>
-            </div>
-
-            <div class="single_event_body_para" >
-               <p>The transition of power sector from conventional sources to renewable resources is critical to be on the path to reduce carbon emission and achieve the targets set in line with the Paris Agreement. India has set a target of reducing its emission intensity of the GDP by 45% along with an increase in the non-fossil fuel based generation of 500GW by 2030.</p>
-               <p>Furthermore, Tamil Nadu has set a target of adding 20GW of solar energy system by 2030, predominantly through distributed energy resources (DER).</p>
-     
-               <p>Distributed renewable energy sources (DER) such as solar and battery energy storage are expected to play an increasingly important role in the power sector. Determining the most appropriate interconnection points of DER in the distribution network will therefore become a critical task for the electricity utility of the future.</p>
-     
-               <p>SOLVA is a web-based tool with the aim to assist grid operators in assessing the network and societal value of DER. The network benefits are achieved by estimating the potential avoided (distribution, transmission & generation) cost of introducing DER in the network, while societal benefits include the potential avoided emission costs with the integration. </p>
-      
-               <p>SOLVA allows users to,</p>
-          
-               <p>Undertake a DT/Feeder/Substation level power flow analysis. Evaluate the network benefits and social benefits for distributed solar and energy storage.</p>
-               <p>Identify system sizes and dispatch strategies to optimize the value of distributed solar and energy storage. Through these programs we intend to provide decision makers with a tool that can aid them in identifying the optimum sizes and estimate the potential benefits (network benefit & societal benefit) of integrating DER in the power network.</p>
-            </div>
-
-            <div class="single_event_body_vedio_heading_top">
-
-            <div class="single_event_body_vedio_heading" >
-               <div><p>Report:</p></div>
-               <div><p><a>Introduction to Solva: Evaluate the value of distributed solar and storage</a></p></div>
-            </div>
-
-            <div class="single_event_body_vedio_heading_link" >
-               <div><p>Vedio:</p></div>
-               <div><p><a>https://youtu.be/pwTfKPhH7Yo</a></p></div>
-            </div>
-
-          </div>
-
-            <div class="single_event_body_vedio" >
-
-             <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/pwTfKPhH7Yo" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border:none;overflow:hidden">
-             </iframe>
-
-            </div>
-
-          </section>
+    <!-- **** Single Events Navbar Ends **** -->
 
 
 
+    <!-- **** Single Events  body start **** -->
+
+    <section class="body_container">
+        <div class="body_area">
+
+            <section class="body_row1">
+                <div class="body_headingbox">
+                    <h1 class="body_heading">Evaluating the value of distributed generation</h1>
+                </div>
+
+                <div class="single_event_body_para">
+                    <p>The transition of power sector from conventional sources to renewable resources is critical to be
+                        on the path to reduce carbon emission and achieve the targets set in line with the Paris
+                        Agreement. India has set a target of reducing its emission intensity of the GDP by 45% along
+                        with an increase in the non-fossil fuel based generation of 500GW by 2030.</p>
+                    <p>Furthermore, Tamil Nadu has set a target of adding 20GW of solar energy system by 2030,
+                        predominantly through distributed energy resources (DER).</p>
+
+                    <p>Distributed renewable energy sources (DER) such as solar and battery energy storage are expected
+                        to play an increasingly important role in the power sector. Determining the most appropriate
+                        interconnection points of DER in the distribution network will therefore become a critical task
+                        for the electricity utility of the future.</p>
+
+                    <p>SOLVA is a web-based tool with the aim to assist grid operators in assessing the network and
+                        societal value of DER. The network benefits are achieved by estimating the potential avoided
+                        (distribution, transmission & generation) cost of introducing DER in the network, while societal
+                        benefits include the potential avoided emission costs with the integration. </p>
+
+                    <p>SOLVA allows users to,</p>
+
+                    <p>Undertake a DT/Feeder/Substation level power flow analysis. Evaluate the network benefits and
+                        social benefits for distributed solar and energy storage.</p>
+                    <p>Identify system sizes and dispatch strategies to optimize the value of distributed solar and
+                        energy storage. Through these programs we intend to provide decision makers with a tool that can
+                        aid them in identifying the optimum sizes and estimate the potential benefits (network benefit &
+                        societal benefit) of integrating DER in the power network.</p>
+                </div>
+
+                <div class="single_event_body_vedio_heading_top">
+
+                    <div class="single_event_body_vedio_heading">
+                        <div>
+                            <p>Report:</p>
+                        </div>
+                        <div>
+                            <p><a>Introduction to Solva: Evaluate the value of distributed solar and storage</a></p>
+                        </div>
+                    </div>
+
+                    <div class="single_event_body_vedio_heading_link">
+                        <div>
+                            <p>Vedio:</p>
+                        </div>
+                        <div>
+                            <p><a>https://youtu.be/pwTfKPhH7Yo</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="single_event_body_vedio">
+
+                    <iframe
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/pwTfKPhH7Yo"
+                        style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;border:none;overflow:hidden">
+                    </iframe>
+
+                </div>
+
+            </section>
 
 
-          <section class="single_event_body_row2">
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./single_event/assete/calendar-days-regular.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>26 October 2021</p></div>
-            </div>
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./single_event/assete/clock-regular.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>04:00 pm - 05:00 pm</p></div>
-            </div>
 
-            <div>
-              <div class="single_event_body_row2_icon"><img src="./single_event/assete/location-dot-solid.svg" alt="location" /></div>
-              <div class="single_event_body_row2_detail"><p>Webinar</p></div>
-            </div>
+            <section class="single_event_body_row2">
 
-            <div>
-              <button class="single_event_download_agenda" >
-                <div><p>Download Agenda</p></div>
-                <div><img src="./single_event/assete/Icon feather-download.png"  alt="Download_icon" /></div>
-              </button>
-            </div>
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./single_event/assete/calendar-days-regular.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>26 October 2021</p>
+                    </div>
+                </div>
 
-            <hr class="horizontal_line" />
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./single_event/assete/clock-regular.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>04:00 pm - 05:00 pm</p>
+                    </div>
+                </div>
 
-            <div class="single_event_body_row2_inquery" >
-              <p>Inquiries</p>
-            </div>
+                <div>
+                    <div class="single_event_body_row2_icon"><img src="./single_event/assete/location-dot-solid.svg"
+                            alt="location" /></div>
+                    <div class="single_event_body_row2_detail">
+                        <p>Webinar</p>
+                    </div>
+                </div>
 
-            <div class="single_event_body_row2_mail_box" >
-              <p class="single_event_body_row2_mail_heading1">Martin Scherfler</p>
-              <p class="single_event_body_row2_mail">martin@aurovilleconsulting.com</p>
-            </div>
+                <div>
+                    <button class="single_event_download_agenda">
+                        <div>
+                            <p>Download Agenda</p>
+                        </div>
+                        <div><img src="./single_event/assete/Icon feather-download.png" alt="Download_icon" /></div>
+                    </button>
+                </div>
 
-          </section>
+                <hr class="horizontal_line" />
+
+                <div class="single_event_body_row2_inquery">
+                    <p>Inquiries</p>
+                </div>
+
+                <div class="single_event_body_row2_mail_box">
+                    <p class="single_event_body_row2_mail_heading1">Martin Scherfler</p>
+                    <p class="single_event_body_row2_mail">martin@aurovilleconsulting.com</p>
+                </div>
+
+            </section>
 
         </div>
-      </section>
-  
-<!-- **** Single Events body start **** -->
+    </section>
+
+    <!-- **** Single Events body start **** -->
 
 
 
 
 
 
- <!-- footer -->
- <div class="footer">
-  <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
-      <div class="container">
-          <div class="row footertop">
+    <!-- footer -->
+    <div class="footer">
+        <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
+            <div class="container">
+                <div class="row footertop">
 
-              <div class="col-lg-3">
-                  <h2>CONTACT INFO</h2>
-                  <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
-                  <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
-              </div>
-              <hr id="mfoothor" class="laphide" style="color: white;
+                    <div class="col-lg-3">
+                        <h2>CONTACT INFO</h2>
+                        <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
+                        <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
+                    </div>
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-              <div class="col-lg-5 mobhide" id="footpart2">
-                  <h2> IMPORTANT LINKS</h2>
-                  <ul class="list1">
-                      <li> <a href="#">Home</a></li>
-                      <li> <a href="#">Resources</a></li>
-                      <li> <a href="#">Events</a></li>
-                  </ul>
-                  <ul class="list2">
-                      <li> <a href="#">Data</a></li>
-                      <li> <a href="#">About Us</a></li>
-                      <li> <a href="#">Contact Us</a></li>
-                  </ul>
-                  <ul class="list3">
-                      <li> <a href="./tamilnadu.html">Tamil Nadu</a></li>
-                      <li> <a href="./rajasthan.html">Rajasthan</a></li>
-                      <li> <a href="./kerala.html">Kerala</a></li>
-                  </ul>
-              </div>
+                    <div class="col-lg-5 mobhide" id="footpart2">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="#">Home</a></li>
+                            <li> <a href="#">Resources</a></li>
+                            <li> <a href="#">Events</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="#">About Us</a></li>
+                            <li> <a href="#">Contact Us</a></li>
+                        </ul>
+                        <ul class="list3">
+                            <li> <a href="./tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="./rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="./kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-              <div class="col-lg-5 laphide tabhide" id="footlinks">
-                  <h2> IMPORTANT LINKS</h2>
-                  <ul class="list1">
-                      <li> <a href="./index.html">Home</a></li>
-                      <li> <a href="#">Resources</a></li>
-                      <li> <a href="#">Events</a></li>
-                      <li> <a href="#">Data</a></li>
-                      <li> <a href="#">About Us</a></li>
-                      <li> <a href="#">Contact Us</a></li>
-                      <li> <a href="./tamilnadu.html">Tamil Nadu</a></li>
-                      <li> <a href="./rajasthan.html">Rajasthan</a></li>
-                      <li> <a href="./kerala.html">Kerala</a></li>
-                  </ul>
-              </div>
+                    <div class="col-lg-5 laphide tabhide" id="footlinks">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="./index.html">Home</a></li>
+                            <li> <a href="#">Resources</a></li>
+                            <li> <a href="#">Events</a></li>
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="#">About Us</a></li>
+                            <li> <a href="#">Contact Us</a></li>
+                            <li> <a href="./tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="./rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="./kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-              <hr id="mfoothor" class="laphide" style="color: white;
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-              <div class="col-lg-3" id="footform">
-                  <h2> WRITE TO US </h2>
-                  <div class="formfooter">
-                      <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
-                  </div>
+                    <div class="col-lg-3" id="footform">
+                        <h2> WRITE TO US </h2>
+                        <div class="formfooter">
+                            <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
+                        </div>
 
-                  <ul class="footer_social" style="display: flex; justify-content: space-between;">
-                      <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                      <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                      <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                      <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
-                  </ul>
-              </div>
+                        <ul class="footer_social" style="display: flex; justify-content: space-between;">
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        </ul>
+                    </div>
 
-          </div>
-      </div>
-  </div>
+                </div>
+            </div>
+        </div>
 
-  <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-12 text-center">
-                  <div class="copyright" style="display: flex; flex-direction:row;">
-                      <p><img src="./assets/img/logo.png" alt=""></p>
-                      <p><img src="./assets/img/logo2.png" alt=""></p>
-                      <p><img src="./assets/img/logo3.png" alt=""></p>
-                      <p><img src="./assets/img/logo4.png" alt=""></p>
-                      <p><img src="./assets/img/logo5.png" alt=""></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-12 text-center">
-                  <div class="copyright footlogo">
-                      <p><img src="./assets/img/logo.png" alt=""></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-
-  <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-12 text-center">
-                  <div class="copyright">
-                      <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+        <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright" style="display: flex; flex-direction:row;">
+                            <p><img src="./assets/img/logo.png" alt=""></p>
+                            <p><img src="./assets/img/logo2.png" alt=""></p>
+                            <p><img src="./assets/img/logo3.png" alt=""></p>
+                            <p><img src="./assets/img/logo4.png" alt=""></p>
+                            <p><img src="./assets/img/logo5.png" alt=""></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright footlogo">
+                            <p><img src="./assets/img/logo.png" alt=""></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-</div>
+        <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright">
+                            <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-<!-- ***** Footer Ends ***** -->
+    </div>
+
+
+    <!-- ***** Footer Ends ***** -->
 
 
 
@@ -506,11 +560,12 @@
 
 
 
-<script src="./js/slider.js"></script>
-  <script src="./js/main.js"></script>
-<!-- Main JS File -->
-  <script src="js/jquery_3.2.1_jquery.min.js"> </script>
-  <script src="js/jquery-ui.min.js"> </script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="js/jquery-ui.min.js"> </script>
 
 </body>
+
 </html>

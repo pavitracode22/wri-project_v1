@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="shortcut icon" href="../images/favicon.ico">
-        <!-- CSS Files    -->
-        <link rel="stylesheet" href="./style/Article.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- CSS Files    -->
+    <link rel="stylesheet" href="./style/Article.css">
 
 
-        <!-- CSS Files    -->
-        <link href="../assets/css/animate.css" rel="stylesheet">
-        <link href="../assets/css/style.css" rel="stylesheet">
-        <link href="../assets/fonts/fonts.css" rel="stylesheet">
-        <link href="../assets/css/bootstrap.css" rel="stylesheet">
-        <!-- Vendor CSS Files -->
-        <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-        <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-        <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-        <!-- Google font Lato -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- CSS Files    -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/fonts/fonts.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
-    </head>
-    <body>
+</head>
+
+<body>
 
 
 
 
 
-      <!-- ======= Header ======= -->
+    <!-- ======= Header ======= -->
     <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top">
             <!--top-bar-->
@@ -109,7 +110,24 @@
                             </li>
                             <li><a class="nav-link" href="../aboutus.html">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="../resources.html">Resources</a></li>
+                           <li class="dropdown">
+                <a class="dropbtn nav-link" href="./resources.html">Resources
+                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve" class="dropdow-icon">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                  </svg>
+                </a>
+
+                <div class="dropdown-content">
+                  <a onclick="openContent(event, 'publication')">Publications</a>
+                  <a onclick="openContent(event, 'article')">Articles</a>
+                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                  <a onclick="openContent(event, 'blog')">Blog</a>
+                </div>
+              </li>
                             <li><a class="nav-link nav-link-active" href="../events.html">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
@@ -175,7 +193,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                               
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a class="nav-link1" href="../index.html">Home</a></li>
                                     <li><a class="nav-link1" href="../aboutus.html">About Us</a></li>
@@ -185,7 +203,7 @@
                                     <li><a class="nav-link1" href="#">Data</a></li>
                                     <li><a class="nav-link1" href="../contact-us.html">Contact Us</a></li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -202,90 +220,211 @@
 
 
 
-        <!-- **** Single Publication Navbar Start  **** -->
+    <!-- **** Single Publication Navbar Start  **** -->
 
-         <section class="container_article_nav">
-            <div class="area_article_nav">
-               <a href="../resources.html">
+    <section class="container_article_nav">
+        <div class="area_article_nav">
+            <a href="../resources.html">
                 <div class="nav_article_row1">
                     <img class="nav_article_row1_icon" src="./assets/circle-arrow-left-solid.svg" />
-            </div>
-            <div class="nav_article_row2">
-                <p>Article</p>
-            </div>
-               </a>
-            </div>
-        </section>
-
-          
-
-        <!-- **** Single Publication Navbar Ends **** -->
+                </div>
+                <div class="nav_article_row2">
+                    <p>Article</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
 
 
-        <!-- **** Single Publication  body start **** -->
+    <!-- **** Single Publication Navbar Ends **** -->
 
-        <section class="body_container">
-            <div class="body_area">
 
-                <section class="body_row1">
-                    <div class="body_headingbox">
-                        <h1 class="body_heading">Three Actions For Tamil Nadu To Consider In Its Energy Transition</h1>
-                    </div>
 
-                    <!-- <div class="single_publication_body_img" >
+    <!-- **** Single Publication  body start **** -->
+
+    <section class="body_container">
+        <div class="body_area">
+
+            <section class="body_row1">
+                <div class="body_headingbox">
+                    <h1 class="body_heading">Three Actions For Tamil Nadu To Consider In Its Energy Transition</h1>
+                </div>
+
+                <!-- <div class="single_publication_body_img" >
                <img src="./assete/single_publication.png" alt="single_publication_img" />
             </div> -->
-                    <!-- class need to be change -->
+                <!-- class need to be change -->
 
-                    <div class="article_body_para">
-                        
-                        <p>Tamil Nadu contributes to <a href="http://cea.nic.in/reports/monthly/installedcapacity/2019/installed_capacity-10.pdf">16% of India’s total installed capacity</a> of grid-connected renewables, <a href="https://www.thehindubusinessline.com/economy/tn-set-to-regain-top-slot-in-clean-energy-with-fresh-capacity-addition/article26680092.ece">second only to Karnataka.</a> Its renewable power (RE) installed capacity is <a href="http://cea.nic.in/reports/monthly/installedcapacity/2019/installed_capacity-10.pdf">42% of its total energy mix.</a> Already a leader in RE, the state must ensure that its energy transition is sustainable, prescient, and inclusive. <br> <img alt="Generation capacity" data-entity-type="file" data-entity-uuid="2513ec9b-5217-44c3-a099-e30ee6debea7" height="auto" src="./assets/1.png" width="50%" loading="lazy"><img alt="Re installed capacity" data-entity-type="file" data-entity-uuid="cfbb3324-89a9-45a4-9a71-541ed8432dc7" height="auto" src="./assets/2.png" width="50%" loading="lazy"></p>
-                        <p><span><span><span><span><span><span>Source: <a href="http://cea.nic.in/reports/monthly/installedcapacity/2019/installed_capacity-10.pdf">Central Electricity Authority, October 2019 ; Ministry of New and Renewable Energy (MNRE)</a></span></span></span></span></span></span></p>
-                        <p>On 19th November 2019, WRI India organised a workshop in Chennai to explore the challenges and opportunities with Tamil Nadu’s energy transition journey. This blog synthesises the discussions at the workshop and identifies three actions for the state, as it transitions to a cleaner energy system:</p>
-                        <p><strong>1. Understanding demand is essential to plan for clean energy for all</strong></p>
-                        <p><br>TANGEDCO, Tamil Nadu’s electricity utility, serves a range of consumers—residential, commercial, industrial, agricultural, public buildings and institutions like hospitals and colleges — across high- and low-tension tariffs. These consumers have varied and changing electricity demand patterns. For example, Tamil Nadu’s demand for electricity peaks in the evening, after sunset. With the demand for air-conditioning and cooling increasing today, there is an increasing second peak – at mid-day. For TANGEDCO to effectively service its consumers, it must be able to accurately forecast demand and plan its operations and capacity additions. This requires robust and timely data, which is currently absent.</p>
-                        <p>There is also a need to understand demand data for consumer segments that are <a href="https://www.thehindu.com/news/national/tamil-nadu/the-unmetered-chapter-in-rural-power-story/article23741277.ece+&amp;/">not metered.</a> For instance, Tamil Nadu’s <a href="http://www.indiaenvironmentportal.org.in/files/file/Understanding%20the%20Electricity%2C%20Water%20%26%20Agriculture%20Linkages.pdf">agricultural consumers are largely unmetered.</a> Although there are efforts to address this through metering at feeder levels, there is limited data on agricultural electricity demand in the state, which significantly affects planning. On the flipside, metering may be perceived by consumers as an attempt to waive subsidies that they are currently eligible for.</p>
-                        
-                        <p>The workshop highlighted the challenges due to the uncertainty around the growth of electricity. Electricity demand has <a href="https://cms.tn.gov.in/sites/default/files/documents/energy_e_pn_2019_2020.pdf">peaked at approximately 15 GW</a>, though it was anticipated to exceed <a href="https://powermin.nic.in/sites/default/files/uploads/Power_For_All_Tamilnadu_Signed.pdf">20 GW by 2020.</a> This is probably due to the state’s <a href="https://www.thehindu.com/news/national/tamil-nadu/state-power-demand-down-over-4-year-on-year-in-august/article29512761.ece+&amp;/">industrial slowdown</a> but also to <a href="https://www.downtoearth.org.in/news/india/renewable-energy-in-india-tamil-nadu-one-of-the-world-s-top-9-green-power-markets-62887">industrial customers’ migration</a> from the grid to captive power generation; and our inability to forecast demand in the right manner. These developments present a mix of challenges to electricity planners including: (1) whether to invest in RE and emerging technologies such as storage rather than <a href="https://www.reuters.com/article/us-india-renewables-woodmac/indias-renewable-energy-cost-lowest-in-asia-pacific-woodmac-idUSKCN1UO0L8">relatively expensive thermal power</a>; (2) decisions to <a href="https://www.thehindubusinessline.com/economy/tangedco-eyeing-to-rope-in-agriculturists-as-partners-under-kusum-scheme/article29752240.ece">revise feed-in tariffs for agricultural solar pumps</a> to minimise the burden on cross-subsidies, and (3) to disincentivise consumers from migrating out owing to costly tariffs. An improved understanding of demand will lead to better decisions in the state’s energy transition.&nbsp;</p>
-                        <p><strong>2. Flexibility of existing conventional power plants is crucial to integrate more renewables into the grid</strong></p>
-                        <p>Solar and wind are intermittent generators of electricity and can impact a grid’s stability. The workshop discussed how growth in RE must be supported by deploying corresponding storage solutions, or until they become cheaper, by enhancing the flexibility of existing power plants. This flexibility should not be limited to power plants operations but should include enhanced coordination among the institutions involved in system operations.</p>
-                        <p>Despite having over <a href="http://cea.nic.in/reports/monthly/installedcapacity/2019/installed_capacity-10.pdf">43% of installed capacity from RE</a> &nbsp;sources and witnessing about <a href="https://www.thehindu.com/news/national/tamil-nadu/renewable-energy-of-tn-over-17-of-total-power-production/article27046060.ece">17% RE</a> generation, Tamil Nadu has not been able to utilize all its RE whenever it is available. There have been frequent instances of RE generation <a href="https://mercomindia.com/solar-curtailment-issue-power-developers/">curtailment</a> over the past few years. The primary rationale provided is the <a href="https://www.dtnext.in/News/City/2019/11/20054922/1198758/Coalbased-plants-to-stay-in-TN-for-years-to-come-Tangedco-.vpf">limited ability of thermal power plants to ramp up and down</a> as RE is supplied into the grid. Addressing challenges in enhancing the technical minimum of power system flexibility and minimising curtailment require a deeper understanding of power system operations. Such studies may also inform the flexibility options relevant to Tamil Nadu and their prioritisation. Complementing this with research on load flow analysis and its impact on the distribution network will inform effective means to better integrate RE into the grid.</p>
-                        <p><strong>3. Consumer-driven, decentralised RE like rooftop solar, are crucial to fuel the transition</strong></p>
-                        <p><br>User-driven RE generation is the hallmark of energy sovereignty. Its geographically decentralised nature provides <a href="https://www.downtoearth.org.in/news/energy/renewable-energy-in-india-why-rooftop-remains-the-most-untapped-solar-source-62873">benefits</a> such as reduced line losses, greater voltage stability, lesser network capacity issues, etc. Some larger consumers (especially commercial and industrial consumers) are moving towards this option, through captive power generation or open access, for a range of reasons, including lower costs. Despite policy impetuses at the <a href="https://mnre.gov.in/sites/default/files/schemes/Notification-20082019-184419.pdf">national</a> as well as <a href="../wp-content/uploads/2019/02/SOLARPOLICY2019.pdf">state</a> levels, rooftop solar PV has <a href="https://www.downtoearth.org.in/news/energy/why-solar-rooftop-project-failed-to-take-off-62922">not picked up</a> at the expected pace. In Tamil Nadu, solar PV accounts for only <a href="../wp-content/uploads/2019/02/SOLARPOLICY2019.pdf">21% of renewable energy installations</a> and <a href="../notification/Notification-30082019-161516.pdf">SARAL</a> (a ranking of Indian states on their relative Rooftop Solar Attractiveness) ranks the state tenth out of 31 states. Rapidly falling solar tariffs are also <a href="https://www.livemint.com/industry/energy/the-setting-sun-on-india-s-solar-dreams-11574612085929.html">disincentivising solar developers and vendors</a> from investing further in this sector. <a href="https://www.wri.org/publication/here-comes-the-sun">WRI research</a> demonstrated the importance of consumer-centric approaches and identified the lack of clear information, an absence of customised financing, and poor institutional coordination as bottlenecks to overcome, especially among residential consumers. However, <a href="../sites/default/files/2019-08/DUF_Solar-Rooftop.pdf">utilities</a> are concerned over the loss of revenue from their consumers, further impacting their financial situation. During the workshop, some experts pointed to rooftop solar helping improve TANGEDCO’s finances. This will require a comprehensive understanding of:<br>&nbsp;</p>
+                <div class="article_body_para">
+
+                    <p>Tamil Nadu contributes to <a
+                            href="http://cea.nic.in/reports/monthly/installedcapacity/2019/installed_capacity-10.pdf">16%
+                            of India’s total installed capacity</a> of grid-connected renewables, <a
+                            href="https://www.thehindubusinessline.com/economy/tn-set-to-regain-top-slot-in-clean-energy-with-fresh-capacity-addition/article26680092.ece">second
+                            only to Karnataka.</a> Its renewable power (RE) installed capacity is <a
+                            href="http://cea.nic.in/reports/monthly/installedcapacity/2019/installed_capacity-10.pdf">42%
+                            of its total energy mix.</a> Already a leader in RE, the state must ensure that its energy
+                        transition is sustainable, prescient, and inclusive. <br> <img alt="Generation capacity"
+                            data-entity-type="file" data-entity-uuid="2513ec9b-5217-44c3-a099-e30ee6debea7"
+                            height="auto" src="./assets/1.png" width="50%" loading="lazy"><img
+                            alt="Re installed capacity" data-entity-type="file"
+                            data-entity-uuid="cfbb3324-89a9-45a4-9a71-541ed8432dc7" height="auto" src="./assets/2.png"
+                            width="50%" loading="lazy"></p>
+                    <p><span><span><span><span><span><span>Source: <a
+                                                    href="http://cea.nic.in/reports/monthly/installedcapacity/2019/installed_capacity-10.pdf">Central
+                                                    Electricity Authority, October 2019 ; Ministry of New and Renewable
+                                                    Energy (MNRE)</a></span></span></span></span></span></span></p>
+                    <p>On 19th November 2019, WRI India organised a workshop in Chennai to explore the challenges and
+                        opportunities with Tamil Nadu’s energy transition journey. This blog synthesises the discussions
+                        at the workshop and identifies three actions for the state, as it transitions to a cleaner
+                        energy system:</p>
+                    <p><strong>1. Understanding demand is essential to plan for clean energy for all</strong></p>
+                    <p><br>TANGEDCO, Tamil Nadu’s electricity utility, serves a range of consumers—residential,
+                        commercial, industrial, agricultural, public buildings and institutions like hospitals and
+                        colleges — across high- and low-tension tariffs. These consumers have varied and changing
+                        electricity demand patterns. For example, Tamil Nadu’s demand for electricity peaks in the
+                        evening, after sunset. With the demand for air-conditioning and cooling increasing today, there
+                        is an increasing second peak – at mid-day. For TANGEDCO to effectively service its consumers, it
+                        must be able to accurately forecast demand and plan its operations and capacity additions. This
+                        requires robust and timely data, which is currently absent.</p>
+                    <p>There is also a need to understand demand data for consumer segments that are <a
+                            href="https://www.thehindu.com/news/national/tamil-nadu/the-unmetered-chapter-in-rural-power-story/article23741277.ece+&amp;/">not
+                            metered.</a> For instance, Tamil Nadu’s <a
+                            href="http://www.indiaenvironmentportal.org.in/files/file/Understanding%20the%20Electricity%2C%20Water%20%26%20Agriculture%20Linkages.pdf">agricultural
+                            consumers are largely unmetered.</a> Although there are efforts to address this through
+                        metering at feeder levels, there is limited data on agricultural electricity demand in the
+                        state, which significantly affects planning. On the flipside, metering may be perceived by
+                        consumers as an attempt to waive subsidies that they are currently eligible for.</p>
+
+                    <p>The workshop highlighted the challenges due to the uncertainty around the growth of electricity.
+                        Electricity demand has <a
+                            href="https://cms.tn.gov.in/sites/default/files/documents/energy_e_pn_2019_2020.pdf">peaked
+                            at approximately 15 GW</a>, though it was anticipated to exceed <a
+                            href="https://powermin.nic.in/sites/default/files/uploads/Power_For_All_Tamilnadu_Signed.pdf">20
+                            GW by 2020.</a> This is probably due to the state’s <a
+                            href="https://www.thehindu.com/news/national/tamil-nadu/state-power-demand-down-over-4-year-on-year-in-august/article29512761.ece+&amp;/">industrial
+                            slowdown</a> but also to <a
+                            href="https://www.downtoearth.org.in/news/india/renewable-energy-in-india-tamil-nadu-one-of-the-world-s-top-9-green-power-markets-62887">industrial
+                            customers’ migration</a> from the grid to captive power generation; and our inability to
+                        forecast demand in the right manner. These developments present a mix of challenges to
+                        electricity planners including: (1) whether to invest in RE and emerging technologies such as
+                        storage rather than <a
+                            href="https://www.reuters.com/article/us-india-renewables-woodmac/indias-renewable-energy-cost-lowest-in-asia-pacific-woodmac-idUSKCN1UO0L8">relatively
+                            expensive thermal power</a>; (2) decisions to <a
+                            href="https://www.thehindubusinessline.com/economy/tangedco-eyeing-to-rope-in-agriculturists-as-partners-under-kusum-scheme/article29752240.ece">revise
+                            feed-in tariffs for agricultural solar pumps</a> to minimise the burden on cross-subsidies,
+                        and (3) to disincentivise consumers from migrating out owing to costly tariffs. An improved
+                        understanding of demand will lead to better decisions in the state’s energy transition.&nbsp;
+                    </p>
+                    <p><strong>2. Flexibility of existing conventional power plants is crucial to integrate more
+                            renewables into the grid</strong></p>
+                    <p>Solar and wind are intermittent generators of electricity and can impact a grid’s stability. The
+                        workshop discussed how growth in RE must be supported by deploying corresponding storage
+                        solutions, or until they become cheaper, by enhancing the flexibility of existing power plants.
+                        This flexibility should not be limited to power plants operations but should include enhanced
+                        coordination among the institutions involved in system operations.</p>
+                    <p>Despite having over <a
+                            href="http://cea.nic.in/reports/monthly/installedcapacity/2019/installed_capacity-10.pdf">43%
+                            of installed capacity from RE</a> &nbsp;sources and witnessing about <a
+                            href="https://www.thehindu.com/news/national/tamil-nadu/renewable-energy-of-tn-over-17-of-total-power-production/article27046060.ece">17%
+                            RE</a> generation, Tamil Nadu has not been able to utilize all its RE whenever it is
+                        available. There have been frequent instances of RE generation <a
+                            href="https://mercomindia.com/solar-curtailment-issue-power-developers/">curtailment</a>
+                        over the past few years. The primary rationale provided is the <a
+                            href="https://www.dtnext.in/News/City/2019/11/20054922/1198758/Coalbased-plants-to-stay-in-TN-for-years-to-come-Tangedco-.vpf">limited
+                            ability of thermal power plants to ramp up and down</a> as RE is supplied into the grid.
+                        Addressing challenges in enhancing the technical minimum of power system flexibility and
+                        minimising curtailment require a deeper understanding of power system operations. Such studies
+                        may also inform the flexibility options relevant to Tamil Nadu and their prioritisation.
+                        Complementing this with research on load flow analysis and its impact on the distribution
+                        network will inform effective means to better integrate RE into the grid.</p>
+                    <p><strong>3. Consumer-driven, decentralised RE like rooftop solar, are crucial to fuel the
+                            transition</strong></p>
+                    <p><br>User-driven RE generation is the hallmark of energy sovereignty. Its geographically
+                        decentralised nature provides <a
+                            href="https://www.downtoearth.org.in/news/energy/renewable-energy-in-india-why-rooftop-remains-the-most-untapped-solar-source-62873">benefits</a>
+                        such as reduced line losses, greater voltage stability, lesser network capacity issues, etc.
+                        Some larger consumers (especially commercial and industrial consumers) are moving towards this
+                        option, through captive power generation or open access, for a range of reasons, including lower
+                        costs. Despite policy impetuses at the <a
+                            href="https://mnre.gov.in/sites/default/files/schemes/Notification-20082019-184419.pdf">national</a>
+                        as well as <a href="../wp-content/uploads/2019/02/SOLARPOLICY2019.pdf">state</a> levels, rooftop
+                        solar PV has <a
+                            href="https://www.downtoearth.org.in/news/energy/why-solar-rooftop-project-failed-to-take-off-62922">not
+                            picked up</a> at the expected pace. In Tamil Nadu, solar PV accounts for only <a
+                            href="../wp-content/uploads/2019/02/SOLARPOLICY2019.pdf">21% of renewable energy
+                            installations</a> and <a href="../notification/Notification-30082019-161516.pdf">SARAL</a>
+                        (a ranking of Indian states on their relative Rooftop Solar Attractiveness) ranks the state
+                        tenth out of 31 states. Rapidly falling solar tariffs are also <a
+                            href="https://www.livemint.com/industry/energy/the-setting-sun-on-india-s-solar-dreams-11574612085929.html">disincentivising
+                            solar developers and vendors</a> from investing further in this sector. <a
+                            href="https://www.wri.org/publication/here-comes-the-sun">WRI research</a> demonstrated the
+                        importance of consumer-centric approaches and identified the lack of clear information, an
+                        absence of customised financing, and poor institutional coordination as bottlenecks to overcome,
+                        especially among residential consumers. However, <a
+                            href="../sites/default/files/2019-08/DUF_Solar-Rooftop.pdf">utilities</a> are concerned over
+                        the loss of revenue from their consumers, further impacting their financial situation. During
+                        the workshop, some experts pointed to rooftop solar helping improve TANGEDCO’s finances. This
+                        will require a comprehensive understanding of:<br>&nbsp;</p>
 
 
-                      
-                           
-                    
-                        <div class="read_more">
-                            <a href="#" id="read-more-btn" onclick="showContent(event)">Read More</a>
 
-                            <div id="hidden-content" style="display: none;">
 
-                                <ul><li><span><span><span><span><span><span>True costs of rooftop solar installation and its reflection on solar tariffs. This must take the concerns of the consumer, vendor and utility into consideration.</span></span></span></span></span></span></li>
-                                    <li><span><span><span><span><span><span>Tariff rationalisation across consumer categories. The utility and consumer rights groups must undertake measures to disseminate the benefits that may accompany a rise in tariffs.</span></span></span></span></span></span></li>
-                                    <li><span><span><span><span><span><span><a href="https://www.wri.org/publication/climate-policy-implementation-tracking-framework">Evaluating</a> existing government instruments (like financing mechanisms and subsidies) to achieve policy targets.</span></span></span></span></span></span></li>
-                                </ul>
 
-                                <p><strong>Responsive state-driven governance mechanisms should complement <a href="https://www.csis.org/analysis/creating-national-electricity-market-indias-most-important-power-sector-reform">market-based reforms.</a></strong> Tamil Nadu’s energy transition is not merely about energy. It has implications for the state’s political economy, which requires greater coordination among key stakeholders through an <a href="https://www.wri.org/publication/10-questions-integrated-resource-planning">integrated resource planning approach.</a> This will assist in aligning various incentives and motives towards achieving a sustainable energy transition that leaves no one behind. Mechanisms that support the transition must also ensure that all consumers’ needs are equitably met, the service provider’s (e.g. the utility and private developers) financial sustainability is considered, and overall environmental considerations (i.e. its impact on land, water and other resources in maintaining the infrastructure) are accounted for, as Tamil Nadu supports India in achieving its climate commitments.</p>
+                    <div class="read_more">
+                        <a href="#" id="read-more-btn" onclick="showContent(event)">Read More</a>
 
-                           
-                            </div>
+                        <div id="hidden-content" style="display: none;">
+
+                            <ul>
+                                <li><span><span><span><span><span><span>True costs of rooftop solar installation and its
+                                                            reflection on solar tariffs. This must take the concerns of
+                                                            the consumer, vendor and utility into
+                                                            consideration.</span></span></span></span></span></span>
+                                </li>
+                                <li><span><span><span><span><span><span>Tariff rationalisation across consumer
+                                                            categories. The utility and consumer rights groups must
+                                                            undertake measures to disseminate the benefits that may
+                                                            accompany a rise in
+                                                            tariffs.</span></span></span></span></span></span></li>
+                                <li><span><span><span><span><span><span><a
+                                                                href="https://www.wri.org/publication/climate-policy-implementation-tracking-framework">Evaluating</a>
+                                                            existing government instruments (like financing mechanisms
+                                                            and subsidies) to achieve policy
+                                                            targets.</span></span></span></span></span></span></li>
+                            </ul>
+
+                            <p><strong>Responsive state-driven governance mechanisms should complement <a
+                                        href="https://www.csis.org/analysis/creating-national-electricity-market-indias-most-important-power-sector-reform">market-based
+                                        reforms.</a></strong> Tamil Nadu’s energy transition is not merely about energy.
+                                It has implications for the state’s political economy, which requires greater
+                                coordination among key stakeholders through an <a
+                                    href="https://www.wri.org/publication/10-questions-integrated-resource-planning">integrated
+                                    resource planning approach.</a> This will assist in aligning various incentives and
+                                motives towards achieving a sustainable energy transition that leaves no one behind.
+                                Mechanisms that support the transition must also ensure that all consumers’ needs are
+                                equitably met, the service provider’s (e.g. the utility and private developers)
+                                financial sustainability is considered, and overall environmental considerations (i.e.
+                                its impact on land, water and other resources in maintaining the infrastructure) are
+                                accounted for, as Tamil Nadu supports India in achieving its climate commitments.</p>
+
+
                         </div>
                     </div>
+                </div>
 
 
-                </section>
+            </section>
 
 
 
 
 
-                <section class="article_body_row2">
+            <section class="article_body_row2">
 
-                    <div class="article_body_row2_para">
-                        <!-- <div>
+                <div class="article_body_row2_para">
+                    <!-- <div>
                             <p>To know more, please click the link below:</p>
                         </div>
                         <div>
@@ -297,153 +436,153 @@
                         <div>
                             <hr>
                         </div> -->
-                        <div class="fw_bold">
-                            <h3>Contact Person</h3>
-                            <p>Researchers at the World Resources Institute, India’s energy programme</p>
-                        </div>
-                        <div class="address">
-                            <p>
-                                <b>Uttara Narayan</b> <br>
-                                <b>Naren Pasupalati</b>                                
-                            </p>
-                        </div>
+                    <div class="fw_bold">
+                        <h3>Contact Person</h3>
+                        <p>Researchers at the World Resources Institute, India’s energy programme</p>
                     </div>
+                    <div class="address">
+                        <p>
+                            <b>Uttara Narayan</b> <br>
+                            <b>Naren Pasupalati</b>
+                        </p>
+                    </div>
+                </div>
 
-                    <!-- <div>
+                <!-- <div>
               <button class="single_publication_download_agenda" >
                 <div><p>Download Agenda</p></div>
                 <div><img src="./assete/Icon feather-download.png"  alt="Download_icon" /></div>
               </button>
             </div> -->
 
-                </section>
+            </section>
 
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- **** Single Publication body end **** -->
-
-
+    <!-- **** Single Publication body end **** -->
 
 
 
 
-         <!-- footer -->
-         <div class="footer">
-            <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
-                <div class="container">
-                    <div class="row footertop">
 
-                        <div class="col-lg-3">
-                            <h2>CONTACT INFO</h2>
-                            <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
-                            <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
-                        </div>
-                        <hr id="mfoothor" class="laphide" style="color: white;
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
+            <div class="container">
+                <div class="row footertop">
+
+                    <div class="col-lg-3">
+                        <h2>CONTACT INFO</h2>
+                        <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
+                        <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
+                    </div>
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-                        <div class="col-lg-5 mobhide" id="footpart2">
-                            <h2> IMPORTANT LINKS</h2>
-                            <ul class="list1">
-                                <li> <a href="../index.html">Home</a></li>
-                                <li> <a href="../resources.html">Resources</a></li>
-                                <li> <a href="../events.html">Events</a></li>
-                            </ul>
-                            <ul class="list2">
-                                <li> <a href="#">Data</a></li>
-                                <li> <a href="../aboutus.html">About Us</a></li>
-                                <li> <a href="../contact-us.html">Contact Us</a></li>
-                            </ul>
-                            <ul class="list3">
-                                <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                                <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                                <li> <a href="../kerala.html">Kerala</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-5 mobhide" id="footpart2">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <ul class="list3">
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-                        <div class="col-lg-5 laphide tabhide" id="footlinks">
-                            <h2> IMPORTANT LINKS</h2>
-                            <ul class="list1">
-                                <li> <a href="../index.html">Home</a></li>
-                                <li> <a href="../resources.html">Resources</a></li>
-                                <li> <a href="../events.html">Events</a></li>
-                                <li> <a href="#">Data</a></li>
-                                <li> <a href="../aboutus.html">About Us</a></li>
-                                <li> <a href="../contact-us.html">Contact Us</a></li>
-                                <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                                <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                                <li> <a href="../kerala.html">Kerala</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-5 laphide tabhide" id="footlinks">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-                        <hr id="mfoothor" class="laphide" style="color: white;
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-                        <div class="col-lg-3" id="footform">
-                            <h2> WRITE TO US </h2>
-                            <div class="formfooter">
-                                <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
-                            </div>
-
-                            <ul class="footer_social" style="display: flex; justify-content: space-between;">
-                                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
-                            </ul>
+                    <div class="col-lg-3" id="footform">
+                        <h2> WRITE TO US </h2>
+                        <div class="formfooter">
+                            <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
                         </div>
 
+                        <ul class="footer_social" style="display: flex; justify-content: space-between;">
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright" style="display: flex; flex-direction:row;">
-                                <p><img src="../assets/img/logo.png" alt=""></p>
-                                <p><img src="../assets/img/logo2.png" alt=""></p>
-                                <p><img src="../assets/img/logo3.png" alt=""></p>
-                                <p><img src="../assets/img/logo4.png" alt=""></p>
-                                <p><img src="../assets/img/logo5.png" alt=""></p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright footlogo">
-                                <p><img src="../assets/img/logo.png" alt=""></p>
-                            </div>
+        </div>
+
+        <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright" style="display: flex; flex-direction:row;">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                            <p><img src="../assets/img/logo2.png" alt=""></p>
+                            <p><img src="../assets/img/logo3.png" alt=""></p>
+                            <p><img src="../assets/img/logo4.png" alt=""></p>
+                            <p><img src="../assets/img/logo5.png" alt=""></p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-            <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright">
-                                <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
-                            </div>
+        </div>
+        <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright footlogo">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
 
 
-        <!-- ***** Footer Ends ***** -->
+        <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright">
+                            <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- ***** Footer Ends ***** -->
 
 
 
@@ -453,82 +592,83 @@
 
 
 
-        <!-- Load JS here for greater good =============================-->
-        <script src="../js/jquery-1.11.3.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/jquery.magnific-popup.min.js"></script>
-        <script src="../js/jquery.nav.js"></script>
-        <script src="../js/jquery.scrollTo-min.js"></script>
-        <script src="../js/SmoothScroll.js"></script>
-        <script src="../js/wow.js"></script>
-        <script src="../js/custom.js"></script>
-        <script src="../js/plugins.js"></script>
+    <!-- Load JS here for greater good =============================-->
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.nav.js"></script>
+    <script src="../js/jquery.scrollTo-min.js"></script>
+    <script src="../js/SmoothScroll.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/plugins.js"></script>
 
-        <!-- Vendor JS Files -->
-        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
 
-        <!-- Main JS File -->
-        <script src="../assets/js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
 
-        <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
 
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
 
-            // When the user clicks the button, open the modal 
-            btn.onclick = function () {
-                modal.style.display = "block";
-            }
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
 
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function () {
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
                 modal.style.display = "none";
             }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function (event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
+        }
+    </script>
 
 
-        <!-- shiv Onclick readmore button -->
+    <!-- shiv Onclick readmore button -->
 
-         <script>
-            document.getElementById("read-more-btn").addEventListener("click", function(event) {
-              event.preventDefault(); // Prevent the default button behavior
-          
-              var hiddenContent = document.getElementById("hidden-content");
-              var readMoreBtn = document.getElementById("read-more-btn");
-          
-              // Show the hidden content
-              hiddenContent.style.display = "block";
-          
-              // Hide the "Read More" button
-              readMoreBtn.style.display = "none";
-            });
-          </script>
-          
+    <script>
+        document.getElementById("read-more-btn").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default button behavior
+
+            var hiddenContent = document.getElementById("hidden-content");
+            var readMoreBtn = document.getElementById("read-more-btn");
+
+            // Show the hidden content
+            hiddenContent.style.display = "block";
+
+            // Hide the "Read More" button
+            readMoreBtn.style.display = "none";
+        });
+    </script>
 
 
 
-<script src="../js/slider.js"></script>
-<script src="../js/main.js"></script>
-<!-- Main JS File -->
-<script src="../js/jquery_3.2.1_jquery.min.js"> </script>
-<script src="../js/jquery-ui.min.js"> </script>
+
+    <script src="../js/slider.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="../js/jquery-ui.min.js"> </script>
 
 </body>
+
 </html>

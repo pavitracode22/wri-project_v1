@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="shortcut icon" href="../images/favicon.ico">
-        <!-- CSS Files    -->
-        <link rel="stylesheet" href="./style/Article.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- CSS Files    -->
+    <link rel="stylesheet" href="./style/Article.css">
 
 
-        <!-- CSS Files    -->
-        <link href="../assets/css/animate.css" rel="stylesheet">
-        <link href="../assets/css/style.css" rel="stylesheet">
-        <link href="../assets/fonts/fonts.css" rel="stylesheet">
-        <link href="../assets/css/bootstrap.css" rel="stylesheet">
-        <!-- Vendor CSS Files -->
-        <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-        <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-        <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-        <!-- Google font Lato -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- CSS Files    -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/fonts/fonts.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Google font Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
-    </head>
-    <body>
+</head>
+
+<body>
 
 
 
 
 
-       <!-- ======= Header ======= -->
+    <!-- ======= Header ======= -->
     <header class="header">
         <nav class="navbar navbar-default navbar-fixed-top">
             <!--top-bar-->
@@ -109,7 +110,24 @@
                             </li>
                             <li><a class="nav-link" href="../aboutus.html">About Us</a></li>
                             <li><a class="nav-link" href="#">Thematic Acess</a></li>
-                            <li><a class="nav-link" href="../resources.html">Resources</a></li>
+                           <li class="dropdown">
+                <a class="dropbtn nav-link" href="./resources.html">Resources
+                  <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+                    xml:space="preserve" class="dropdow-icon">
+                    <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                  </svg>
+                </a>
+
+                <div class="dropdown-content">
+                  <a onclick="openContent(event, 'publication')">Publications</a>
+                  <a onclick="openContent(event, 'article')">Articles</a>
+                  <a onclick="openContent(event, 'podcast')">Podcast</a>
+                  <a onclick="openContent(event, 'blog')">Blog</a>
+                </div>
+              </li>
                             <li><a class="nav-link nav-link-active" href="../events.html">Events</a></li>
                             <li><a class="nav-link" href="#">Data</a></li>
                             <li><a class="nav-link" href="../contact-us.html">Contact Us</a></li>
@@ -175,7 +193,7 @@
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                               
+
                                 <ul class="nav navbar-nav">
                                     <li style="padding-left:0;"><a class="nav-link1" href="../index.html">Home</a></li>
                                     <li><a class="nav-link1" href="../aboutus.html">About Us</a></li>
@@ -185,7 +203,7 @@
                                     <li><a class="nav-link1" href="#">Data</a></li>
                                     <li><a class="nav-link1" href="../contact-us.html">Contact Us</a></li>
                                 </ul>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -202,237 +220,319 @@
 
 
 
-        <!-- **** Single Publication Navbar Start  **** -->
+    <!-- **** Single Publication Navbar Start  **** -->
 
-         <section class="container_article_nav">
-            <div class="area_article_nav">
-               <a href="../resources.html">
+    <section class="container_article_nav">
+        <div class="area_article_nav">
+            <a href="../resources.html">
                 <div class="nav_article_row1">
                     <img class="nav_article_row1_icon" src="./assets/circle-arrow-left-solid.svg" />
-            </div>
-            <div class="nav_article_row2">
-                <p>Article</p>
-            </div>
-               </a>
-            </div>
-        </section>
-
-          
-
-        <!-- **** Single Publication Navbar Ends **** -->
+                </div>
+                <div class="nav_article_row2">
+                    <p>Article</p>
+                </div>
+            </a>
+        </div>
+    </section>
 
 
 
-        <!-- **** Single Publication  body start **** -->
+    <!-- **** Single Publication Navbar Ends **** -->
 
-        <section class="body_container">
-            <div class="body_area">
 
-                <section class="body_row1">
-                    <div class="body_headingbox">
-                        <h1 class="body_heading">In Tamil Nadu, Making Power While The Sun Shines</h1>
-                    </div>
 
-                    <!-- <div class="single_publication_body_img" >
+    <!-- **** Single Publication  body start **** -->
+
+    <section class="body_container">
+        <div class="body_area">
+
+            <section class="body_row1">
+                <div class="body_headingbox">
+                    <h1 class="body_heading">In Tamil Nadu, Making Power While The Sun Shines</h1>
+                </div>
+
+                <!-- <div class="single_publication_body_img" >
                <img src="./assete/single_publication.png" alt="single_publication_img" />
             </div> -->
-                    <!-- class need to be change -->
+                <!-- class need to be change -->
 
-                    <div class="article_body_para">
+                <div class="article_body_para">
 
-                        <p>In 2012 Tamil Nadu released a Solar Energy Policy, introducing a net-metering mechanism for rooftop solar. It was the first State in India to do so. Consequently other States followed the example of Tamil Nadu. The 2012 Solar Energy Policy opened-up the market for consumer category (e.g. small scale/rooftop) grid-connected solar. Electricity consumers could now simultaneously become electricity producers - a paradigm change. These producing consumers (prosumers) self-consume a part of solar energy produced from their solar plant and export surplus solar energy that is not required for self-consumption to the electricity grid. </p>
-                        <p>The net-metering arrangement allowed surplus solar energy exported by prosumers to the grid to be credited in energy units (kWh). The prosumer would pay for the net-imported energy units (import minus export). n net-metering, therefore, the monetary benefit for each unit of solar energy that is self consumed or exported is equal to the consumer tariff. Prosumers with higher electricity tariffs benefitted more, than those with lower tariffs. Most domestic consumers would not find the net-metering mechanisms financially attractive, despite the availability of a capital subsidy and the steep price drop of solar. </p>
-                        <p>The Tamil Nadu Solar Energy Policy 2019, announced in February 2019, replaced net-metering with a ‘net feed-in mechanism’. With the net feed-in mechanism surplus solar energy exported to the grid is credited at a tariff fixed by the Tamil Nadu Electricity Regulatory commission (TNERC). In the net feed-in system the monetary benefit for each unit of solar energy that is self consumed is equal to the consumer tariff while the monetary benefit for exported units of energy depends on the net feed-in tariff. The success of scaling rooftop solar now pivots on the attractiveness of this net feed-in tariff.</p>
-                        <p>The 2012 policy set a solar rooftop target of 350 MW to be achieved by 2015. As of January 2019 only 54% percent of this target was met; the majority of it was installed by commercial and industrial entities. The domestic rooftop solar energy contribution is by and large absent. The recently announced Tamil Nadu Solar Energy Policy 2019 set a solar energy target of 9,000 MW by 2020, of which 40%, or 3,600 MW is allocated to the consumer category. This target was set keeping in mind India’s commitment under COP21 to achieve 40% of cumulative electric power capacity from non fossil fuel based energy resources by 2030. To achieve the consumer category solar energy target an annual average capacity addition of 1,136 MW is required. An incomprehensible provision of the Tamil Nadu Solar Energy Policy 2019 is that all High Tension (HT) consumers have been excluded from the net feed-in facility. This means that educational campuses, commercial, industrial and institutional entities and any other consumer with an HT connection cannot make use of the solar feed-in facility. One wonders how the above-mentioned target will be achieved without participation by the HT consumer category.</p>
-                        <p>Both electricity consumption tariffs and solar energy feed-in tariff may well be the root cause of rooftop solar not taking off in the State. Take the example of a domestic electricity consumer with a monthly electricity consumption of 350 kWh. With the current slab system and the first 50 units per month free of cost, the consumer pays a monthly electricity charge of INR 1,650 or 4.71 per kWh of electricity delivered. The actual cost to TANGEDCO to deliver a kWh of electricity to the consumer however is around INR 8.00. In this example TANGEDCO makes a loss of INR 3.29 for every kWh delivered.</p>
-                        <p>To recover the cost of supplying subsidized consumers TANGEDCO charges higher electricity tariffs to other consumer categories such as the commercial or industrial entities. The higher paying consumers are cross-subsidizing the consumers with lower tariffs. This leads to a vicious circle. High paying consumers either move their manufacturing base to States with lower electricity tariffs or enter into power purchase agreements with independent power producers to get electricity at a more competitive price. Hence TANGEDCO losses its high value costumers, while the subsidized consumers remain, with the result that the utility’s financial losses keep mounting. This is termed as “utility death spiral”.</p>
-                        <p>To prevent high paying consumers from migrating to financially more attractive power supply options, additional layers of control mechanisms are added. Exclusion from the net feed-in mechanism under the 2019 Solar Energy Policy is one such measure. Others include increasing cross subsidy surcharges for open access consumers and unreasonable hurdles for renewable energy paralleling. The results of all this are a public distribution utility in abysmal debts, rooftop solar not taking off, unreasonable policy mechanisms, disgruntled consumers and most importantly climate change mitigation targets not being met; all this at the cost of the future generation of citizens. There are no winners in this game. Everyone is at a loss.</p>
-                        <p>Electricity tariffs that allow TANGEDCO to cover its cost of supply, would be a good start to address this. At a petrol station, to give an analogy, everyone pays the same price per litre of petrol, regardless of whether they are domestic, institutional, commercial or industrial consumers. Why not with electricity? Subsidy, where required, can be provided through a direct cash transfer to those in need. Unlike today, where rich and poor, receive the same subsidy. In fact there should be only two electricity tariffs: one for LT (low tension) consumers and one for HT (high tension) consumers with the latter being lower since distribution transformer losses are borne by the consumer.</p>
-                        <p>Consumer tariffs need to be revised on an annual basis to reflect the true cost of power and to reduce revenue losses to TANGEDCO. The last tariff revision in Tamil Nadu was in 2017, no tariff petition has been filed since then. TNERC is responsible for ensuring financial viability of the sector, to attract investment and to promote renewable sources. Annual consumer tariff revisions are part of this responsibility. With electricity tariffs for all consumers that reflect the real cost of power, rooftop solar becomes an attractive alternative to all. With the cost of rooftop solar between INR 4.50 INR to INR 5.00 per kWh and the average cost of delivered energy from TANGEDCO at INR 8.00 INR per kWh, solar turns out to be more cost effective. Besides annual tariff revisions and an overall tariff rationalization, additional key elements are required to enable consumer category (rooftop) solar to thrive.</p>                                       
-          
-                    
-                        <div class="read_more">
-                            <a href="#" id="read-more-btn" onclick="showContent(event)">Read More</a>
+                    <p>In 2012 Tamil Nadu released a Solar Energy Policy, introducing a net-metering mechanism for
+                        rooftop solar. It was the first State in India to do so. Consequently other States followed the
+                        example of Tamil Nadu. The 2012 Solar Energy Policy opened-up the market for consumer category
+                        (e.g. small scale/rooftop) grid-connected solar. Electricity consumers could now simultaneously
+                        become electricity producers - a paradigm change. These producing consumers (prosumers)
+                        self-consume a part of solar energy produced from their solar plant and export surplus solar
+                        energy that is not required for self-consumption to the electricity grid. </p>
+                    <p>The net-metering arrangement allowed surplus solar energy exported by prosumers to the grid to be
+                        credited in energy units (kWh). The prosumer would pay for the net-imported energy units (import
+                        minus export). n net-metering, therefore, the monetary benefit for each unit of solar energy
+                        that is self consumed or exported is equal to the consumer tariff. Prosumers with higher
+                        electricity tariffs benefitted more, than those with lower tariffs. Most domestic consumers
+                        would not find the net-metering mechanisms financially attractive, despite the availability of a
+                        capital subsidy and the steep price drop of solar. </p>
+                    <p>The Tamil Nadu Solar Energy Policy 2019, announced in February 2019, replaced net-metering with a
+                        ‘net feed-in mechanism’. With the net feed-in mechanism surplus solar energy exported to the
+                        grid is credited at a tariff fixed by the Tamil Nadu Electricity Regulatory commission (TNERC).
+                        In the net feed-in system the monetary benefit for each unit of solar energy that is self
+                        consumed is equal to the consumer tariff while the monetary benefit for exported units of energy
+                        depends on the net feed-in tariff. The success of scaling rooftop solar now pivots on the
+                        attractiveness of this net feed-in tariff.</p>
+                    <p>The 2012 policy set a solar rooftop target of 350 MW to be achieved by 2015. As of January 2019
+                        only 54% percent of this target was met; the majority of it was installed by commercial and
+                        industrial entities. The domestic rooftop solar energy contribution is by and large absent. The
+                        recently announced Tamil Nadu Solar Energy Policy 2019 set a solar energy target of 9,000 MW by
+                        2020, of which 40%, or 3,600 MW is allocated to the consumer category. This target was set
+                        keeping in mind India’s commitment under COP21 to achieve 40% of cumulative electric power
+                        capacity from non fossil fuel based energy resources by 2030. To achieve the consumer category
+                        solar energy target an annual average capacity addition of 1,136 MW is required. An
+                        incomprehensible provision of the Tamil Nadu Solar Energy Policy 2019 is that all High Tension
+                        (HT) consumers have been excluded from the net feed-in facility. This means that educational
+                        campuses, commercial, industrial and institutional entities and any other consumer with an HT
+                        connection cannot make use of the solar feed-in facility. One wonders how the above-mentioned
+                        target will be achieved without participation by the HT consumer category.</p>
+                    <p>Both electricity consumption tariffs and solar energy feed-in tariff may well be the root cause
+                        of rooftop solar not taking off in the State. Take the example of a domestic electricity
+                        consumer with a monthly electricity consumption of 350 kWh. With the current slab system and the
+                        first 50 units per month free of cost, the consumer pays a monthly electricity charge of INR
+                        1,650 or 4.71 per kWh of electricity delivered. The actual cost to TANGEDCO to deliver a kWh of
+                        electricity to the consumer however is around INR 8.00. In this example TANGEDCO makes a loss of
+                        INR 3.29 for every kWh delivered.</p>
+                    <p>To recover the cost of supplying subsidized consumers TANGEDCO charges higher electricity tariffs
+                        to other consumer categories such as the commercial or industrial entities. The higher paying
+                        consumers are cross-subsidizing the consumers with lower tariffs. This leads to a vicious
+                        circle. High paying consumers either move their manufacturing base to States with lower
+                        electricity tariffs or enter into power purchase agreements with independent power producers to
+                        get electricity at a more competitive price. Hence TANGEDCO losses its high value costumers,
+                        while the subsidized consumers remain, with the result that the utility’s financial losses keep
+                        mounting. This is termed as “utility death spiral”.</p>
+                    <p>To prevent high paying consumers from migrating to financially more attractive power supply
+                        options, additional layers of control mechanisms are added. Exclusion from the net feed-in
+                        mechanism under the 2019 Solar Energy Policy is one such measure. Others include increasing
+                        cross subsidy surcharges for open access consumers and unreasonable hurdles for renewable energy
+                        paralleling. The results of all this are a public distribution utility in abysmal debts, rooftop
+                        solar not taking off, unreasonable policy mechanisms, disgruntled consumers and most importantly
+                        climate change mitigation targets not being met; all this at the cost of the future generation
+                        of citizens. There are no winners in this game. Everyone is at a loss.</p>
+                    <p>Electricity tariffs that allow TANGEDCO to cover its cost of supply, would be a good start to
+                        address this. At a petrol station, to give an analogy, everyone pays the same price per litre of
+                        petrol, regardless of whether they are domestic, institutional, commercial or industrial
+                        consumers. Why not with electricity? Subsidy, where required, can be provided through a direct
+                        cash transfer to those in need. Unlike today, where rich and poor, receive the same subsidy. In
+                        fact there should be only two electricity tariffs: one for LT (low tension) consumers and one
+                        for HT (high tension) consumers with the latter being lower since distribution transformer
+                        losses are borne by the consumer.</p>
+                    <p>Consumer tariffs need to be revised on an annual basis to reflect the true cost of power and to
+                        reduce revenue losses to TANGEDCO. The last tariff revision in Tamil Nadu was in 2017, no tariff
+                        petition has been filed since then. TNERC is responsible for ensuring financial viability of the
+                        sector, to attract investment and to promote renewable sources. Annual consumer tariff revisions
+                        are part of this responsibility. With electricity tariffs for all consumers that reflect the
+                        real cost of power, rooftop solar becomes an attractive alternative to all. With the cost of
+                        rooftop solar between INR 4.50 INR to INR 5.00 per kWh and the average cost of delivered energy
+                        from TANGEDCO at INR 8.00 INR per kWh, solar turns out to be more cost effective. Besides annual
+                        tariff revisions and an overall tariff rationalization, additional key elements are required to
+                        enable consumer category (rooftop) solar to thrive.</p>
 
-                            <div id="hidden-content" style="display: none;">
 
-                                <p>First, a fair and transparent net feed-in tariff setting process for consumer category solar is needed. In the March 2019 TNERC Order on Rooftop Solar Generation a formula was established to determine the net feed-in tariff. Based on that formula the net feed-in tariff is INR 2.28 per kWh for solar PV systems commissioned during FY 2019-20. This tariff is extremely low and represents about 50% of the actual cost of small-scale solar energy generation. With this net feed-in tariff the chance for the State to meet its consumer category solar energy target is close to zero. No proper tariff determination process took place to determine this net feed-in tariff.  As per the National Tariff Policy, TNERC is required to set tariffs on the basis of the capital cost of the generation technology along with other techno-commercial parameters. None of this has been followed, and more surprisingly nobody has objected thus far.</p>
-                                <p>Second, innovative rooftop solar programs, that include alternative financing mechanisms demand aggregation to reduce the capital cost of solar, and a solid communication strategy to reach out to consumers will have to be designed.  A straightforward and hassle-free application and commissioning process, and a state of the art online information platform will help.</p>
-                                <p>Lastly, the State may do well in starting with a dedicated feed-in tariff for stationary solar energy storage system. This would prepare the State to transition into a smart grid future of the 21st century.</p>
-                                                    
-                           
-                            </div>
+                    <div class="read_more">
+                        <a href="#" id="read-more-btn" onclick="showContent(event)">Read More</a>
+
+                        <div id="hidden-content" style="display: none;">
+
+                            <p>First, a fair and transparent net feed-in tariff setting process for consumer category
+                                solar is needed. In the March 2019 TNERC Order on Rooftop Solar Generation a formula was
+                                established to determine the net feed-in tariff. Based on that formula the net feed-in
+                                tariff is INR 2.28 per kWh for solar PV systems commissioned during FY 2019-20. This
+                                tariff is extremely low and represents about 50% of the actual cost of small-scale solar
+                                energy generation. With this net feed-in tariff the chance for the State to meet its
+                                consumer category solar energy target is close to zero. No proper tariff determination
+                                process took place to determine this net feed-in tariff. As per the National Tariff
+                                Policy, TNERC is required to set tariffs on the basis of the capital cost of the
+                                generation technology along with other techno-commercial parameters. None of this has
+                                been followed, and more surprisingly nobody has objected thus far.</p>
+                            <p>Second, innovative rooftop solar programs, that include alternative financing mechanisms
+                                demand aggregation to reduce the capital cost of solar, and a solid communication
+                                strategy to reach out to consumers will have to be designed. A straightforward and
+                                hassle-free application and commissioning process, and a state of the art online
+                                information platform will help.</p>
+                            <p>Lastly, the State may do well in starting with a dedicated feed-in tariff for stationary
+                                solar energy storage system. This would prepare the State to transition into a smart
+                                grid future of the 21st century.</p>
+
+
                         </div>
                     </div>
+                </div>
 
 
-                </section>
+            </section>
 
 
 
 
 
-                <section class="article_body_row2">
+            <section class="article_body_row2">
 
-                    <div class="article_body_row2_para">
-                        <div>
-                            <p>This article was published in the Hindu Business Line on <b>29 August 2019.</b></p>
-                        </div>
-                        <div>
-                            <a id="articlelink"
-                                href="https://www.thehindu.com/opinion/op-ed/in-tamil-nadu-making-power-while-the-sun-shines/article29281457.ece"
-                                target="_blank">https://www.thehindu.com/opinion/op-ed/in-tamil-nadu-making-power-while-the-sun-shines/article29281457.ece
-                            </a>
-                        </div>
-                        <div>
-                            <hr>
-                        </div>
-                        <div class="fw_bold">
-                            <h3>Contact Person</h3>
-                            <p>Researchers at the World Resources Institute, India’s energy programme</p>
-                        </div>
-                        <div class="address">
-                            <p>
-                                <b>Martin Scherfler</b>                                
-                            </p>
-                        </div>
+                <div class="article_body_row2_para">
+                    <div>
+                        <p>This article was published in the Hindu Business Line on <b>29 August 2019.</b></p>
                     </div>
+                    <div>
+                        <a id="articlelink"
+                            href="https://www.thehindu.com/opinion/op-ed/in-tamil-nadu-making-power-while-the-sun-shines/article29281457.ece"
+                            target="_blank">https://www.thehindu.com/opinion/op-ed/in-tamil-nadu-making-power-while-the-sun-shines/article29281457.ece
+                        </a>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="fw_bold">
+                        <h3>Contact Person</h3>
+                        <p>Researchers at the World Resources Institute, India’s energy programme</p>
+                    </div>
+                    <div class="address">
+                        <p>
+                            <b>Martin Scherfler</b>
+                        </p>
+                    </div>
+                </div>
 
-                    <!-- <div>
+                <!-- <div>
               <button class="single_publication_download_agenda" >
                 <div><p>Download Agenda</p></div>
                 <div><img src="./assete/Icon feather-download.png"  alt="Download_icon" /></div>
               </button>
             </div> -->
 
-                </section>
+            </section>
 
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- **** Single Publication body end **** -->
-
-
+    <!-- **** Single Publication body end **** -->
 
 
 
 
-        <!-- footer -->
-        <div class="footer">
-            <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
-                <div class="container">
-                    <div class="row footertop">
 
-                        <div class="col-lg-3">
-                            <h2>CONTACT INFO</h2>
-                            <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
-                            <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
-                        </div>
-                        <hr id="mfoothor" class="laphide" style="color: white;
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container-fluid" style="background-color:#122034;padding:30px0px;">
+            <div class="container">
+                <div class="row footertop">
+
+                    <div class="col-lg-3">
+                        <h2>CONTACT INFO</h2>
+                        <p class="pt-4">For any inquiries, questions or<br> commendations, Please Contact</p>
+                        <p>Ahona Datta Gupta <br> Email: ahona.dattagupta@wri.org</p>
+                    </div>
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-                        <div class="col-lg-5 mobhide" id="footpart2">
-                            <h2> IMPORTANT LINKS</h2>
-                            <ul class="list1">
-                                <li> <a href="../index.html">Home</a></li>
-                                <li> <a href="../resources.html">Resources</a></li>
-                                <li> <a href="../events.html">Events</a></li>
-                            </ul>
-                            <ul class="list2">
-                                <li> <a href="#">Data</a></li>
-                                <li> <a href="../aboutus.html">About Us</a></li>
-                                <li> <a href="../contact-us.html">Contact Us</a></li>
-                            </ul>
-                            <ul class="list3">
-                                <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                                <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                                <li> <a href="../kerala.html">Kerala</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-5 mobhide" id="footpart2">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <ul class="list3">
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-                        <div class="col-lg-5 laphide tabhide" id="footlinks">
-                            <h2> IMPORTANT LINKS</h2>
-                            <ul class="list1">
-                                <li> <a href="../index.html">Home</a></li>
-                                <li> <a href="../resources.html">Resources</a></li>
-                                <li> <a href="../events.html">Events</a></li>
-                                <li> <a href="#">Data</a></li>
-                                <li> <a href="../aboutus.html">About Us</a></li>
-                                <li> <a href="../contact-us.html">Contact Us</a></li>
-                                <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
-                                <li> <a href="../rajasthan.html">Rajasthan</a></li>
-                                <li> <a href="../kerala.html">Kerala</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-5 laphide tabhide" id="footlinks">
+                        <h2> IMPORTANT LINKS</h2>
+                        <ul class="list1">
+                            <li> <a href="../index.html">Home</a></li>
+                            <li> <a href="../resources.html">Resources</a></li>
+                            <li> <a href="../events.html">Events</a></li>
+                            <li> <a href="#">Data</a></li>
+                            <li> <a href="../aboutus.html">About Us</a></li>
+                            <li> <a href="../contact-us.html">Contact Us</a></li>
+                            <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+                            <li> <a href="../rajasthan.html">Rajasthan</a></li>
+                            <li> <a href="../kerala.html">Kerala</a></li>
+                        </ul>
+                    </div>
 
-                        <hr id="mfoothor" class="laphide" style="color: white;
+                    <hr id="mfoothor" class="laphide" style="color: white;
               max-width: 91%;
               margin: 35px 6px;">
 
-                        <div class="col-lg-3" id="footform">
-                            <h2> WRITE TO US </h2>
-                            <div class="formfooter">
-                                <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
-                            </div>
-
-                            <ul class="footer_social" style="display: flex; justify-content: space-between;">
-                                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                                <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
-                            </ul>
+                    <div class="col-lg-3" id="footform">
+                        <h2> WRITE TO US </h2>
+                        <div class="formfooter">
+                            <input class="form-control form-control-lg" type="text" max-length="5" placeholder="">
                         </div>
 
+                        <ul class="footer_social" style="display: flex; justify-content: space-between;">
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright" style="display: flex; flex-direction:row;">
-                                <p><img src="../assets/img/logo.png" alt=""></p>
-                                <p><img src="../assets/img/logo2.png" alt=""></p>
-                                <p><img src="../assets/img/logo3.png" alt=""></p>
-                                <p><img src="../assets/img/logo4.png" alt=""></p>
-                                <p><img src="../assets/img/logo5.png" alt=""></p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright footlogo">
-                                <p><img src="../assets/img/logo.png" alt=""></p>
-                            </div>
+        </div>
+
+        <div class="container-fluid mobhide tabhide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright" style="display: flex; flex-direction:row;">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
+                            <p><img src="../assets/img/logo2.png" alt=""></p>
+                            <p><img src="../assets/img/logo3.png" alt=""></p>
+                            <p><img src="../assets/img/logo4.png" alt=""></p>
+                            <p><img src="../assets/img/logo5.png" alt=""></p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-            <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="copyright">
-                                <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
-                            </div>
+        </div>
+        <div class="container-fluid laphide" style="background-color:#ffffff;padding:36px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright footlogo">
+                            <p><img src="../assets/img/logo.png" alt=""></p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
 
 
-        <!-- ***** Footer Ends ***** -->
+        <div class="container-fluid" style="background-color:#f0ab00;padding:6px 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="copyright">
+                            <p>© COPYRIGHT 2020.ALL RIGHT RESERVED. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- ***** Footer Ends ***** -->
 
 
 
@@ -442,83 +542,84 @@
 
 
 
-        <!-- Load JS here for greater good =============================-->
-        <script src="../js/jquery-1.11.3.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/jquery.magnific-popup.min.js"></script>
-        <script src="../js/jquery.nav.js"></script>
-        <script src="../js/jquery.scrollTo-min.js"></script>
-        <script src="../js/SmoothScroll.js"></script>
-        <script src="../js/wow.js"></script>
-        <script src="../js/custom.js"></script>
-        <script src="../js/plugins.js"></script>
+    <!-- Load JS here for greater good =============================-->
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.nav.js"></script>
+    <script src="../js/jquery.scrollTo-min.js"></script>
+    <script src="../js/SmoothScroll.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/plugins.js"></script>
 
-        <!-- Vendor JS Files -->
-        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
 
-        <!-- Main JS File -->
-        <script src="../assets/js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
 
-        <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
 
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
 
-            // When the user clicks the button, open the modal 
-            btn.onclick = function () {
-                modal.style.display = "block";
-            }
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
 
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function () {
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
                 modal.style.display = "none";
             }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function (event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
+        }
+    </script>
 
 
-        <!-- shiv Onclick readmore button -->
+    <!-- shiv Onclick readmore button -->
 
-         <script>
-            document.getElementById("read-more-btn").addEventListener("click", function(event) {
-              event.preventDefault(); // Prevent the default button behavior
-          
-              var hiddenContent = document.getElementById("hidden-content");
-              var readMoreBtn = document.getElementById("read-more-btn");
-          
-              // Show the hidden content
-              hiddenContent.style.display = "block";
-          
-              // Hide the "Read More" button
-              readMoreBtn.style.display = "none";
-            });
-          </script>
-          
+    <script>
+        document.getElementById("read-more-btn").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default button behavior
+
+            var hiddenContent = document.getElementById("hidden-content");
+            var readMoreBtn = document.getElementById("read-more-btn");
+
+            // Show the hidden content
+            hiddenContent.style.display = "block";
+
+            // Hide the "Read More" button
+            readMoreBtn.style.display = "none";
+        });
+    </script>
 
 
 
 
-<script src="../js/slider.js"></script>
-<script src="../js/main.js"></script>
-<!-- Main JS File -->
-<script src="../js/jquery_3.2.1_jquery.min.js"> </script>
-<script src="../js/jquery-ui.min.js"> </script>
+
+    <script src="../js/slider.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="../js/jquery_3.2.1_jquery.min.js"> </script>
+    <script src="../js/jquery-ui.min.js"> </script>
 
 </body>
+
 </html>
