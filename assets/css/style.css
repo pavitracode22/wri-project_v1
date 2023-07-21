@@ -470,7 +470,7 @@ a.rdm img {
  display: block;
  background-color: inherit;
  color: black;
- padding: 22px 6px;
+ padding: 22px 19px;
  width: 100%;
  border: none;
  outline: none;
@@ -489,8 +489,8 @@ a.rdm img {
     color: #fff !important;
     /* margin-left: 21px; */
    background-color: #F0AB00;
-   width: 70%;
-   padding: 17px 0px 12px 8px;
+   width: auto;
+   padding: 17px 25px 12px 18px;;
    margin-top: 15px;
    margin-bottom: 15px;
    border-radius: 50px;
