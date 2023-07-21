@@ -4879,10 +4879,10 @@ a.dropbtn.nav-link.nav-link-active svg {
   fill: white;
 }
 
-a.dropbtn.nav-link.nav-link-active svg:hover{
+/* a.dropbtn.nav-link.nav-link-active svg:hover{
   color: black;
   fill: rgb(0, 0, 0);
-}
+} */
 a.dropbtn svg:hover{
   color: black;
   fill: rgb(0, 0, 0);
@@ -4894,7 +4894,7 @@ a.dropbtn>svg{
 
 
 .dropdow-icon {
-  margin-left: 3%;
+  /* margin-left: 3%; */
   margin-top: -1%;
   width:15%; 
   height:15px;
@@ -4950,6 +4950,8 @@ a.dropbtn>svg{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
 
 
 
