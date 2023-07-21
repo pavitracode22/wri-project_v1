@@ -41,7 +41,7 @@
 
 .active {
   background: #E6E7E8;
- border-radius:11px;
+   /* border-radius:11px; */
  /* padding:5px 15px; */
    line-height: 5px !IMPORTANT;
    color: #fff !IMPORTANT;
@@ -470,7 +470,7 @@ a.rdm img {
  display: block;
  background-color: inherit;
  color: black;
- padding: 22px 16px;
+ padding: 22px 6px;
  width: 100%;
  border: none;
  outline: none;
@@ -487,12 +487,13 @@ a.rdm img {
 /* Create an active/current "tab button" class */
 .tab button.active {
     color: #fff !important;
-    margin-left: 21px;
+    /* margin-left: 21px; */
    background-color: #F0AB00;
    width: 70%;
-   padding: 10px 0px 8px 8px;
+   padding: 17px 0px 12px 8px;
    margin-top: 15px;
    margin-bottom: 15px;
+   border-radius: 50px;
 }
 
 /* Style the tab content */
@@ -4462,7 +4463,7 @@ text-decoration-color: #2C2C2C;
 /*css added on 12th july 2023 */
 
 .tablinks {
-    margin-left: 11px;
+    /* margin-left: 11px; */
     font-family: 'Acumin Pro';
     /* font-weight: bold; */
     font-size: 1.25vw !important;
@@ -4610,8 +4611,8 @@ a{
   /* grid-row-gap:3% ; */
   justify-content: space-between;
   grid-column-gap:10% ;
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin: 0;
   height: auto;
   /* margin-bottom: -5rem; */
 }
