@@ -21,7 +21,8 @@ section{
     margin-left: 8rem;
     box-sizing: border-box;
 }
-.nav_single_publication_row1{  
+.nav_single_publication_row1{ 
+    margin-left: 25px; 
     height: 1rem;
     margin-top: auto;
     margin-bottom: auto;
@@ -61,7 +62,7 @@ section{
 
 
 .body_container .body_area{
-    margin: 3rem 6% 8rem 6.5%;
+    margin: 3rem 6% 8rem 6%;
     display: flex;
     gap: 10%;
    

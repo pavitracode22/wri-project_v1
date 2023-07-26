@@ -26,8 +26,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
 
 
 </head>
@@ -40,7 +38,7 @@
         <!--begin nav -->
         <nav class="navbar navbar-default p-0 m-0" style="border:unset !important;">
             <!--top-bar-->
-            <div class="container-fluid" style="background-color: #fbfbfb; padding:55px 0px 10px 0;">
+            <div class="container-fluid topcont">
                 <div class=" top-bar">
                     <div class="row">
                         <span class="col-lg-4 laphide" style="color:black; left: 86%; bottom: 27px; ">
@@ -55,22 +53,22 @@
                             <a href="./index.html" style="text-decoration: none;">
                                 <h2 class="apcp mobhide tabhide"> SUSTAINABLE ENERGY <br>TRANSFORMATION <span
                                         class="sm-text mobhide tabhide"> A
-                                        WRI INDIA INITIATIVE </span></h2>
+                                        WRI India Initiative </span></h2>
                                 <h2 class="apcp laphide "> SUSTAINABLE </br>ENERGY <br>TRANSFORMATION
                                     <div class="sm-text laphide"> A
-                                        WRI INDIA INITIATIVE </div>
+                                        WRI India Initiative </div>
                                 </h2>
                             </a>
                         </div>
-                        <div class="col-lg-3" style="display:flex; justify-content: end;">
+                        <div class="col-lg-3 aboutusbtn">
                             <span class="col-lg-6" style=" padding-left:0;">
                                 <a href="./aboutus.html" style="text-decoration: none;"><button class="btn btn-default"
                                         type="submit"
-                                        style="background-color:#122034; color:#FFFFFF; font-size:0.88vw; font-family: 'Acumin Pro'; padding:6px 12px;line-height: 1.19vw;">ABOUT
+                                        style="background-color:#122034; color:#FFFFFF; font-family: 'Acumin Pro'; padding:6px 12px;">ABOUT
                                         US</button></a>
                             </span>
                             <span class="col-lg-4 mobhide tabhide" style="display:flex; justify-content: end;">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="36px" height="36px" viewBox="0 0 36 36"
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mobhide tabhide" width="36px" height="36px" viewBox="0 0 36 36"
                                     fill="currentColor" class="bi bi-search mobile-pos">
                                     <path id="Icon_awesome-search" data-name="Icon awesome-search"
                                         d="M25.578,22.423l-5.05-5.05a1.215,1.215,0,0,0-.861-.355h-.826a10.53,10.53,0,1,0-1.823,1.823v.826a1.215,1.215,0,0,0,.355.861l5.05,5.05a1.211,1.211,0,0,0,1.717,0l1.433-1.433a1.221,1.221,0,0,0,.005-1.722Zm-15.043-5.4a6.483,6.483,0,1,1,6.483-6.483A6.479,6.479,0,0,1,10.535,17.018Z"
@@ -463,6 +461,8 @@
 
         @media (min-width:280px) and (max-width:485px) {
             video {
+                position: relative;
+                z-index: -1;
                 width: 388%;
                 height: auto;
                 object-fit: cover;
@@ -527,6 +527,19 @@
     <!-- Main JS File -->
     <script src="js/jquery_3.2.1_jquery.min.js"> </script>
     <script src="js/jquery-ui.min.js"> </script>
+    
+    <script>
+    // Wait for the document to be fully loaded
+    document.addEventListener("DOMContentLoaded", function () {
+      // Find the carousel element
+      const carouselElement = document.getElementById("carousel-1");
+      
+      // Retrieve the Bootstrap Carousel instance
+      const carousel = new bootstrap.Carousel(carouselElement, {
+        pause: "false" // Set "pause" option to false to disable pause on hover
+      });
+    });
+  </script>
 
 </body>
 
