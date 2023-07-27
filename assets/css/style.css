@@ -3178,7 +3178,7 @@ a.btn.btn-read-more.btn-rm-2 {
 }
 
 ul.footer_social li {
-  padding-left: 3%;
+  padding-left: 0%;
   float: left;
 }
 
@@ -4993,7 +4993,7 @@ a.dropbtn>svg{
 }
 
 .col-lg-6.eventform form {
-    margin-right: 1%;
+    margin-right: 0%;
 }
 
 .tabcontent>.row.m-0.p-0>.col-lg-8 {
@@ -5003,15 +5003,34 @@ a.dropbtn>svg{
 
 
 
+@media screen and (min-width:1000px) {
+ .headingtop{
+  margin-left: 5% ;
+  margin-right: 5%; 
+ }
+}
 @media screen and (min-width:1046px) {
   .boxcolor {
     height: 160px;
  }
-
+}
+@media screen and (min-width:1100px) {
+  .headingtop{
+    margin-left: 9% ;
+    margin-right: 9%;
+   }
 }
 @media screen and (min-width:1200px) {
   .boxcolor {
     height: 168px;
+ }
+ .eventform input[type="submit"]{
+  padding-bottom: 25px;
+  padding-top: 10px;
+ }
+ .headingtop{
+  margin-left: 6% ;
+  margin-right: 6%;
  }
 
 }
@@ -5043,12 +5062,21 @@ a.dropbtn>svg{
  .themsection>div{
   width: 300px !important;
 }
+.headingtop{
+  margin-left: 10.6% ;
+  margin-right: 10.6%;
+ }
 
 }
 @media screen and (min-width:1480px) {
   .boxcolor {
     height: 200px;
  }
+ .eventform input[type="submit"]{
+   padding-top: 7px;
+  padding-bottom: 29px;
+ }
+
 
 }
 @media screen and (min-width:1550px) {
@@ -5064,15 +5092,27 @@ a.dropbtn>svg{
   .themsection>div{
     width: 330px !important;
   }
- 
+  .headingtop{
+    margin-left: 12% ;
+    margin-right: 12%;
+   }
 
 }
 
-/* @media screen and (min-width:1782px) {
- .boxcolor {
-    height: 222px;
- }
-} */
+@media screen and (min-width:1700px) {
+  .eventform input[type="submit"]{
+    padding-top: 5px;
+   padding-bottom: 29px;
+  }
+ 
+}
+@media screen and (min-width:1800px) {
+  .eventform input[type="submit"]{
+    padding-top: 5px;
+   padding-bottom: 33px;
+  }
+ 
+}
 
 @media screen and (min-width:1856px) {
   .boxcolor {
@@ -5110,6 +5150,14 @@ a.dropbtn>svg{
  .box-content {
   padding: 92px 40px;
 }
+.eventform input[type="submit"]{
+  padding-top: 1px;
+ padding-bottom: 35px;
+}
+.headingtop{
+  margin-left: 12.5% ;
+  margin-right: 12.5%;
+ }
 }
 @media screen and (min-width:2200px) {
   .row {
@@ -5128,4 +5176,8 @@ a.dropbtn>svg{
 
 .themsection>div{
   width: 288px;
+}
+
+.contact_details_body_row2>video{
+width: 100%;
 }

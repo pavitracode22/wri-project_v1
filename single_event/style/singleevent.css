@@ -271,3 +271,42 @@ margin-top: 0px;
 margin-bottom: 0;
 font-family: "Acumin Pro";
 }
+
+
+
+@media screen and (min-width:1400px) {
+    .area_single_event_nav>a{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .body_container .body_area{
+        margin: 3rem 10% 1rem 10%;
+    }
+}
+@media screen and (min-width:1600px) {
+    .area_single_event_nav>a{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .body_container .body_area{
+        margin: 3rem 12% 1rem 12%;
+    }
+}
+@media screen and (min-width:1920px) {
+    .area_single_event_nav>a{
+        margin-left: 11.6%;
+        margin-right: 11.6%;
+    }
+    .body_container .body_area{
+        margin: 3rem 11.6% 1rem 11.6%;
+    }
+}
+@media screen and (min-width:2100px) {
+    .area_single_event_nav>a{
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    .body_container .body_area{
+        margin: 3rem 12.2% 1rem 12.5%;
+    }
+}

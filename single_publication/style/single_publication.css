@@ -18,11 +18,10 @@ section{
     display: flex;
     gap: 1%;
     width: 100%;
-    margin-left: 8rem;
+    margin-left: 0rem;
     box-sizing: border-box;
 }
 .nav_single_publication_row1{ 
-    margin-left: 25px; 
     height: 1rem;
     margin-top: auto;
     margin-bottom: auto;
@@ -62,7 +61,7 @@ section{
 
 
 .body_container .body_area{
-    margin: 3rem 6% 8rem 6%;
+    margin: 3rem 4% 8rem 0%;
     display: flex;
     gap: 10%;
    
@@ -176,3 +175,80 @@ height: 2rem;
 font-weight: 600;
 }
 
+
+
+@media screen and (min-width:1000px) {
+    .container_single_publication_nav{
+        padding-left: 4.8% !important;
+        padding-right: 10.2% !important;
+    }
+
+    .body_container .body_area{
+        margin-left: 4.8%;
+    }
+
+}
+@media screen and (min-width:1100px) {
+    .container_single_publication_nav{
+        padding-left: 8.8% !important;
+    }
+
+    .body_container .body_area{
+        margin-left: 8.8%;
+    }
+
+}
+@media screen and (min-width:1200px) {
+    .container_single_publication_nav{
+        padding-left: 6% !important;
+    }
+
+    .body_container .body_area{
+        margin: 3rem 6% 8rem 6%;
+    }
+
+}
+@media screen and (min-width:1400px) {
+    .container_single_publication_nav{
+        padding-left: 10.2% !important;
+        padding-right: 10.2% !important;
+    }
+
+    .body_container .body_area{
+        margin: 3rem 10% 8rem 10.2%;
+    }
+
+}
+@media screen and (min-width:1400px) {
+    .container_single_publication_nav{
+        padding-left: 12% !important;
+        padding-right: 12% !important;
+    }
+
+    .body_container .body_area{
+        margin: 3rem 12% 8rem 12%;
+    }
+
+}
+@media screen and (min-width:1400px) {
+    .container_single_publication_nav{
+        padding-left: 11.8% !important;
+        padding-right: 11.8% !important;
+    }
+
+    .body_container .body_area{
+        margin: 3rem 11.5% 8rem 11.8%;
+    }
+
+}
+@media screen and (min-width:2100px) {
+    .container_single_publication_nav{
+        padding-left: 12.6% !important;
+        padding-right: 12.6% !important;
+    }
+
+    .body_container .body_area{
+        margin: 3rem 12.1% 8rem 12.6%;
+    }
+
+}
