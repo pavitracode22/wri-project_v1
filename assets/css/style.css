@@ -3,7 +3,7 @@
 }
 
 .row {
-  padding: 0px 1.5%;
+  padding: 0px 2.5%;
 }
 
 .home-heading h2 {
@@ -206,6 +206,7 @@ margin-top:11px;
  
 }
 .col-lg-6.eventform {
+  padding-right: 0 !important;
    text-align: right;
    margin-top: 12px;
 }
@@ -4060,6 +4061,13 @@ ul.m-nav-hover>li>a:active {
 }
 
 @media (min-width:280px) and (max-width:485px) {
+  .col-lg-3.icon svg {
+    margin-right: 4%;
+}
+
+  .row.whatsnewsection {
+    width: 92%;
+}
 
   .container-fluid.topcont {
     background-color: #fbfbfb;
@@ -4393,11 +4401,16 @@ a#loadMore  ,a#loadMore1   {
 
 /*css added on 11th-july-23*/
 
+section.resourcetabs .row .mb-5 {
+  padding: 0;
+  margin: 0 !important;
+}
+
 section.resourcetabs .row {
     padding-right: 0px;
     margin-right: 0px;
     margin-left: 0;
-    padding-left: 0;
+    padding-left: 29px;
 }
 
 |section.resourcetabs .row {
@@ -5057,7 +5070,7 @@ a.dropbtn>svg{
     height: 200px;
  }
  .row {
-  margin: 0 4% !important;
+  margin: 0 6% !important;
 }
  .themsection>div{
   width: 300px !important;
@@ -5163,9 +5176,6 @@ a.dropbtn>svg{
   .row {
     margin: 0 7% !important;
   } 
-  .themsection>div{
-    width: 450px !important;
-  }
   .boxcolor {
     height: 273px;
  }
@@ -5176,8 +5186,4 @@ a.dropbtn>svg{
 
 .themsection>div{
   width: 288px;
-}
-
-.contact_details_body_row2>video{
-width: 100%;
 }

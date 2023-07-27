@@ -18,7 +18,11 @@ section{
     display: flex;
     gap: 1%;
     width: 100%;
+<<<<<<< HEAD
     margin-left: 0rem;
+=======
+    margin-left: 19rem;
+>>>>>>> 88be72215b5fd5c2aba20cbdf4f5afdf0ddbd00a
     box-sizing: border-box;
 }
 .nav_single_publication_row1{ 
