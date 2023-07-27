@@ -428,11 +428,10 @@ line-height: 1.25;
 .boxbutton1  a{
   text-align:center;
   /* margin-top:30px; */
-  font-size:17px;
+  font-size:24px;
   font-weight: 700;
   color:#000;
-  /* text-decoration:center;
-  text-decoration: none; */
+text-decoration: underline !important;
 }
 .boxbutton1  a:hover{
   color: #000;
@@ -518,8 +517,9 @@ a.rdm img {
 
 }
 .news-bottom1{
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 
 .news-bottom1  h2 {
@@ -642,7 +642,7 @@ div#article .news-bottom1 a.readmore1 {
 }
 div#article .news-bottom1 {
     position: relative;
-    height: 317px;
+    height: 442px;
 
 }
 div#article  p.wri {
@@ -836,7 +836,7 @@ section.bottom-row-banner img {
   font-size: 40px;
   padding: 30px 0 0 0;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .intro-box p {
@@ -927,8 +927,8 @@ section#thematic-section {
 
 .tmt .line {
   background: #f0ab00;
-  width: 63%;
-  height: 7px;
+  width: 34%;
+  height: 10px;
   margin-bottom: 15px;
 }
 
@@ -2286,6 +2286,7 @@ p.wri {
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   padding-bottom: 18px;
+  font-size: 18px;
 }
 
 p.event {
@@ -4647,7 +4648,7 @@ a{
   grid-template-rows: repeat(auto);
   /* grid-row-gap:3% ; */
   justify-content: space-between;
-  grid-column-gap:6% ;
+  grid-column-gap:7% ;
   width: 100%;
   margin: 0;
   margin-left: -7px;
@@ -4756,7 +4757,7 @@ h2.blogrighthead {
 .col-lg-12.blogpagi li {
   list-style: none;
   display: inline-block;
-
+margin-right: 10px;
 }
 
 .blogpagi li a {
@@ -5018,8 +5019,8 @@ a.dropbtn>svg{
 
 @media screen and (min-width:1000px) {
  .headingtop{
-  margin-left: 5% ;
-  margin-right: 5%; 
+  margin-left: 5.5% ;
+  margin-right: 5.5%; 
  }
 }
 @media screen and (min-width:1046px) {
@@ -5029,8 +5030,8 @@ a.dropbtn>svg{
 }
 @media screen and (min-width:1100px) {
   .headingtop{
-    margin-left: 9% ;
-    margin-right: 9%;
+    margin-left: 9.5% ;
+    margin-right: 9.5%;
    }
 }
 @media screen and (min-width:1200px) {
@@ -5042,8 +5043,8 @@ a.dropbtn>svg{
   padding-top: 10px;
  }
  .headingtop{
-  margin-left: 6% ;
-  margin-right: 6%;
+  margin-left: 7.5% ;
+  margin-right: 7.5%;
  }
 
 }
@@ -5076,8 +5077,8 @@ a.dropbtn>svg{
   width: 300px !important;
 }
 .headingtop{
-  margin-left: 10.6% ;
-  margin-right: 10.6%;
+  margin-left: 13% ;
+  margin-right: 13%;
  }
 
 }
@@ -5091,6 +5092,12 @@ a.dropbtn>svg{
  }
 
 
+}
+@media screen and (min-width:1500px) {
+  .headingtop{
+    margin-left: 12.6% ;
+    margin-right: 12.6%;
+   }
 }
 @media screen and (min-width:1550px) {
   .boxcolor {
@@ -5106,8 +5113,8 @@ a.dropbtn>svg{
     width: 330px !important;
   }
   .headingtop{
-    margin-left: 12% ;
-    margin-right: 12%;
+    margin-left: 13% ;
+    margin-right: 13%;
    }
 
 }
@@ -5118,6 +5125,19 @@ a.dropbtn>svg{
    padding-bottom: 29px;
   }
  
+  .col-lg-4.col-md-12.d-flex.justify-content-center.card-padding-left {
+    width: 350px;
+  }
+
+  .col-lg-4.col-md-12.d-flex.justify-content-center.card-padding-middle {
+    width: 350px;
+  }
+
+  .col-lg-4.col-md-12.d-flex.justify-content-center.card-padding-right {
+    width: 350px;
+  }
+
+
 }
 @media screen and (min-width:1800px) {
   .eventform input[type="submit"]{
@@ -5149,6 +5169,10 @@ a.dropbtn>svg{
  .box-content {
   padding: 89px 40px;
 }
+.headingtop{
+  margin-left: 12.5% ;
+  margin-right: 12.5%;
+ }
 }
 @media screen and (min-width:2100px) {
   .row {
@@ -5168,8 +5192,8 @@ a.dropbtn>svg{
  padding-bottom: 35px;
 }
 .headingtop{
-  margin-left: 12.5% ;
-  margin-right: 12.5%;
+  margin-left: 13.5% ;
+  margin-right: 13.5%;
  }
 }
 @media screen and (min-width:2200px) {
@@ -5189,4 +5213,8 @@ a.dropbtn>svg{
 }
   .contact_details_body_row2>video{
   width: 100%;
+  }
+  .tabcontent>.row.m-0.p-0>.col-lg-8>div.row {
+    margin-left: 0 !important;
+    padding-left: 0;
   }
