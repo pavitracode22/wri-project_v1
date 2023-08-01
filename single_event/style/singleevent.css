@@ -278,7 +278,7 @@ margin-bottom: 0;
 font-family: "Acumin Pro";
 }
 
-@media screen and (min-width:1100px) {
+/* @media screen and (min-width:1100px) {
     .area_single_event_nav>a{
         margin-left: 10%;
         margin-right: 10%;
@@ -286,54 +286,40 @@ font-family: "Acumin Pro";
     .body_container .body_area{
         margin: 3rem 10% 1rem 10%;
     }
-}
+} */
 @media screen and (min-width:1100px) {
     .area_single_event_nav>a{
-        margin-left: 7.4%;
+        margin-left: 9.3%;
         margin-right: 7.4%;
+        
     }
     .body_container .body_area{
-        margin: 3rem 7% 1rem 8%;
+        margin: 3rem 7% 1rem 9.3%;
+      
     }
 }
-@media screen and (min-width:1100px) {
+
+@media screen and (min-width:1200px) {
     .area_single_event_nav>a{
-        margin-left: 6.7%;
+        margin-left: 7%;
         margin-right: 6.7%;
+      
     }
     .body_container .body_area{
-        margin: 3rem 7% 1rem 6.7%;
+        margin: 3rem 6.7% 1rem 7%;
+        
     }
 }
 
 
-@media screen and (min-width:1400px) {
-    .area_single_event_nav>a{
-        margin-left: 12.8%;
-        margin-right: 12.8%;
-    }
-    .body_container .body_area{
-        margin: 3rem 12.8% 1rem 12.8%;
-    }
-}
 @media screen and (min-width:1600px) {
-    .area_single_event_nav>a{
-        margin-left: 13%;
-        margin-right: 12%;
-    }
-    .body_container .body_area{
-        margin: 3rem 13% 1rem 13%;
+    .nav_single_event_row1_icon {
+        height: 3rem;
+        margin-top: -9px;
+        width: 3.5rem;
     }
 }
-@media screen and (min-width:1920px) {
-    .area_single_event_nav>a{
-        margin-left: 12.6%;
-        margin-right: 12.6%;
-    }
-    .body_container .body_area{
-        margin: 3rem 12.6% 1rem 12.6%;
-    }
-}
+
 @media screen and (min-width:2100px) {
     .area_single_event_nav>a{
         margin-left: 13.5%;
