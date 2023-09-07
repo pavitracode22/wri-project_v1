@@ -1865,7 +1865,6 @@ a.dropdown-item.dp-link {
 
 .footer {
   z-index: 900;
-
   font-weight: 300;
 }
 
@@ -4347,9 +4346,9 @@ a.nav-link1 {
 
 /* Resources page header  */
 
-.toptext{
+/* .toptext{
   background-color: #DDE3DD !important;
-}
+} */
 
 .content  ,.loadtab  {
   display: none;
@@ -5424,3 +5423,34 @@ font-size: 17px;
     margin-left: 0 !important;
     padding-left: 0;
   }
+
+
+  .middlebar.row {
+    padding: 0;
+    background: #EFEFEF;
+    width: 100%;
+    margin: 0;
+}
+
+section.pageheading>h1 {
+  margin-left: 7%;
+  color: #306C63;
+  font-family: 'Acumin Pro Condensed';
+  font-weight: 900;
+  font-size: 3.38vw;
+  line-height: 75px;
+}
+
+section#innovativesection {
+  padding: 0;
+}
+
+.col-sm-3.col-xs-12.left1 {
+  border-right: 1px solid #868686;
+  left: 7%;
+}
+
+.col-12.img-box1>img {
+  width: 137px;
+  height: auto;
+}
