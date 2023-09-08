@@ -299,11 +299,10 @@ border-bottom-right-radius: 4px;
 .boxcolor {
    height: 200px;
    width: 75%;
-   /* background: #6EB180; */
-   background-image: radial-gradient( #6BA789, #6EB180);
+   background-image: radial-gradient( #BDD97D, #6EB180);
  border-radius:10px;
  box-shadow: 3px 3px 15px #00000029;
- /* aspect-ratio: 4/3; */
+ 
 }
 .box-content {
   font-family: Acumin Pro Condensed;
@@ -5453,4 +5452,16 @@ section#innovativesection {
 .col-12.img-box1>img {
   width: 137px;
   height: auto;
+}
+
+.midbar {
+  width: 100%;
+  background-color: #EFEFEF;
+}
+
+a.nav-link{
+  color: #2C2C2C;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'Acumin Pro';
 }
