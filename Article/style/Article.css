@@ -235,3 +235,133 @@ color: #2C2C2C;
         margin: 3rem 13.2% 1rem 13.5%;
     }
 }
+
+
+@media (max-width: 486px){
+    .body_area {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 486px){
+    .body_row1 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 486px){
+    h1.body_heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 486px) {
+    .article_body_para>p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 486px){
+    section.body_container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 486px){
+    .read_more {
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    
+}
+
+@media (max-width: 486px){
+    a#read-more-btn {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 486px){
+    .article_body_row2 {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 486px){
+    .article_body_row2_para {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 486px){
+    .fw_bold>h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 486px){
+    .fw_bold>p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+
+@media (max-width: 486px){
+    a#articlelink {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 486px){
+    .address>p>b {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 486px){
+    .address>p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+
+@media (max-width: 486px){
+    .container_article_nav {
+        margin-left: 10px !important;
+        background: #fff !important;
+        padding-top: 20px !important;
+    }
+}
+
+@media (max-width: 486px){
+    .nav_article_row2>p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 486px){
+    .nav_article_row1_icon{
+        height: 24px;
+    }
+}
+
+@media (max-width: 486px){
+    div#hidden-content {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: justify;
+    }
+}

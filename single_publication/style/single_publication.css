@@ -248,3 +248,104 @@ font-weight: 600;
     }
 
 }
+
+@media (max-width: 486px){
+    .body_area {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 486px){
+    h1.body_heading {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: left;
+}
+
+@media (max-width: 486px){
+    .body_row1 {
+        width: 100%;
+    }    
+}
+
+@media (max-width: 486px){
+    .single_publication_body_img>img {
+        height: 50%;
+    }
+}
+
+@media (max-width: 486px){
+    section.body_container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 486px){
+    .nav_single_publication_row2>p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 486px){
+    section.container_single_publication_nav {
+        margin-left: 40px !important;
+        background: #fff !important;
+        padding-top: 20px !important;
+    }
+}
+
+@media (max-width: 486px){
+    .single_publication_body_img{
+        height: 50%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 486px){
+    .single_publication_body_para>p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 486px){
+    .single_publication_body_row2_para {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 30px 40px 0 40px;
+    }
+}
+
+@media (max-width: 486px){
+    .single_publication_body_row2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 486px){
+    button.single_publication_download_agenda {
+        font-size: 16px;
+        line-height: 36px;
+   }
+}
+
+@media (max-width: 486px){
+    section.laphide.publisherstab.tabhide {
+        background-color: #F0F0F0 !important;
+    }
+}
+
+@media (max-width: 486px){
+    .downldbutton {
+        padding: 0 40px 30px 40px !important;
+    }
+}
+
+@media (max-width: 486px){
+    .single_publication_body_row2_para>h3{
+        font-size: 18px;
+    }
+}
