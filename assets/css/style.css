@@ -353,6 +353,15 @@ border-bottom-right-radius: 4px;
     display: none !important;
   }
 }
+
+
+@media (max-width: 486px){
+  .mobileview.laphide {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
  
 
 
