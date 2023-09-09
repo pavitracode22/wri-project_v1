@@ -916,8 +916,7 @@ section#thematic-section {
 
 .tmt .tcard {
   height: 340px;
-  background: linear-gradient(to bottom, #6BA789 0%, #6EB180 100%);
-  /* drop-shadow:3px 3px blur 15px; */
+  background-image: radial-gradient(#BDD97D, #5FB175);
   border-top-left-radius: 10px !important;
   border-top-right-radius: 10px !important;
   border-bottom-left-radius: 0px !important;
@@ -1149,7 +1148,7 @@ a.btn-rm-2:hover {
 
 .box-btn1-tm {
   padding: 0px 32px 40px 32px;
-  background-color: #6EB180;
+  background-image: radial-gradient(#BDD97D, #5FB175);
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -1160,7 +1159,7 @@ a.btn-rm-2:hover {
 
 .box-btn2-tm {
   padding: 0px 32px 40px 32px;
-  background-color: #6EB180;
+  background-image: radial-gradient(#BDD97D, #5FB175);
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -1171,7 +1170,7 @@ a.btn-rm-2:hover {
 
 .box-btn3-tm {
   padding: 0px 32px 40px 32px;
-  background-color: #6EB180;
+  background-image: radial-gradient(#BDD97D, #5FB175);
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -4523,6 +4522,7 @@ display: none;
   margin-left: 6%;
   margin-right: 5.7%;
 }
+
 .headingtext{
   width: 30%;
   
@@ -5465,3 +5465,4 @@ a.nav-link{
   line-height: 30px;
   font-family: 'Acumin Pro';
 }
+@media()
