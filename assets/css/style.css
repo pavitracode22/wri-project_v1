@@ -387,11 +387,10 @@ border-bottom-right-radius: 4px;
 .boxcolor {
    height: 200px;
    width: 75%;
-   /* background: #6EB180; */
-   background-image: radial-gradient( #6BA789, #6EB180);
+   background-image: radial-gradient( #BDD97D, #6EB180);
  border-radius:10px;
  box-shadow: 3px 3px 15px #00000029;
- /* aspect-ratio: 4/3; */
+ 
 }
 .box-content {
   font-family: Acumin Pro Condensed;
@@ -1012,8 +1011,7 @@ section#thematic-section {
 
 .tmt .tcard {
   height: 340px;
-  background: linear-gradient(to bottom, #6BA789 0%, #6EB180 100%);
-  /* drop-shadow:3px 3px blur 15px; */
+  background-image: radial-gradient(#BDD97D, #5FB175);
   border-top-left-radius: 10px !important;
   border-top-right-radius: 10px !important;
   border-bottom-left-radius: 0px !important;
@@ -1245,7 +1243,7 @@ a.btn-rm-2:hover {
 
 .box-btn1-tm {
   padding: 0px 32px 40px 32px;
-  background-color: #6EB180;
+  background-image: radial-gradient(#BDD97D, #5FB175);
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -1256,7 +1254,7 @@ a.btn-rm-2:hover {
 
 .box-btn2-tm {
   padding: 0px 32px 40px 32px;
-  background-color: #6EB180;
+  background-image: radial-gradient(#BDD97D, #5FB175);
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -1267,7 +1265,7 @@ a.btn-rm-2:hover {
 
 .box-btn3-tm {
   padding: 0px 32px 40px 32px;
-  background-color: #6EB180;
+  background-image: radial-gradient(#BDD97D, #5FB175);
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -1960,7 +1958,6 @@ a.dropdown-item.dp-link {
 
 .footer {
   z-index: 900;
-
   font-weight: 300;
 }
 
@@ -4442,9 +4439,15 @@ a.nav-link1 {
 
 /* Resources page header  */
 
+<<<<<<< HEAD
 .toptext{
   background-color: #DDE3DD;
 }
+=======
+/* .toptext{
+  background-color: #DDE3DD !important;
+} */
+>>>>>>> 7a717e8bae5c1bc5f95757b0aa50799fb57f7c60
 
 .content  ,.loadtab  {
   display: none;
@@ -4630,6 +4633,7 @@ display: none;
   margin-left: 6%;
   margin-right: 5.7%;
 }
+
 .headingtext{
   width: 30%;
   
@@ -5519,6 +5523,7 @@ font-size: 17px;
     padding-left: 0;
   }
 
+<<<<<<< HEAD
   @media(max-width: 486px) {
     .mobileview {
       display: flex !important;
@@ -5537,3 +5542,48 @@ font-size: 17px;
       text-decoration: underline !important;
   }
   }
+=======
+
+  .middlebar.row {
+    padding: 0;
+    background: #EFEFEF;
+    width: 100%;
+    margin: 0;
+}
+
+section.pageheading>h1 {
+  margin-left: 7%;
+  color: #306C63;
+  font-family: 'Acumin Pro Condensed';
+  font-weight: 900;
+  font-size: 3.38vw;
+  line-height: 75px;
+}
+
+section#innovativesection {
+  padding: 0;
+}
+
+.col-sm-3.col-xs-12.left1 {
+  border-right: 1px solid #868686;
+  left: 7%;
+}
+
+.col-12.img-box1>img {
+  width: 137px;
+  height: auto;
+}
+
+.midbar {
+  width: 100%;
+  background-color: #EFEFEF;
+}
+
+a.nav-link{
+  color: #2C2C2C;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'Acumin Pro';
+}
+@media()
+>>>>>>> 7a717e8bae5c1bc5f95757b0aa50799fb57f7c60
