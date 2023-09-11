@@ -100,7 +100,7 @@
                 </div>
                 <div id="navbar-collapse-02" class="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li style="padding-left:8px;"><a class="nav-link" href="/"
+                        <li style="padding-left:8px;"><a class="nav-link" href="/tamilnadu.html"
                                 style="padding-left:5px;">Home</a>
                         </li>
                         <li><a class="nav-link" href="/aboutus.html">About Us</a></li>
@@ -197,7 +197,7 @@
                 <span class="close">&times;</span>
 
                 <ul class="nav navbar-nav">
-                  <li style="padding-left:0;"><a class="nav-link1" href="./index.html">Home</a></li>
+                  <li style="padding-left:0;"><a class="nav-link1" href="./tamilnadu.html">Home</a></li>
                   <li><a class="nav-link1" href="./aboutus.html">About Us</a></li>
                   <li><a class="nav-link1" href="#">Thematic Acess</a></li>
                   <li><a class="nav-link1" href="./resources.html">Resources</a></li>
@@ -243,7 +243,7 @@
       </div>
       <div class="col-12 tabhide laphide" style="width: 100%;background-color:#EFEFEF;">
         <div class="tab" style="padding-left: 21px;background: #EFEFEF;">
-          <button class="tablinks active" onclick="openCity(event, 'publication')" id="defaultOpen">Publications</button>
+          <button class="tablinks active defaultOpen" onclick="openCity(event, 'publication')" >Publications</button>
           <button class="tablinks" onclick="openCity(event, 'article')">Articles</button>
           <button class="tablinks" onclick="openCity(event, 'podcast')">Podcast</button>
           <button class="tablinks" onclick="openCity(event, 'blog')">
@@ -257,7 +257,7 @@
           <div class="row">
             <div class="col-lg-2 mobhide">
               <div class="tab">
-                <button class="tablinks active" onclick="openCity(event, 'publication')" id="defaultOpen1">Publications</button>
+                <button class="tablinks active defaultOpen" onclick="openCity(event, 'publication')" >Publications</button>
                 <button class="tablinks" onclick="openCity(event, 'article')">Articles</button>
                 <button class="tablinks" onclick="openCity(event, 'podcast')">Podcast</button>
                 <button class="tablinks" onclick="openCity(event, 'blog')">
@@ -3386,8 +3386,7 @@
     }
 
     // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-    document.getElementById("defaultOpen1").click();
+    document.getElementByClassName("defaultOpen").click();
   </script>
 
   <script>
