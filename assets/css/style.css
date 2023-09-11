@@ -5724,6 +5724,10 @@ a.dropbtn>svg {
   width: 100%;
 }
 
+.about_details_body_row2>video {
+  width: 100%;
+}
+
 .tabcontent>.row.m-0.p-0>.col-lg-8>div.row {
   margin-left: 0 !important;
   padding-left: 0;
@@ -5942,7 +5946,7 @@ a.dropbtn>svg {
 }
 
 @media (max-width: 486px){
-  section.contact_details_body_row2 {
+  section.about_details_body_row2 {
     display: none;
 }
 }
@@ -5950,4 +5954,10 @@ a.dropbtn>svg {
 .midbar {
   width: 100%;
   background-color: #EFEFEF;
+}
+
+@media (max-width: 486px){
+  img.nav_single_publication_row1_icon {
+    height: 24px;
+}
 }
