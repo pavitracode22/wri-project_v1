@@ -5733,12 +5733,9 @@ a.dropbtn>svg {
   .mobileview {
     display: flex !important;
     justify-content: space-between;
-  @media(max-width: 486px) {
-    .mobileview {
-      display: flex !important;
-      justify-content: space-between;
   }
 }
+
 
 @media(max-width: 486px) {
   a.rdm_mobile {
@@ -5761,15 +5758,9 @@ a.dropbtn>svg {
   color: #306C63;
 }
 
-.midbar {
-  width: 100%;
-  background-color: #EFEFEF;
-}
-
 .tab::-webkit-scrollbar {
   display: none;
 }
-  }
 
 
 @media (max-width: 486px){
@@ -5954,4 +5945,9 @@ a.dropbtn>svg {
   section.contact_details_body_row2 {
     display: none;
 }
+}
+
+.midbar {
+  width: 100%;
+  background-color: #EFEFEF;
 }
