@@ -3,7 +3,7 @@
 }
 
 .row {
-  padding: 0px 2.5%;
+  padding: 0 2.5%;
 }
 
 .home-heading h2 {
@@ -3804,7 +3804,7 @@ a.readnow {
   text-align: center;
   z-index: 0;
   font-size: 1.19vw;
-  transform: translate3d(125px, 330px, 10px);
+  transform: translate3d(0px, 125px, 10px);
 }
 
 a.readnow:hover {
@@ -5035,32 +5035,6 @@ a.activelist {
   display: none;
 }
 
-/* .con1 .row {
-  column-gap: 5%;
-}
-.con1 .row .col-lg-4 {
-  width: 38%;
-} */
-
-
-
-
-
-
-/* .con1 .row .col-lg-4 {
-  width: 31%;
-}
-
-.con1 .row {
-  column-gap: 2%;
-}
-section.resourcetabs .row {
-  padding-right: 0px;
-  margin-right: 0px;
-  margin-left: 0;
-  padding-left: 0;
-} */
-
 #article {
   padding-left: 0;
   width: 107%;
@@ -5387,10 +5361,6 @@ a.dropbtn>svg {
     height: 200px;
   }
 
-  .row {
-    margin: 0 0% !important;
-  }
-
   .themsection>div {
     width: 300px !important;
   }
@@ -5440,9 +5410,6 @@ a.dropbtn>svg {
 }
 
 @media screen and (min-width:1600px) {
-  .row {
-    margin: 0 0% !important;
-  }
 
   .themsection>div {
     width: 330px !important;
@@ -5571,9 +5538,6 @@ a.dropbtn>svg {
 
 
 @media screen and (min-width:1900px) {
-  .row {
-    margin: 0 0% !important;
-  }
 
   .themsection>div {
     width: 370px !important;
@@ -5960,4 +5924,72 @@ a.dropbtn>svg {
   img.nav_single_publication_row1_icon {
     height: 24px;
 }
+}
+
+@media(min-width: 780px){
+  .col-sm-2.col-xs-12.thematicleft1>div>h2 {
+    line-height: 2.08vw;
+    font-size: 1.875vw;
+    color: #306C63;
+    font-family: 'Acumin Pro';
+    font-weight: bold;
+}
+
+img.thematicimg1 {
+  width: 9.42vw;
+}
+
+  img.hrbar {
+    margin-top: 60px;
+    width: 5.15vw;
+}
+
+h2.lefth2 {
+  margin-top: 25px;
+  color: #306C63;
+  font-size: 1.87vw;
+  font-family: 'Acumin Pro';
+  font-weight: bold;
+  line-height: 2.08vw;
+}
+
+.col-sm-3.col-xs-12.thematicleft1 {
+  padding-left: 60px;
+  border-right: 1px solid #868686;
+}
+
+h3.lefth3 {
+  color: #122034;
+  font-size: 0.93vw;
+  line-height: 1.25vw;
+  text-align: left;
+  font-family: 'Acumin Pro';
+}
+
+span.thematicTextRight {
+  font-size: 1.25vw;
+  line-height: 1.8vw;
+  font-family: 'Acumin Pro';
+  color: #2C2C2C;
+}
+p.textbox2 {
+  margin-top: 35px;
+}
+
+.col-sm-9.col-xs-12.thematicright {
+  padding: 4px 120px 4px 45px;
+}
+
+.divider {
+  border-bottom: 1px solid black;
+    width: 88%;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+}
+
+
+.row.thematicsec1 {
+  margin-top: 60px;
 }
