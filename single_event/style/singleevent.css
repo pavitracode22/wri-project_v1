@@ -379,3 +379,64 @@ font-family: "Acumin Pro";
         margin-bottom: 0 !important;
     }
 }
+
+@media (max-width: 486px) {
+    .single_event_body_row2 {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 486px){
+    .single_event_body_vedio_heading {
+        display: none;
+    }
+}
+
+@media (max-width: 486px){
+    .single_event_body_vedio_heading_link {
+        display: none;
+    }
+}
+
+@media (max-width: 486px){
+    .single_event_download_agenda>div>img {
+        height: 27px;
+        width: 27px;
+    }
+}
+
+@media (max-width: 486px){
+    button.single_event_download_agenda {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 486px){
+    .single_event_body_row2_inquery>p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 486px){
+    .single_event_body_row2_mail_box {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 486px){
+    .single_event_body_row2_detail>p {
+        font-size: 24px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 486px){
+    .single_event_body_row2_icon>img {
+        width: 25px;
+        height: 50px;
+    }
+}
