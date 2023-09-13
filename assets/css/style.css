@@ -2610,8 +2610,8 @@ ul.footer_social li a i {
 }
 
 .row.footertop {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 .copyright p {
