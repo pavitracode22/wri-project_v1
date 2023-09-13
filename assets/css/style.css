@@ -1072,13 +1072,13 @@ section#thematic-section {
   margin-bottom: 130px;
 }
 
-.card-padding-right {
+/* .card-padding-right {
   padding-right: 1rem !important;
-}
+} */
 
 .card-padding-middle {
   /*padding-right: 1rem !important;*/
-  padding-left: 1rem !important;
+  /* padding-left: 1rem !important; */
 }
 
 .card-padding-left {
@@ -1111,14 +1111,16 @@ section#thematic-section {
 }
 
 .tmt .tcard {
+  border: unset;
   height: 340px;
-  background-image: radial-gradient(#BDD97D, #5FB175);
+  background-position: center;
+    background-image: url(/images/tamilbg.png);
   border-top-left-radius: 10px !important;
   border-top-right-radius: 10px !important;
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
   border-bottom: none;
-  margin-top: -2px;
+  /* margin-top: -2px; */
 
 }
 
@@ -1344,7 +1346,8 @@ a.btn-rm-2:hover {
 
 .box-btn1-tm {
   padding: 0px 32px 40px 32px;
-  background-image: radial-gradient(#BDD97D, #5FB175);
+  background-image: url(/images/tamilbg1.png);
+    background-position: center;
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -1355,7 +1358,8 @@ a.btn-rm-2:hover {
 
 .box-btn2-tm {
   padding: 0px 32px 40px 32px;
-  background-image: radial-gradient(#BDD97D, #5FB175);
+  background-position: center;
+  background-image: url(/images/tamilbg1.png);
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -1366,7 +1370,8 @@ a.btn-rm-2:hover {
 
 .box-btn3-tm {
   padding: 0px 32px 40px 32px;
-  background-image: radial-gradient(#BDD97D, #5FB175);
+  background-position: center;
+  background-image: url(/images/tamilbg1.png);
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 10px !important;
@@ -1374,7 +1379,7 @@ a.btn-rm-2:hover {
   margin-top: -2px;
 }
 
-#card-tm-1:hover+.box-btn1-tm {
+/* #card-tm-1:hover+.box-btn1-tm {
   background-color: #6EB180;
   border-bottom: 1px solid #122034;
   border-right: 1px solid #122034;
@@ -1393,9 +1398,9 @@ a.btn-rm-2:hover {
   border-bottom: 1px solid #122034;
   border-right: 1px solid #122034;
   border-left: 1px solid #122034;
-}
+} */
 
-#card-tm-1:hover {
+/* #card-tm-1:hover {
   border-top: 1px solid #122034;
   border-right: 1px solid #122034;
   border-left: 1px solid #122034;
@@ -1411,7 +1416,7 @@ a.btn-rm-2:hover {
   border-top: 1px solid #122034;
   border-right: 1px solid #122034;
   border-left: 1px solid #122034;
-}
+} */
 
 .card-overlay {
   padding: 40px 32px;
