@@ -6065,3 +6065,8 @@ p.textbox2 {
 }
 
 }
+
+
+.container.top-bar {
+  padding-top: 0;
+}
