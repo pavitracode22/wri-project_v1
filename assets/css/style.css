@@ -5879,7 +5879,7 @@ a.dropbtn>svg {
 
 @media (max-width: 486px){
   .img-box1{
-    width: 100% !important;
+    width: 110% !important;
     height: auto;
   }
 }
