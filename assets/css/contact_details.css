@@ -120,13 +120,13 @@ section{
 }
 @media screen and (min-width:1200px) {
     .container_contact_details_nav>div{
-        margin-left:7%;
+        margin-left: 7%;
     }
     .area1_contact_details_body_row1{
         margin-right: 7%;
     }
     .area2_contact_details_body_row1{
-        margin-right: 7%;
+        margin-right: 6%;
     }
     .area1_contact_details_body_row1>div{
         width: 37%;
