@@ -86,52 +86,54 @@
 
       <!-- Navbar -->
       <!-- Navbar -->
-      <div class="midbar">
-        <div class="container pt-0">
-            <div class="row">
-                <div class="navbar-header">
-                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle"
-                        type="button">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+      <div class="container pt-0">
+        <div class="row">
+          <div class="navbar-header">
+            <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle">
+              type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar-collapse-02" class="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li style="padding-left:8px;"><a class="nav-link" href="./index.html" style="padding-left:5px;">Home</a>
+              </li>
+              <li><a class="nav-link" href="./aboutus.html">About Us</a></li>
+              <li><a class="dropbtn nav-link" href="#">Thematic Acess</a></li>
+
+
+              <!-- <li><a class="dropbtn nav-link" href="#">Thematic Acess</a></li> -->
+
+              <!-- <li class="dropdown">
+                <a class="dropbtn nav-link" href="#">Thematic Acess
+                
+                </a>
+
+                <div class="dropdown-content">
+                  <a>Any</a>
+                  <a>Any</a>
+                  <a>Any</a>
+                  <a>Any</a>
                 </div>
-                <div id="navbar-collapse-02" class="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li style="padding-left:8px;"><a class="nav-link" href="/tamilnadu.html"
-                                style="padding-left:5px;">Home</a>
-                        </li>
-                        
-                        <li><a class="dropbtn nav-link" href="/thematic_access.html">Thematic Acess</a></li>
-                        <li><a class="dropbtn nav-link nav-link-active" href="/resources.html">Resources</a></li>
-                        <!-- <li class="dropdown">
-                                    <a class="dropbtn nav-link" href="../resources.html">Resources
-                                        <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
-                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                            viewBox="0 0 330 330" xml:space="preserve" class="dropdow-icon">
-                                            <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
-                        c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
-                        s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
-                                        </svg>
-                                    </a>
-    
-                                    <div class="dropdown-content">
-                                        <a onclick="openContent(event, 'publication')">Publications</a>
-                                        <a onclick="openContent(event, 'article')">Articles</a>
-                                        <a onclick="openContent(event, 'podcast')">Podcast</a>
-                                        <a onclick="openContent(event, 'blog')">Blog</a>
-                                    </div>
-                                </li> -->
-                        <li><a class="nav-link" href="/events.html">Events</a></li>
-                        <li><a class="nav-link" href="#">Data</a></li>
-                        <li><a class="nav-link" href="/contact-us.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
+              </li> -->
+
+
+              <li class="dropdown">
+                <a class="dropbtn nav-link nav-link-active" href="./resources.html">Resources
+                </a>
+              </li>
+
+              <!-- </li> -->
+              <li><a class="nav-link" href="./events.html">Events</a></li>
+              <li><a class="nav-link" href="#">Data</a></li>
+              <li><a class="nav-link" href="./contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </div>
     </nav>
 
 
@@ -197,7 +199,7 @@
                 <span class="close">&times;</span>
 
                 <ul class="nav navbar-nav">
-                  <li style="padding-left:0;"><a class="nav-link1" href="./tamilnadu.html">Home</a></li>
+                  <li style="padding-left:0;"><a class="nav-link1" href="./index.html">Home</a></li>
                   <li><a class="nav-link1" href="./aboutus.html">About Us</a></li>
                   <li><a class="nav-link1" href="#">Thematic Acess</a></li>
                   <li><a class="nav-link1" href="./resources.html">Resources</a></li>
@@ -241,23 +243,18 @@
           </div>
         </div>
       </div>
-      <div class="col-12 tabhide laphide" style="width: 100%;background-color:#EFEFEF;">
-        <div class="tab" style="padding-left: 21px;background: #EFEFEF;">
-          <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'publication')" >Publications</button>
-          <button class="tablinks" onclick="openCity(event, 'article')">Articles</button>
-          <button class="tablinks" onclick="openCity(event, 'podcast')">Podcast</button>
-          <button class="tablinks" onclick="openCity(event, 'blog')">
-            Blog</button>
-        </div>
-      </div>
     </section>
     <section class="resourcetabs">
       <div class="container-fluid tab-color">
         <div class="container pt-0 mt-0  resource_area ">
           <div class="row">
-            <div class="col-lg-2 mobhide">
+            <div class="col-lg-2">
               <div class="tab">
+<<<<<<< HEAD
+                <button class="tablinks" onclick="openCity(event, 'publication')" id="defaultOpen">Publications</button>
+=======
                 <button class="tablinks" id="defaultOpen1" onclick="openCity(event, 'publication')" >Publications</button>
+>>>>>>> 264e55bb46491aa581af4c705d3edb28c634dcda
                 <button class="tablinks" onclick="openCity(event, 'article')">Articles</button>
                 <button class="tablinks" onclick="openCity(event, 'podcast')">Podcast</button>
                 <button class="tablinks" onclick="openCity(event, 'blog')">
@@ -284,17 +281,7 @@
                         </a>
                         <h4> Aamir Zaman , Anoop S , Harshavardhini Varagunan , Martin Scherfler Nilima Dharanipragada
                         </h4>
-
-                        <h3 class="mobhide"> November 2022</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> November 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/pathways-to-decarbonisation-–-modelling-tamil-nadu’s-power-sector-decarbonisation.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> November 2022</h3>
                       </div>
                       <p class="boxrig1_blogpara">Tamil Nadu’s electricity demand is expected to increase year on year,
                         and so
@@ -329,16 +316,7 @@
                             genration </h1>
                         </a>
                         <h4> Vaisakh Suresh Kumar; Kajol; Akansha Saklani </h4>
-                        <h3 class="mobhide"> August 2022</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> August 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/estimation-of-the-small-wind-turbine-potential-in-tamil-nadu-using-geospatial-data.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> August 2022</h3>
                       </div>
                       <p class="boxrig1_blogpara">Tamil Nadu has areas with high wind speeds, ideal for harnessing wind
                         energy. Some of this has
@@ -378,16 +356,7 @@
                         </a>
                         <h4> Aamir Zaman , Anoop S , Harshavardhini Varagunan , Martin Scherfler Nilima Dharanipragada
                         </h4>
-                        <h3 class="mobhide"> August 2022 </h3>
-
-                        <div class="mobileview laphide">
-                          <h3> August 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/battery-energy-storage-systems-as-an-alternative-to-diesel-generators-a-comparative-cost-analysis-for-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> August 2022 </h3>
                       </div>
                       <p class="boxrig1_blogpara">Power demand across the country is growing, and meeting peak demand is
                         becoming more
@@ -422,16 +391,7 @@
                           <h1>Unlocking Offshore Wind In Tamil Nadu </h1>
                         </a>
                         <h4> Nilima Dharanipragada </h4>
-                        <h3 class="mobhide">July 2022 </h3>
-
-                        <div class="mobileview laphide">
-                          <h3> July 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/unlocking-offshore-wind-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>July 2022 </h3>
                       </div>
                       <p class="boxrig1_blogpara">The prevalence of offshore wind is growing globally. According to the
                         Global Wind Energy
@@ -466,16 +426,7 @@
                           </h1>
                         </a>
                         <h4> Radhika Sri Paravastu</h4>
-                        <h3 class="mobhide"> July 2022 </h3>
-
-                        <div class="mobileview laphide">
-                          <h3> July 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/electric-cooking-as-an-alternative-to-liquified-petroleum-gas-lpg-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> July 2022 </h3>
                       </div>
                       <p class="boxrig1_blogpara">Traditionally, India’s domestic fuel consumption was met with
                         firewood. Over the years due to
@@ -510,16 +461,7 @@
                           <h1>Electrification Of Processes In <br> Top-Performing Industrial Sectors In Tamil Nadu</h1>
                         </a>
                         <h4> Umesh Ramamoorthi</h4>
-                        <h3 class="mobhide"> June 2022 </h3>
-
-                        <div class="mobileview laphide">
-                          <h3> June 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/electrification-of-processes-in-top-performing-industrial-sectors-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> June 2022 </h3>
                       </div>
                       <p class="boxrig1_blogpara">Tamil Nadu is one of the most industrialised states in India, which
                         accounted for 9.47% of
@@ -555,16 +497,7 @@
                             The State’s Subsidy Burden? </h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide"> May 2022</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> May 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/briefing-note-community-solar-how-to-meet-tamil-nadu’s-solar-energy-target-reduce-the-state’s-subsidy-burden.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> May 2022</h3>
                       </div>
                       <p class="boxrig1_blogpara">This note explores the potential of a State Government facilitated
                         community solar energy
@@ -600,16 +533,7 @@
                             The State’s Energy Transition </h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide"> April 2022</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> April 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/supply-and-demand-scenarios-for-tamil-nadu’s-electricity-mix-to-2030-implications-for-the-state’s-energy-transition.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> April 2022</h3>
                       </div>
                       <p class="boxrig1_blogpara">Given the significant untapped RE potential in the state, there is a
                         need for careful planning
@@ -648,16 +572,7 @@
                             In Tamil Nadu</h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide"> March 2022</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> March 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/briefing-note-financial-attractiveness-of-rooftop-solar-energy-for-domestic-consumers-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> March 2022</h3>
                       </div>
                       <p class="boxrig1_blogpara">The Tamil Nadu Solar Energy Policy 2019, set an overall solar energy
                         target of 9,000 MW. 40
@@ -691,16 +606,7 @@
                           <h1>Monitoring Key Performance <br> Indicators Of Tangedco </h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide"> March 2022</h3>
-
-                       <div class="mobileview laphide">
-                          <h3> March 2022</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/monitoring-key-performance-indicators-of-tangedco.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> March 2022</h3>
                       </div>
                       <p class="boxrig1_blogpara">Inspired by the method of Environmental, Social, and Governance (ESG)
                         reporting, this report
@@ -736,16 +642,7 @@
                           <h1>Levelized Cost Of Behind-The-Metert <br> Storage In India 2021 – A Status Repor </h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide"> July 2021</h3>
-                      
-                        <div class="mobileview laphide">
-                          <h3> July 2021</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/levelized-cost-of-behind-the-meter-storage-in-india-2021-–-a-status-report.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> July 2021</h3>
                       </div>
                       <p class="boxrig1_blogpara">This status report aims to present a snapshot of the current cost of
                         energy storage in India
@@ -783,16 +680,7 @@
                             Transmission </h1>
                         </a>
                         <h4> Umesh Ramamoorthi</h4>
-                        <h3 class="mobhide"> May 2021</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> May 2021</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/briefing-note-recovery-of-tangedco’s-fixed-costs-for-generation-distribution-and-transmission.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3> May 2021</h3>
                       </div>
                       <p class="boxrig1_blogpara">TANGEDCO was unable to recover its fixed costs through demand/fixed
                         charges since FY 2011-2012
@@ -828,16 +716,7 @@
                             Consumers In Tamil Nadu </h1>
                         </a>
                         <h4> Hari Subbish Kumar Subramanian, Martin Scherfler</h4>
-                        <h3 class="mobhide">May 2021</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> May 2021</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/2021-solar-plus-energy-storage-feasibility-of-behind-the-meter-systems-for-ht-consumers-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>May 2021</h3>
                       </div>
                       <p class="boxrig1_blogpara">Unreliable grid supply drives consumers towards deploying power backup
                         solutions such as
@@ -873,16 +752,7 @@
                           <h1>Briefing Note: Impact Of Rooftop Solar <br> By C&I Consumers On TANGEDCO’s Finances</h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide">February 2021</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> February 2021</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/briefing-note-impact-of-rooftop-solar-by-ci-consumers-on-tangedco’s-finances.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>February 2021</h3>
                       </div>
                       <p class="boxrig1_blogpara">The Tamil Nadu Solar Energy Policy 2019 excludes HT consumers from
                         availing the net feed-in
@@ -918,16 +788,7 @@
                         <h4> Harsh Thacker, Vinayak Walimbe, Debmalya Sen, Pranao Walekar, Epica Mandal Sarkar,
                           Avanthika Satheesh, Jatin Sarode, Vijay C S, Nipun Vats, Sandhya Sundararagavan, Naren
                           Pasupalati, Deepak Krishnan</h4>
-                        <h3 class="mobhide">January 2021</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> January 2021</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/estimating-energy-storage-requirements-for-tamil-nadu-grid.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>January 2021</h3>
                       </div>
                       <p class="boxrig1_blogpara">Tamil Nadu is at a junction where it is contemplating to review
                         addition of significant coal
@@ -964,16 +825,7 @@
                           <h1>Community Solar For Domestic Consumers <br> For As Alternative To Electricity Subsidy</h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide">January 2021</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> January 2021</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/community-solar-for-domestic-consumers-as-alternative-to-electricity-subsidy.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>January 2021</h3>
                       </div>
                       <p class="boxrig1_blogpara">Electricity tariffs for domestic consumers and several other consumer
                         categories such as
@@ -1008,15 +860,7 @@
                           <h1>2019 Distributed Renewable<br> Energy Generation </h1>
                         </a>
                         <h4> Martin Scherfler, Umesh Ramamoorthi</h4>
-                        <h3 class="mobhide">January 2021</h3>
-                        <div class="mobileview laphide">
-                          <h3> January 2021</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/2019-distributed-renewable-energy-generation.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>January 2021</h3>
                       </div>
                       <p class="boxrig1_blogpara">The global imperative for transitioning to a sustainable energy future
                         accompanied by
@@ -1052,17 +896,7 @@
                           <h1>Feasibility Of Behind-The-Meter Systems <br> For LT Consumers In Tamil Nadu</h1>
                         </a>
                         <h4> Hari Subbish Kumar Subramanian, Martin Scherfler</h4>
-
-                        <h3 class="mobhide">December 2020</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> December 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/feasibility-of-behind-the-meter-systems-for-lt-consumers-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>December 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">A transition towards a decarbonized and sustainable energy future will
                         incorporate renewable
@@ -1100,15 +934,7 @@
                           </h1>
                         </a>
                         <h4> Martin Scherfler, Shiv Vembadi</h4>
-                        <h3 class="mobhide">November 2020</h3>
-                        <div class="mobileview laphide">
-                          <h3> November 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/status-of-distributed-solar-energy-in-tamil-nadu-challenges-roadmap-2025.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>November 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">As of the end of 2020, Tamil Nadu has an installed solar PV capacity
                         of over 4 GW. However,
@@ -1147,16 +973,7 @@
                             (Component C) Agricultural Solar Pump Scheme In 20,000 Pump Sets</h1>
                         </a>
                         <h4> Martin Scherfler, Shiv Vembadi</h4>
-                        <h3 class="mobhide">November 2020</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> November 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/tnerc-order-mp-no2-of-2020-approval-of-for-the-proposed-implementation-of-the-kusum-component-c-agricultural-solar-pump-scheme-in-20000-pump-sets.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>November 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">Key Highlights:
                         1.RESCO and Capex implementation models approved
@@ -1193,15 +1010,7 @@
                           <h1>Levelized Cost Calculator For D<br> (Component C) istributed Energy Resources</h1>
                         </a>
                         <h4> Martin Scherfler, Shiv Vembadi</h4>
-                        <h3 class="mobhide">October 2020</h3>
-                        <div class="mobileview laphide">
-                          <h3> October 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/levelized-cost-calculator-for-distributed-energy-resources.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>October 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">Distributed solar and distributed energy resources (DERs) are a key
                         part of the sustainable
@@ -1238,16 +1047,7 @@
                             Financial Performance</h1>
                         </a>
                         <h4> Martin Scherfler, Umesh Ramamoorthi</h4>
-                        <h3 class="mobhide">September 2020</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> September 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/assessing-the-impact-of-tamil-nadu’s-electricity-tariff-policies-on-tangedco’s-financial-performance.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>September 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">This paper analyses the impact of electricity tariffs determined by
                         the Tamil Nadu Electricity
@@ -1278,16 +1078,7 @@
                           <h1>Tamil Nadu Draft Solar <br>Energy Action Plan 2023</h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide">September 2020</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> September 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/tamil-nadu-draft-solar-energy-action-plan-2023.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>September 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">As of March 2020, Tamil Nadu has an aggregated installed capacity of
                         3,916 MW of solar energy
@@ -1324,15 +1115,7 @@
                             Study For Tamil Nadu </h1>
                         </a>
                         <h4> Martin Scherfler, Reshma Suresh, Victor Catrib</h4>
-                        <h3 class="mobhide">August 2020</h3>
-                        <div class="mobileview laphide">
-                          <h3> August 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/assessing-the-techno-commercial-impact-of-distributed-solar-energy-generation-a-case-study-for-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>August 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">This report presents a detailed evidenced-based analysis of a selected
                         substation in Erode
@@ -1367,15 +1150,7 @@
                           <h1>Implementation Models For <br>Distributed Solar In Tamil Nadu </h1>
                         </a>
                         <h4> Martin Scherfler</h4>
-                        <h3 class="mobhide">July 2020</h3>
-                        <div class="mobileview laphide">
-                          <h3> July 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/implementation-models-for-distributed-solar-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>July 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">This report explores the potential of a diverse set of business and
                         implementation models for
@@ -1409,16 +1184,7 @@
                           <h1>Financing Distributed <br> Solar Energy In Tamil Nadu </h1>
                         </a>
                         <h4> Nilima Dharanipragada, Maithili Mohanti, Martin Scherfler</h4>
-                        <h3 class="mobhide">September 2020</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> September 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/financing-distributed-solar-energy-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>September 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">To mitigate the sector’s market and financial barriers, the Indian
                         Government has sought
@@ -1453,15 +1219,7 @@
                           <h1>Communication And Awareness Category <br> Solar Energy In Tamil Nadu</h1>
                         </a>
                         <h4> Nilima Dharanipragada, Maithili Mohanti, Martin Scherfler</h4>
-                        <h3 class="mobhide">July 2020</h3>
-                        <div class="mobileview laphide">
-                          <h3> July 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/communication-and-awareness-building-for-consumer-category-solar-energy-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>July 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">This note explores the strategic communication tools that are required
                         to meet Tamil Nadu’s
@@ -1498,15 +1256,7 @@
                             Consumers For Renewable Energy Procurement</h1>
                         </a>
                         <h4> Deepak Sriram Krishnan, Ashok Thanikonda, Parul Kumar, Tirthankar Mandal</h4>
-                        <h3 class="mobhide">July 2020</h3>
-                        <div class="mobileview laphide">
-                          <h3> July 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/how-electricity-distribution-companies-in-india-can-work-with-commercial-and-industrial-consumers-for-renewable-energy-procurement.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>July 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">This paper aims to explore utility-offered RE tariffs in India, a
                         relatively new and
@@ -1539,16 +1289,7 @@
                           <h1>Solar Skill Development & <br> Capacity Building In Tamil Nadu </h1>
                         </a>
                         <h4> Hari Subbish Kumar Subramanian, Martin Scherfler</h4>
-                        <h3 class="mobhide">June 2020</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> June 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/solar-skill-development-capacity-building-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>June 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">Job creation and skill development in the solar industry are key
                         priorities in order to meet
@@ -1584,15 +1325,7 @@
                             Stakeholders </h1>
                         </a>
                         <h4>Martin Scherfler</h4>
-                        <h3 class="mobhide">June 2020</h3>
-                        <div class="mobileview laphide">
-                          <h3> June 2020</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/making-tariff-rationalization-for-domestic-consumer-a-winning-proposition-for-all-stakeholders.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>June 2020</h3>
                       </div>
                       <p class="boxrig1_blogpara">This note explores the potential of State Government facilitated
                         community solar energy
@@ -1624,16 +1357,7 @@
                           <h1>Distributed Renewable Energy<br> Generation In Tamil Nadu </h1>
                         </a>
                         <h4>Maithili Mohanty, Martin Scherfler, Rohith C Unni, Shiv Vembadi</h4>
-                        <h3 class="mobhide">December 2019</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> December 2019</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/distributed-renewable-energy-generation-in-tamil-nadu.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>December 2019</h3>
                       </div>
                       <p class="boxrig1_blogpara">In order to meet its ambitious renewable energy targets of 175 GW as
                         well as the longer-term
@@ -1666,17 +1390,7 @@
                           <h1>Making Sense Of KUSUM </h1>
                         </a>
                         <h4>Martin Scherfler</h4>
-
-                        <h3 class="mobhide">September 2019</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> September 2019</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/making-sense-of-kusum.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>September 2019</h3>
                       </div>
                       <p class="boxrig1_blogpara">While KUSUM presents a healthy initiative in turning the challenges
                         related to free or
@@ -1706,16 +1420,7 @@
                           <h1>Water Energy Land <br> Livelihood (WELL) Nexus</h1>
                         </a>
                         <h4>Martin Scherfler, Shiv Vembadi</h4>
-                        <h3 class="mobhide">June 2019</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> June 2019</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/water-energy-land-livelihood-well-nexus.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>June 2019</h3>
                       </div>
                       <p class="boxrig1_blogpara">Our world is facing a water crisis. Growing water scarcity and climate
                         change coupled with
@@ -1747,16 +1452,7 @@
                           <h1>Tamil Nadu Solar<br> Energy Action Plan 2023</h1>
                         </a>
                         <h4>Energy Department - Government of Tamil Nadu</h4>
-                        <h3 class="mobhide">February 2019</h3>
-
-                        <div class="mobileview laphide">
-                          <h3> February 2019</h3>
-                          <a class="rdm_mobile"
-                            href="./single_publication/tamil-nadu-draft-solar-energy-action-plan-2023.html">
-                            Read More
-                            <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                          </a>
-                        </div>
+                        <h3>February 2019</h3>
                       </div>
                       <p>With the experience gained from the implementation of the Tamil Nadu Solar Energy Policy 2012
                         and with the view of accelerating the transition to a sustainable energy future, this Tamil Nadu
@@ -1787,17 +1483,8 @@
                           <h1>Here Comes The Sun: Residential Consumers' Experiences <br> With Rooftop Solar PV In Five
                             Indian Cities</h1>
                         </a>
-                        <h4> Amala Devi, Uttara Narayan, Tirthankar Mandal </h4>
-                            <h3 class="mobhide">October 2018</h3>
-
-                            <div class="mobileview laphide">
-                              <h3> October 2018</h3>
-                              <a class="rdm_mobile"
-                                href="./single_publication/here-comes-the-sun.html">
-                                Read More
-                                <span> <img src="./assets/img/Icon awesome-arrow-circle-right.svg" alt="arrowicon"> </span>
-                              </a>
-                            </div>
+                        <h4> Amala Devi, Uttara Narayan, Tirthankar Mandal<< /h4>
+                            <h3>October 2018</h3>
                       </div>
                       <p class="boxrig1_blogpara">India has set an ambitious target of achieving 40 gigawatts (GW) of
                         rooftop solar capacity by
@@ -3270,21 +2957,21 @@
 
           <div class="col-lg-5 mobhide" id="footpart2">
             <h2> IMPORTANT LINKS</h2>
-                        <ul class="list1">
-                            <li> <a href="./index.html">Home</a></li>
-                            <li> <a href="./aboutus.html">About Us</a></li>
-                            <li> <a href="./contact-us.html">Contact Us</a></li>
-                        </ul>
-                        <ul class="list2">
-                            <li> <a href="./tamilnadu.html">Tamil Nadu</a></li>
-                            <li> <a href="./rajasthan.html">Rajasthan</a></li>
-                            <li> <a href="./kerala.html">Kerala</a></li>
-                        </ul>
-                        <ul class="list3">
-                            <li> <a href="./tamilnadu.html"></a></li>
-                            <li> <a href="./rajasthan.html"></a></li>
-                            <li> <a href="./kerala.html"></a></li>
-                        </ul>
+            <ul class="list1">
+              <li> <a href="./index.html">Home</a></li>
+              <li> <a href="./resources.html">Resources</a></li>
+              <li> <a href="./events.html">Events</a></li>
+            </ul>
+            <ul class="list2">
+              <li> <a href="#">Data</a></li>
+              <li> <a href="./aboutus.html">About Us</a></li>
+              <li> <a href="./contact-us.html">Contact Us</a></li>
+            </ul>
+            <ul class="list3">
+              <li> <a href="../tamilnadu.html">Tamil Nadu</a></li>
+              <li> <a href="../rajasthan.html">Rajasthan</a></li>
+              <li> <a href="../kerala.html">Kerala</a></li>
+            </ul>
           </div>
 
           <div class="col-lg-5 laphide tabhide" id="footlinks">
@@ -3330,6 +3017,10 @@
           <div class="col-md-12 text-center">
             <div class="copyright" style="display: flex; flex-direction:row;">
               <p><img src="../assets/img/logo.png" alt=""></p>
+              <p><img src="../assets/img/logo2.png" alt=""></p>
+              <p><img src="../assets/img/logo3.png" alt=""></p>
+              <p><img src="../assets/img/logo4.png" alt=""></p>
+              <p><img src="../assets/img/logo5.png" alt=""></p>
             </div>
           </div>
         </div>
@@ -3382,7 +3073,10 @@
     }
 
     // Get the element with id="defaultOpen" and click on it
+<<<<<<< HEAD
+=======
     document.getElementById("defaultOpen1").click(); 
+>>>>>>> 264e55bb46491aa581af4c705d3edb28c634dcda
     document.getElementById("defaultOpen").click();
   </script>
 
@@ -3424,6 +3118,8 @@
   <!-- Main JS File -->
   <script src="js/jquery_3.2.1_jquery.min.js"> </script>
   <script src="js/jquery-ui.min.js"> </script>
+
+
   <script>
     $(document).ready(function () {
       $(".content").slice(0, 5).show();
@@ -3436,6 +3132,9 @@
       });
     })
   </script>
+
+
+
   <script>
     $(document).ready(function () {
       $(".new-box1").slice(0, 9).show();
