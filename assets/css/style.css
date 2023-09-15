@@ -2174,13 +2174,13 @@ button#dropdownMenuButton {
   font-weight: 100;
   padding: 0px;
   margin: 0px;
-  font-size: 3.90vw;
-  line-height: 3.90VW;
+  font-size: 45px;
+  line-height: 45px;
   font-family: Acumin Pro Condensed;
 }
 
 .textop h2 span {
-  font-size: 1.45vw;
+  font-size: 22px;
 }
 
 .textop {
@@ -4530,7 +4530,6 @@ span.tamil {
 
 img.img-responsive.transffect {
   width: 428px;
-  right: -23px;
   max-width: 428px !important;
 }
 
@@ -5358,9 +5357,9 @@ a.dropbtn>svg {
     height: 200px;
   }
 
-  .themsection>div {
-    width: 300px !important;
-  }
+  /* .themsection>div {
+    width: 288px !important;
+  } */
 
   .headingtop {
     margin-left: 7.5%;
@@ -5408,9 +5407,9 @@ a.dropbtn>svg {
 
 @media screen and (min-width:1600px) {
 
-  .themsection>div {
+  /* .themsection>div {
     width: 330px !important;
-  }
+  } */
 
   .headingtop {
     margin-left: 7.5%;
@@ -5536,9 +5535,9 @@ a.dropbtn>svg {
 
 @media screen and (min-width:1900px) {
 
-  .themsection>div {
+  /* .themsection>div {
     width: 370px !important;
-  }
+  } */
 
   .boxcolor {
     height: 264px;
@@ -5631,9 +5630,9 @@ a.dropbtn>svg {
     margin: 0 7% !important;
   }
 
-  .themsection>div {
+  /* .themsection>div {
     width: 400px !important;
-  }
+  } */
 
   .boxcolor {
     height: 253px;
@@ -6006,7 +6005,7 @@ p.textbox2 {
 }
 
 img.thematicimg1 {
-  width: 9.42vw;
+  width: 8.85vw;
 }
 
   img.hrbar {
@@ -6057,4 +6056,9 @@ p.textbox2 {
     margin-left: 5%;
 }
 
+}
+
+
+.container.top-bar {
+  padding-top: 0;
 }
